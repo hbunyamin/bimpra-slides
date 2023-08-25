@@ -1,0 +1,723 @@
+\documentclass[pdf]{beamer}
+
+%\usepackage{lmodern}
+\usepackage[font=scriptsize,skip=0pt,justification=justified,singlelinecheck=false]{caption}
+%\usepackage{enumitem}
+\usepackage{natbib}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage[makeroom]{cancel}
+\usepackage{minted}
+
+% Using underline
+\usepackage{soul}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+%\usepackage[ruled,vlined]{algorithm2e}
+%\usepackage{clrscode3e}
+
+
+%\usepackage{adjustbox}
+
+%remove the icon
+\setbeamertemplate{bibliography item}{}
+
+%remove line breaks
+\setbeamertemplate{bibliography entry title}{}
+\setbeamertemplate{bibliography entry location}{}
+\setbeamertemplate{bibliography entry note}{}
+% Use number for caption
+\setbeamertemplate{caption}[numbered]{}
+
+\newtheorem{mydef}[theorem]{\Large \underline{\textbf{Definisi}}}
+
+\makeatletter
+\def\th@mystyle{%
+    \normalfont % body font
+    \setbeamercolor{block title example}{bg=blue,fg=white}
+    \setbeamercolor{block body example}{bg=blue!20,fg=black}
+    \def\inserttheoremblockenv{exampleblock}
+  }
+\makeatother
+\theoremstyle{mystyle}
+\newtheorem*{remark}{\textbf{Definition}}
+
+
+% This file is a solution template for:
+
+% - Talk at a conference/colloquium.
+% - Talk length is about 20min.
+% - Style is ornate.
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice.  
+
+
+\mode<presentation>
+{
+%  \usetheme{AnnArbor} % 
+%	\usetheme{Frankfurt}
+   \usetheme{Madrid}
+  % or ...
+
+%  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{wasysym}
+
+% Define absolute and norm
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+% ==============================
+%       Redefine emphasize
+% ==============================
+\let\emph\relax % there's no \RedeclareTextFontCommand
+\DeclareTextFontCommand{\emph}{\bfseries\em}
+
+
+% Swap the definition of \abs* and \norm*, so that \abs
+% and \norm resizes the size of the brackets, and the 
+% starred version does not.
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+%
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+\usepackage{color}
+\definecolor{myblue}{rgb}{.8,.8,1}
+\usepackage{empheq}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+\newlength\mytemplen
+\newsavebox\mytempbox
+
+\makeatletter
+\newcommand\mybluebox{%
+    \@ifnextchar[%]
+       {\@mybluebox}%
+       {\@mybluebox[0pt]}}
+
+\def\@mybluebox[#1]{%
+    \@ifnextchar[%]
+       {\@@mybluebox[#1]}%
+       {\@@mybluebox[#1][0pt]}}
+
+\def\@@mybluebox[#1][#2]#3{
+    \sbox\mytempbox{#3}%
+    \mytemplen\ht\mytempbox
+    \advance\mytemplen #1\relax
+    \ht\mytempbox\mytemplen
+    \mytemplen\dp\mytempbox
+    \advance\mytemplen #2\relax
+    \dp\mytempbox\mytemplen
+    \colorbox{myblue}{\hspace{1em}\usebox{\mytempbox}\hspace{1em}}}
+
+\makeatother
+
+\title[Time Complexity \& Big O Notation] % (optional, use only with long paper titles)
+{\textbf{Matematika Diskrit}}
+
+\subtitle
+{Algorithm Analysis \& Big-O Notation}
+
+\author[Hendra Bunyamin] % (optional, use only with lots of authors)
+{Hendra Bunyamin}
+%{F.~Author\inst{1} \and S.~Another\inst{2}} --> original
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[ ] % (optional, but mostly needed)
+{
+%  \inst{1}%
+  Jurusan Teknik Informatika\\
+  Fakultas Teknologi Informasi\\
+  Universitas Kristen Maranatha
+%  \and
+%  \inst{2}%
+%  Department of Theoretical Philosophy\\
+%  University of Elsewhere
+}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+%\date[CFP 2003] % (optional, should be abbreviation of conference name)
+%{Conference on Fabulous Presentations, 2003}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{Discrete Mathematics}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+\pgfdeclareimage[height=1.5cm]{university-logo}{logo-mcu}
+\logo{\pgfuseimage{university-logo}}
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{\textbf{Outline}}
+    \tableofcontents[currentsection,currentsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{\textbf{Outline}}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+
+% Structuring a talk is a difficult task and the following structure
+% may not be suitable. Here are some rules that apply for this
+% solution: 
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+% - A conference audience is likely to know very little of what you
+%   are going to talk about. So *simplify*!
+% - In a 20min talk, getting the main ideas across is hard
+%   enough. Leave out details, even if it means being less precise than
+%   you think necessary.
+% - If you omit details that are vital to the proof/implementation,
+%   just say so once. Everybody will be happy with that.
+
+%\begin{frame}{Make Titles Informative. Use Uppercase Letters.}{Subtitles are optional.}
+
+\section{How to Measure the Performance of an Algorithm}
+\begin{frame}{How to measure the performance of an algorithm? (1/2)}
+	\begin{itemize}
+		\item How do you do \emph{measure} your code? 
+		\item Would you clock \textbf{how long} it takes to run?
+		\item What if you are running the same program on a mobile device or a quantum computer?\footnote{https://adrianmejia.com/categories/programming/data-structures-and-algorithms-dsa}
+	\end{itemize}
+	\begin{center}
+	\noindent\fbox{\textbf{Essentially, what is the running time of an algorithm?}}	
+	\end{center}
+\end{frame}
+
+%\noindent\fbox{%
+%    \parbox{\textwidth}{%
+%        The quick brown fox jumps right over the lazy dog. 
+%    }%
+%}
+
+\begin{frame}{How to measure the performance of an algorithm? (2/2)}
+	Measuring a "running time"~\citep{roughgarden2017illuminatedpart1} $\Longrightarrow$
+	\begin{itemize}
+		\item count the number of lines of code executed in a concrete implementation of the algorithm or
+		\item compute the number of times the \emph{basic operation} is executed.
+	\end{itemize}
+	
+	\bigskip	
+	
+	\emph{Basic operations} or "\textbf{primitive}" operations~\citep{levitin2012introtothedesign} are addition, subtraction, multiplication, division, comparison, and copying.
+\end{frame}
+
+\begin{frame}{Example 1: How Many Additions and Multiplications (1/2)}
+	\begin{algorithm}[H]
+		\caption{AdditionAndMultiplication1}
+		\label{algo:addition-and-multiplication-1}
+		\begin{algorithmic}[1] 
+			\Function{AdditionAndMultiplication1}{$n$}
+			\State $p=0$
+			\State $x=2$
+			\For{$i = 2$ to $n$}
+				\State $p = (p+i) \cdot x$
+			\EndFor
+			\EndFunction
+		\end{algorithmic}
+	\end{algorithm}			
+	\bigskip	
+		
+	How many additions, copying, and multiplications?
+\end{frame}
+
+\begin{frame}{Example 1: How Many Additions and Multiplications (2/2)}
+	Number of operations = $3n + 2$
+\end{frame}
+
+\begin{frame}{Example 2: How Many Additions and Multiplications (1/2)}
+		\begin{algorithm}[H]
+		\caption{AdditionAndMultiplication2}
+		\label{algo:addition-and-multiplication-2}
+		\begin{algorithmic}[1] 
+			\Function{AdditionAndMultiplication2}{$n$}
+			\State $s=0$
+			\For{$i = 1$ to $n$}
+				\For{$j = 1$ to $i$}
+					\State $s = s + j \cdot (i - j + 1)$
+				\EndFor
+			\EndFor
+			\EndFunction
+		\end{algorithmic}
+	\end{algorithm}	
+	
+	\bigskip	
+	
+	How many additions, multiplications, and copying?
+\end{frame}
+
+\begin{frame}{Example 2: How Many Additions and Multiplications (2/2)}
+
+%	\begin{center}
+%		\includegraphics[scale=0.275]{example2-nested-loop}
+%	\end{center}
+	
+	Number of operations = $1 + (n+1) + \sum_{i=1}^{n}{\sum_{j=1}^{i}{5}} = 1+(n+1)+\frac{5}{2}(n^2+n)$
+\end{frame}
+
+\begin{frame}{Example 3: How Many Subtractions (1/2)}
+		Assume $n$ is a positive integer.		
+		\begin{algorithm}[H]
+		\caption{Subtractions}
+		\label{algo:subtractions}
+		\begin{algorithmic}[1] 
+			\Function{Subtractions}{$n$}
+			\For{$i = \lfloor n/2 \rfloor $ to $n$}
+				\State $a = n - i$
+			\EndFor
+			\EndFunction
+		\end{algorithmic}
+	\end{algorithm}	
+	Compute the number of subtractions and copying that must be performed when the function is executed.
+\end{frame}
+
+\begin{frame}{Example 3: How Many Subtractions (2/2)}
+
+	If $n$ is even, then $\lfloor \frac{n}{2} \rfloor = \frac{n}{2}$. \\
+	Therefore, number of operations = $\frac{3n}{2}+4$.
+	
+	\bigskip	
+	
+	If $n$ is odd, then $\lfloor \frac{n}{2} \rfloor = \frac{n-1}{2}$. \\
+	Therefore, number of operations = $\frac{3n}{2}+\frac{9}{2}$.
+\end{frame}
+
+\section{Guiding Principles for the Analysis of Algorithms}
+\begin{frame}{Prinsip untuk Menganalisis Algoritma}
+	\begin{enumerate}
+		\item Prinsip \#1: Worst-Case Analysis 
+		
+		\bigskip		
+		
+		\item Prinsip \#2: Melihat Big Picture-nya
+		
+		\bigskip		
+		
+		\item Prinsip \#3: Analisis Asimtotik (\textit{Asymptotic Analysis})
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Prinsip \#1: Worst-Case Analysis}
+	Selalu menghitung jumlah basic operations untuk kasus terjelek (\textit{worst-case scenario})
+\end{frame}
+
+\begin{frame}{The Sequential Search Algorithm (1/2)}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.26]{sequential-search-algorithm}
+		\caption{Sequential search dari $a[1]$, $a[2]$, $\ldots$, $a[7]$ untuk mencari $x$ dengan $x = a[5]$}
+		\label{fig:sequential-search-epps}
+	\end{figure}
+	Carilah jumlah operasi untuk the \textbf{best} and the \textbf{worst} scenario dari sequential search algorithm~\citep{epp2010discrete}.
+\end{frame}
+
+\begin{frame}{The Sequential Search Algorithm (2/2)}
+	\textbf{Jawab}:\\
+	Untuk \textbf{best} case is $1$ dan untuk \textit{worst-case} adalah $n$.		
+\end{frame}
+
+%\begin{frame}[fragile]{Calculating Time Complexity (1/2)}
+%	\begin{minted}{python}
+%def getMin(arr):
+%    """
+%    Get the smallest number on an array of numbers.
+%    
+%    Parameter
+%    ---------
+%    arr : array of numbers
+%    """
+%    minimum = arr[0] # for the sake of simplicity
+%    for indeks, elemen in enumerate(arr):
+%        if arr[indeks] < minimum: 
+%            minimum = arr[indeks]  
+%    return minimum		
+%	\end{minted}
+%\end{frame}
+%
+%\begin{frame}{Calculating Time Complexity (2/2)}
+%	\begin{itemize}
+%		\item We can represent \texttt{getMin} as a function of the size of the input \texttt{n} based on the number of operations it has to perform.
+%		\item For simplicity, let's assume that each line of code takes the same amount of time in the CPU to execute.
+%		\item \emph{How many total operations are being executed by the function?}
+%	\end{itemize}
+%	Answer: \texttt{2(n) + 2} $\Longrightarrow$ too specific and hard to compare algorithms with it.
+%	
+%	\bigskip
+%	
+%	We apply the \textbf{asymptotic analysis} to simplify this expression further.		
+%\end{frame}
+%
+
+
+
+\begin{frame}{Example 4: Insertion Sort (1/4)}
+		\begin{algorithm}[H]
+		\caption{Insertion Sort}
+		\label{algo:insertion-sort}
+		\begin{algorithmic}[1] 
+			\Function{InsertionSort}{$a$}
+%			\Comment \textbf{Input}: \textit{An array $a$ with $n$ elements} \newline
+%			\Comment \textbf{Output}
+			\For{$k = 2$ to $n$}
+				\State $x = a[k]$
+				\State $j = k-1$
+				\While{$j \neq 0$}
+					\If{$x < a[j]$}
+						\State $a[j+1] = a[j]$ 
+						\State $a[j] = x$
+						\State $j = j - 1$
+					\Else
+						\State $j=0$				
+					\EndIf
+				\EndWhile 
+			\EndFor
+%			\State $S = 0$
+%			\For{$i = 1$ to $n$}
+%			\State $S = S + i * i$
+%			\EndFor 
+%			\State \Return $S$ 
+			\EndFunction
+		\end{algorithmic}			
+	\end{algorithm}	
+\end{frame}
+
+\begin{frame}{Example 4: Insertion Sort (2/4)}
+	Given an array
+	\begin{equation*}
+		a[1]=6, \; a[2]=3, \; a[3]=5, \; a[4]=7, \; a[5]=2.
+	\end{equation*}
+	The table below shows the result.
+	\begin{center}
+		\includegraphics[scale=.25]{result-insertion-sort}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Example 4: Insertion Sort (3/4)}
+	Construct a \textbf{trace table} showing the action of insertion sort on the array
+	\begin{equation*}
+		a[1]=6, \; a[2]=3, \; a[3]=5, \; a[4]=7, \; a[5]=2.
+	\end{equation*}	
+\end{frame}
+
+\begin{frame}{Example 4: Insertion Sort (4/4)}
+	\begin{center}
+		\includegraphics[scale=.085]{trace-table-for-insertion-sort}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Finding a Worst-Case Order for Insertion Sort (1/2)}
+	What is the number of comparisons that are performed when insertion sort is applied to the array $a[1], a[2], a[3], \ldots a[n]$?
+\end{frame}
+
+\begin{frame}{Finding a Worst-Case Order for Insertion Sort (2/2)}
+		The maximum number of iteration of the \textbf{while} loop is $k$. Moreover, for each iteration, there is a double comparison. Therefore,
+		\begin{align*}
+			2 \cdot 2 + 2 \cdot 3 + \cdots + 2 \cdot n &= 2(2 + 3 + \cdots + n) \\
+			                                           &= 2[(1+2+3 + \cdots + n) - 1] \\
+			                                           &= 2\left( \frac{n(n+1)}{2} - 1 \right) \\
+			                                           &= n(n+1) -2.			                                           
+		\end{align*}	
+\end{frame}
+
+\begin{frame}{Prinsip \#2: Big-Picture Analysis (1/2)}
+	Prinsip ini menyatakan bahwa faktor konstan atau suku yang berderajat rendah dapat dibuang pada saat \textit{running time}.
+	
+	\bigskip
+	
+	Contoh:
+	\begin{align*}
+		3x^3 &\approx x^3  \\
+		2x^2+x &\approx x^2				
+	\end{align*}		
+\end{frame}
+
+\begin{frame}{Prinsip \#2: Big-Picture Analysis (2/2)}
+	\begin{align*}
+		4x^{\frac{4}{3}}-15x + 7 &\approx ? \\
+		\sqrt{x}(38x^{5} + 9) &\approx ? \\
+		23x^4 + 8 x^2 + 4x &\approx ?
+	\end{align*}
+\end{frame}
+
+\begin{frame}{Prinsip \#3: Asymptotic Analysis (1/3)}
+	Fokus kepada \textit{rate of growth} dari algorithm's running time ketika input size $n$ bertambah besar.
+	
+	\bigskip	
+	
+	Contoh: \\
+	Algoritma running time dari \textbf{merge sort} adalah $6n \log_{2}{n} + 6n$ operasi, sedangkan running time dari \textbf{insertion sort} adalah $\frac{1}{2}n^2$.
+
+	\bigskip
+	
+	Merge sort \textit{lebih baik} daripada insertion sort. Apakah benar? 		
+\end{frame}
+
+\begin{frame}{Prinsip \#3: Asymptotic Analysis (2/3)}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.35]{merge-sort-small-values}
+		\caption{Perbandingan ketika $n$ kecil}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Prinsip \#3: Asymptotic Analysis (3/3)}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.35]{merge-sort-medium-values}
+		\caption{Perbandingan ketika $n$ sedang}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{What is a "Fast" Algorithm?}
+	
+	\begin{center}
+	\noindent\textbf{A "fast algorithm" is an algorithm whose worst-case running time grows slowly with the input size}\\\citep{roughgarden2017illuminatedpart1}
+	\end{center}			
+\end{frame}
+
+\section{Asymptotic Notation}
+\begin{frame}{Notasi Asimtotik (1/2)}
+\begin{itemize}
+	\item Asymptotic notation provides the basic vocabulary for discussing the design and analysis of algorithms~\citep{roughgarden2017illuminatedpart1}. 
+	\item It's important that you know what programmers mean when they say that one piece of code runs in "big-O of $n$ time", while another runs in "big-O of $n$-squared time"~\citep{roughgarden2017illuminatedpart1}. 
+\end{itemize}
+
+\bigskip
+
+\begin{center}
+	\textit{suppress constant factors and lower-order terms}
+\end{center}	
+\end{frame}
+
+\begin{frame}{Four Examples}
+	Four example dapat dibaca di buku \citet{roughgarden2017illuminatedpart1} hlm. 38. 
+\end{frame}
+
+
+\begin{frame}{Notasi Asimtotik (2/2)}
+
+	Running time merge sort 
+	
+	\begin{equation*}
+		6n \log_2{n} + 6n
+	\end{equation*}
+	dapat dikatakan bahwa running time dari merge sort adalah "big-O of $n \log n$", ditulis $O(n \log n)$.
+
+\end{frame}
+
+\begin{frame}{Notasi Big-O}
+	Notasi Big-O berhubungan dengan fungsi $T(n)$ yang didefinisikan pada bilangan bulat positif $n = 1, 2, \ldots$.
+	
+	\bigskip	
+	
+	$T(n)$ akan hampir selalu melambangkan batas atas \textit{running time} dari sebuah algoritma, sebagai fungsi dari $n$, ukuran input. 
+	
+	\bigskip
+	
+	\textbf{Notasi Big-O (versi bahasa Inggris)}
+	\begin{center}
+			$T(n) = O(f(n))$ if and only if $T(n)$ is eventually bounded above by a constant multiple of $f(n)$. 
+	\end{center}		
+	
+	\textbf{Notasi Big-O (versi matematika)}
+	\begin{center}
+			$T(n) = O(f(n))$ if and only if there exist positive constants $c$ and $n_0$ such that
+				\begin{equation*}
+					T(n) \leq c \cdot f(n)
+				\end{equation*}
+			for all $n \geq n_0$.
+	\end{center}			
+\end{frame}
+
+\begin{frame}{Ilustrasi Notasi Big-O}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.275]{ilustrasi-big-oh}
+		\caption{Ilustrasi $T(n) = O(f(n))$~\citep{roughgarden2017illuminatedpart1}}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}{Another Example}
+	Let's say we have the following function: $T(n) = 3n^2+2n+20$. What would be the result of $T(n)$ using the asymptotic analysis?
+	
+	\bigskip
+	
+	\begin{block}{\textbf{The Answer}}
+		$T(n) = O(n^2)$.
+	\end{block}
+	
+	\begin{center}
+		Mengapa?
+	\end{center}
+\end{frame}
+
+
+
+\begin{frame}{Most Common Running Times (1/2)}
+	 \textbf{Assuming}: 1 GHz CPU and that it can execute on average one instruction in 1 nanosecond (usually takes more time). Also, bear in mind that each line might be translated into dozens of CPU instructions depending on the programming language. \\
+	 \textit{Let's see the most common running times and their relationship with time}:
+	 \begin{center}
+	 	\begin{tabular}{|l|l|l|l|l|}
+	 		\hline
+	 		$\bm{n}$ & $\bm{O(1)}$ & $\bm{O(\log n)}$ & $\bm{O(n)}$ & $\bm{O(n \log n)}$ \\
+	 		\hline
+	 		1 			& < 1 sec & < 1 sec 	& < 1 sec & < 1 sec \\
+	 		\hline
+	 		10 			& < 1 sec & < 1 sec 	& < 1 sec & < 1 sec \\
+	 		\hline
+	 		100 			& < 1 sec & < 1 sec 	& < 1 sec & < 1 sec \\
+	 		\hline
+	 		1,000 		& < 1 sec & < 1 sec 	& < 1 sec & < 1 sec \\
+	 		\hline
+	 		10,000 		& < 1 sec & < 1 sec 	& < 1 sec & < 1 sec \\
+	 		\hline
+	 		100,000 		& < 1 sec & < 1 sec 	& < 1 sec &  1 sec \\
+	 		\hline
+	 		1,000,000 	& < 1 sec & < 1 sec 	& 1 sec &  20 sec \\
+	 		\hline
+	 	\end{tabular}
+	 \end{center}
+\end{frame}
+
+\begin{frame}{Most Common Running Times (2/2)}
+	 \begin{center}
+	 	\begin{tabular}{|l|l|l|l|}
+	 		\hline
+	 		$\bm{n}$ & $\bm{O(n^2)}$ & $\bm{O(2^n)}$ & $\bm{O(n!)}$  \\
+	 		\hline
+	 		1 			& < 1 sec 	& < 1 sec 				& < 1 sec  \\
+	 		\hline
+	 		10 			& < 1 sec 	& < 1 sec 				& 4 sec  \\
+	 		\hline
+	 		100 			& < 1 sec 	& 40,170 trillion years 	& > vigintillion years  \\
+	 		\hline
+	 		1,000 		& < 1 sec 	& > vigintillion years 	& > centillion years  \\
+	 		\hline
+	 		10,000 		& 2 min 		& > centillion years 	& > centillion years  \\
+	 		\hline
+	 		100,000 		& 3 hours 	& > centillion years 	& > centillion years  \\
+	 		\hline
+	 		1,000,000 	& 12 days 	& > centillion years 	& > centillion years  \\
+	 		\hline
+	 	\end{tabular}
+	 \end{center}
+	Trillion = $10^{12}$ \\ 
+	Vigintillion = $10^{63}$ \\
+	Centillion = $10^{303}$
+\end{frame}
+
+\section{8 Time Complexities that Every Programmer Should Know}
+\begin{frame}{8 Time Complexities that Every Programmer Should Know}
+	Please refer to the \emph{Jupyter Notebook}. 
+
+	\bigskip
+	
+	The notebook is hosted at \href{https://bitbucket.org/hbunyamin/demo-complexity-for-discrete-mathematics-class/src/master/}{\emph{\color{blue} a bitbucket repo}}.
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+%\begin{frame}{Blocks}
+%\begin{block}{Block Title}
+%You can also highlight sections of your presentation in a block, with it's own title
+%\end{block}
+%\begin{theorem}
+%There are separate environments for theorems, examples, definitions and proofs.
+%\end{theorem}
+%\begin{example}
+%Here is an example of an example block.
+%\end{example}
+%\end{frame}
+
+
+% All of the following is optional and typically not needed. 
+\appendix
+\section<presentation>*{\appendixname}
+\subsection<presentation>*{For Further Reading}
+
+\begin{frame}[allowframebreaks]
+  \frametitle<presentation>{Daftar Pustaka}
+    {\footnotesize
+    \bibliographystyle{apalike}
+    \bibliography{references}
+    }    
+\end{frame}
+
+%\makeatletter % to change template
+%    \setbeamertemplate{headline}[default] % not mandatory, but I though it was better to set it blank
+%    \def\beamer@entrycode{\vspace*{-\headheight}} % here is the part we are interested in :)
+%\makeatother
+
+\begin{frame}[plain]
+		\centering\includegraphics[scale=0.5]{Logo-Maranatha-Untuk-Belakang-02}	
+\end{frame}
+
+\end{document}
+
+

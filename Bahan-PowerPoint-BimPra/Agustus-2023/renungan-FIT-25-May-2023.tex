@@ -1,0 +1,109 @@
+%% If you have any problems using this template, please contact the author: %%
+%% Chris Carmona: carmona@stats.ox.ac.uk ; chriscarmona.me %%
+
+\documentclass{beamer}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+
+\include{preamble}
+%% Information (author, title, etc.) %%
+
+\title[Renungan Singkat]{% short title for footer
+    Renungan Singkat: \\
+    Berdoa bagi Orang Lain \\ \citep{warren2023renungan}
+    \vspace{0.5cm}
+}
+
+\author{Hendra Bunyamin}
+
+\institute{
+        \textit{Program Studi Teknik Informatika}\\
+        \textit{Universitas Kristen Maranatha}
+        \vspace{0.5cm}
+}
+\date[Venue and Date]{% short date for footer
+    26 Mei 2023
+}
+
+% ===========================================
+%   Added to show ToC before new section
+% ===========================================
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>{Outline}
+		\tableofcontents[currentsection,currentsection]
+	\end{frame}
+}
+
+%% Content of slides %%
+%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%
+
+% Title slide %
+{
+    \setbeamertemplate{footline}{}
+    \setbeamertemplate{headline}{}
+    \setbeamercolor{background canvas}{bg=oxfordblue}
+    \maketitle
+}
+
+%----------------------------%
+% Contents slide
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+%----------------------------%
+
+%now include the slides
+\setbeamercovered{transparent}
+%----------------------------%
+
+\section{Ayat Firman Tuhan}
+\begin{frame}{}
+	\Large
+	\begin{tcolorbox}[colback=green!5,colframe=green!40!black,title=Filipi 1:4 (TB)]
+		Dan setiap kali aku berdoa untuk kamu semua, aku selalu berdoa dengan sukacita.
+	\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{}
+	\begin{tcolorbox}[colback=green!5,colframe=green!40!black,title=Filipi 1:9-11 (TB)]
+Dan inilah doaku, semoga kasihmu makin melimpah dalam pengetahuan yang benar dan dalam segala macam pengertian, sehingga kamu dapat memilih apa yang baik, supaya kamu suci dan tak bercacat menjelang hari Kristus, penuh dengan buah kebenaran yang dikerjakan oleh Yesus Kristus untuk memuliakan dan memuji Allah.
+	\end{tcolorbox}
+\end{frame}
+
+\section{Renungan singkat}
+\begin{frame}{Renungan singkat}
+	Bacaan renungan dibagikan melalui \textbf{Telegram}.
+\end{frame}
+
+
+%----------------------------%
+
+
+
+%----------------------------%
+% Conclusions
+\begin{frame}
+    \frametitle{}
+    \centering
+    
+    \LARGE\color{oxfordblue}
+    Thank you!
+
+\end{frame}
+%----------------------------%
+
+% References slide
+\begin{frame}
+\frametitle{References}
+\small
+\bibliographystyle{apalike} %use the apalike bibliography style
+\bibliography{references} % bibliography file
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%

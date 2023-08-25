@@ -1,0 +1,5 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Apa Kata Alkitab?}{4}{0}{1}
+\beamer@sectionintoc {2}{Natur yang Berbeda}{14}{0}{2}
+\beamer@sectionintoc {3}{Peran yang Diberikan Allah}{74}{0}{3}
+\beamer@sectionintoc {4}{Conclusion: Biblical View}{96}{0}{4}

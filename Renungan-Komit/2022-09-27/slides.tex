@@ -1,0 +1,661 @@
+\documentclass[english,t]{beamer}
+%\documentclass[finnish,english,handout]{beamer}
+
+% Uncomment if want to show notes
+% \setbeameroption{show notes}
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % oder ...
+  
+  \setbeamercovered{invisible}
+  % oder auch nicht
+}
+
+% ==============================
+%  Added Package
+% ==============================
+\usepackage[linesnumbered,lined,commentsnumbered]{algorithm2e}
+\usepackage{bm}
+
+
+
+
+% =======================================
+%   Using symbols for a checklist
+% =======================================
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+% ======================================
+%     No Figure in the caption
+% ======================================
+\setbeamertemplate{caption}{\insertcaption} %---> does not work
+%\captionsetup{labelformat=empty,labelsep=none} % ---> it works
+
+% ===================================================
+\usepackage{graphicx}
+\graphicspath{{./figs/}}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage{epic,epsfig}
+\usepackage{subfigure,float}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{inputenc}
+\usepackage{babel}
+\usepackage{afterpage}
+\usepackage{eufrak}
+\usepackage{amsbsy}
+\usepackage{eucal}
+\usepackage{rotating}
+\usepackage{url}
+\urlstyle{same}
+
+\usepackage{natbib}
+\bibliographystyle{apalike}
+
+% \definecolor{hutblue}{rgb}{0,0.2549,0.6784}
+% \definecolor{midnightblue}{rgb}{0.0977,0.0977,0.4375}
+% \definecolor{hutsilver}{rgb}{0.4863,0.4784,0.4784}
+% \definecolor{lightgray}{rgb}{0.95,0.95,0.95}
+% \definecolor{section}{rgb}{0,0.2549,0.6784}
+% \definecolor{list1}{rgb}{0,0.2549,0.6784}
+ \definecolor{navyblue}{rgb}{0,0,0.5}
+\renewcommand{\emph}[1]{\textcolor{navyblue}{#1}}
+
+% \graphicspath{./pics}
+
+\pdfinfo{            
+  /Title      (Bayesian data analysis 2) 
+  /Author     (Aki Vehtari) % 
+  /Keywords   (Bayesian probability theory, Bayesian inference, Bayesian data analysis)
+}
+
+
+\parindent=0pt
+\parskip=8pt
+\tolerance=9000
+\abovedisplayshortskip=0pt
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}[default]{}
+\setbeamertemplate{headline}[text line]{\insertsection}
+\setbeamertemplate{footline}[frame number]
+
+
+\def\o{{\mathbf o}}
+\def\t{{\mathbf \theta}}
+\def\w{{\mathbf w}}
+\def\x{{\mathbf x}}
+\def\y{{\mathbf y}}
+\def\z{{\mathbf z}}
+
+\DeclareMathOperator{\E}{E}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\Sd}{Sd}
+\DeclareMathOperator{\sd}{sd}
+\DeclareMathOperator{\Gammad}{Gamma}
+\DeclareMathOperator{\Invgamma}{Inv-gamma}
+\DeclareMathOperator{\Bin}{Bin}
+\DeclareMathOperator{\Negbin}{Neg-bin}
+\DeclareMathOperator{\Poisson}{Poisson}
+\DeclareMathOperator{\Beta}{Beta}
+\DeclareMathOperator{\logit}{logit}
+\DeclareMathOperator{\N}{N}
+\DeclareMathOperator{\U}{U}
+\DeclareMathOperator{\BF}{BF}
+\DeclareMathOperator{\Invchi2}{Inv-\chi^2}
+% \DeclareMathOperator{\Pr}{Pr}
+\def\euro{{\footnotesize \EUR\, }}
+\DeclareMathOperator{\rep}{\mathrm{rep}}
+
+% ==============================
+%       Redefine emphasize
+% ==============================
+\let\emph\relax % there's no \RedeclareTextFontCommand
+\DeclareTextFontCommand{\emph}{\bfseries\em}
+
+% ============
+% Otsikko sivu
+% ============
+
+\title[]
+{\textbf{Ringkasan Khotbah GKI Anugerah}}
+
+
+\subtitle
+{\textit{Iman yang "All Out"}}
+\author{
+	\centering
+	\includegraphics[scale=.3]{images/logo-gkia-komit} \\
+	\hfill \break
+	\noindent Pdt. Chenglison Tjajadi}
+%\institute[  Maranatha]
+%{
+%  Program Studi Teknik Informatika \\
+%  Fakultas Teknologi Informasi \\
+%  Universitas Kristen Maranatha
+%}
+
+\date[NUNI IT Online] % (optional, should be abbreviation of conference name)
+{ }
+
+%\titlegraphic{\vspace{-0.25cm}\hfill\includegraphics[scale=0.275]{images/logo-maranatha.png}} %You can modify the location of the logo by changing the
+%\pgfdeclareimage[height=.5cm]{university-logo}{images/faculty-it-logo.png}
+%\logo{\pgfuseimage{university-logo}}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsection]
+  \end{frame}
+}
+
+\begin{document} 
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+%%%%
+\section{Pesan Utama}
+\begin{frame}{Pesan Utama}
+	
+	Firman Tuhan : \textbf{Daniel 3}
+	
+	\begin{block}<2->{}
+		\onslide<2->{Sebagai murid Kristus kita harus memiliki iman yang sepenuhnya bukan setengah-setengah.} 
+	\end{block}
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics<3->[scale=.5]{images/berdiri-teguh}
+	\end{figure}
+\end{frame}
+
+\section{Kesaksian dari Firman Tuhan}
+\begin{frame}{Iman yang All-out}
+	Sadrakh, Mesakh dan Abednego mengalami penganiayaan, karena tidak mau disuruh menyembah patung emas yang didirikan raja Nebukadnezar, tetapi \onslide<2->{\textcolor{brown}{\textbf{mereka menunjukkan iman yang all-out yaitu:}}} 
+	\begin{itemize}
+		\item<3-> Mengikuti kehendak Allah, bukan menurut keinginan pribadi.
+		\item<4-> Iman yang menjadi saksi atas karya Allah.
+	\end{itemize}
+\end{frame}
+
+\section{Nasihat untuk All-out}
+\begin{frame}{Mengikuti kehendak Allah, bukan menurut keinginan pribadi} 
+	Firman Tuhan : \textbf{Daniel 3:17--18} 	
+	
+	\begin{block}<2->{}
+		Hidup tidak selalu seperti yang kita inginkan. Bagaimana kita meresponinya? \\
+		Kita harus mengikuti kehendak Allah dan bukan kehendak manusia.
+	\end{block}	
+\end{frame}
+
+\begin{frame}{Iman yang menjadi saksi atas karya Allah}
+	Firman Tuhan : \textbf{Daniel 3:24-25}
+	\begin{block}<2->{}
+		Iman tidak menghindarkan mereka dari penganiayaan tapi Ia menyertai mereka. Oleh karena iman yang dipegang teguh oleh Sadrakh, Mesakh dan Abednego, raja dapat melihat kuasa Tuhan. \\
+		Hidup kita adalah sarana Allah nyatakan karya-Nya. \\
+		Maukah kita dipakai Tuhan menyatakan kuasa dan karya-Nya?
+	\end{block}
+\end{frame}
+
+\section{Quote yang Menyemangati}
+\begin{frame}{1 Petrus 1:6--7}
+	\begin{block}<2->{1 Petrus 1:6--7}
+		\textit{Bergembiralah akan hal itu, sekalipun sekarang ini kamu seketika harus berdukacita oleh berbagai-bagai pencobaan. Maksud semuanya itu ialah untuk \textbf{membuktikan kemurnian imanmu} -- yang jauh lebih tinggi nilainya dari pada emas yang fana, yang diuji kemurniannya dengan api -- sehingga kamu memperoleh puji-pujian dan kemuliaan dan kehormatan pada hari Yesus Kristus menyatakan diri-Nya}.
+	\end{block}
+
+	\begin{block}<3->{}
+		Iman bukanlah bahan bakar yang dapat habis ketika kita berkendara, tapi \textbf{iman adalah otot yang diperkuat oleh latihan demi latihan}.
+	\end{block}
+\end{frame}
+
+
+
+%
+%
+%
+%
+%\begin{frame}{Goals}
+%	\begin{itemize}
+%		\item<2-> Learn to think like a Bayesian.
+%		\item<3-> Explore the foundations of a Bayesian data analysis and how they contrast with the frequentist alternative.
+%	\end{itemize}
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<4->[width=\textwidth]{images/amazing-thomas-bayes-illustration}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}{Cara kita mengupdate knowledge (1/2)}
+%	\begin{itemize}
+%		\item<2-> We continuously update our knowledge about the world as we accumulate lived experiences, or collect data.
+%		\item<3-> As children, it takes a few spills to understand that liquid doesn't stay in a glass.
+%		\item<5-> Another example: a new Italian restaurant.
+%	\end{itemize}
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<4->[scale=.175]{images/water}
+%	\end{figure}	
+%\end{frame}
+%
+%\begin{frame}{Cara kita mengupdate knowledge (2/2)}
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<2->[width=\textwidth]{images/restaurant\_diagram}
+%		\caption{\only<2->{Your evolving knowledge about a restaurant}}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}{Pembangunan knowledge versi Bayesian (1/2)}
+%	\begin{itemize}
+%		\item<2-> If you're a political scientist, yours might be a study of demographic factors in voting patterns. 
+%		\item<3-> If you're an environmental scientist, yours might be an analysis of the human role in climate change. 
+%		\item<4-> You don't walk into such an inquiry without context -- you carry a degree of incoming or prior information based on previous research and experience. Naturally, it's in light of this information that you interpret new data, weighing both in developing your updated or posterior information. You continue to refine this information as you gather new evidence 
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Pembangunan knowledge versi Bayesian (2/2)}
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<2->[scale=.125]{images/bayes\_diagram}
+%		\caption{\only<2->{A Bayesian knowledge-building diagram}}
+%	\end{figure}
+%\end{frame}
+%
+%\section{Thinking like a Bayesian}
+%\begin{frame}{Perbedaan Filosofi Bayesian dan Frequentist (1/3)}
+%	\large \textbf{Quiz Yourself}
+%	\begin{enumerate}
+%		\item<2-> When flipping a fair coin, we say that "\textit{the probability of flipping Heads is} $0.5$." How do you interpret this probability?
+%		\begin{itemize}
+%			\item<2->[a)] If I flip this coin over and over, roughly $50\%$ will be Heads.
+%			\item<2->[b)] Heads and Tails are equally plausible.
+%			\item<2->[c)] Both a and b make sense.
+%		\end{itemize}
+%		\item<3-> An election is coming up and a pollster claims that candidate A has a $0.9$ probability of winning. How do you interpret this probability?
+%		\begin{itemize}
+%			\item<3->[a)] If we observe the election over and over, candidate A will win roughly $90\%$ of the time.
+%			\item<3->[b)] Candidate A is much more likely to win than to lose.
+%			\item<3->[c)] The pollster's calculation is wrong. Candidate A will either win or lose, thus their probability of winning can only be $0$ or $1$.
+%		\end{itemize}			
+%	\end{enumerate}
+%\end{frame}
+%
+%\begin{frame}{Perbedaan Filosofi Bayesian dan Frequentist (2/3)}
+%	\large \textbf{Quiz Yourself}
+%	\begin{enumerate}
+%		\setcounter{enumi}{2}
+%	\item<2-> Consider two claims. (1) Zuofu claims that he can predict the outcome of a coin flip. To test his claim, you flip a fair coin 10 times and he correctly predicts all 10. (2) Kavya claims that she can distinguish natural and artificial sweeteners. To test her claim, you give her 10 sweetener samples and she correctly identifies each. In light of these experiments, what do you conclude?
+%	\begin{itemize}
+%		\item<2->[a)] You're more confident in Kavya's claim than Zuofu's claim.
+%		\item<2->[b)] The evidence supporting Zuofu's claim is just as strong as the evidence supporting Kavya's claim.
+%	\end{itemize}
+%	\item<3-> Suppose that during a recent doctor's visit, you tested positive for a very rare disease. If you only get to ask the doctor one question, which would it be?
+%	\begin{itemize}
+%		\item<3->[a)] What's the chance that I actually have the disease?
+%		\item<3->[b)] If in fact I don't have the disease, what's the chance that I would've gotten this positive test result?
+%	\end{itemize}			
+%	\end{enumerate}
+%\end{frame}
+%
+%\begin{frame}{Perbedaan Filosofi Bayesian dan Frequentist (3/3)}
+%	\begin{enumerate}
+%		\item a = 1 point, b = 3 points, c = 2 points
+%		\item a = 1 point, b = 3 points, c = 1 point
+%		\item a = 3 points, b = 1 point
+%		\item a = 3 points, b = 1 point.
+%	\end{enumerate}
+%	\onslide<2->{\textbf{Kesimpulan:}} 
+%	\begin{itemize}
+%		\item<3-> Totals from 4--5 indicate that your current thinking is fairly frequentist. 
+%		\item<3-> Totals from 9--12 indicate alignment with the Bayesian philosophy.
+%		\item<3-> Totals from 6--8 indicate that you see strengths in both philosophies.
+%	\end{itemize}
+%\end{frame}
+%
+%\section{Arti dari Probability atau Peluang}
+%\begin{frame}{Arti Probability menurut Bayesian dan Frequentist}
+%	\begin{itemize}
+%		\item<2-> In the Bayesian philosophy, a probability measures the \textbf{relative plausibility} of an event.
+%		\item<3-> The frequentist philosophy is so named for its interpretation of probability as the \textbf{long-run relative frequency} of a repeatable event.
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Pembahasan Soal Quiz nomor 3 (1/2)}
+%	\begin{enumerate}
+%		\item Zuofu claims that he can predict the outcome of a coin flip and 
+%		\item Kavya claims that she can distinguish between natural and artificial sweeteners. 
+%	\end{enumerate}
+%	\onslide<2->{Anggap bahwa  the first claim is simply ridiculous but that the second is plausible (some people have sensitive palates!).} 
+%	
+%	\bigskip
+%	\onslide<3->{Menurut frequentist, "10 out of 10" is "10 out of 10" no matter if it's in the context of Zuofu's coins or Kavya's sweeteners.}  \\
+%	\onslide<4->{This means that a frequentist analysis would lead to equally confident conclusions that Zuofu can predict coin flips and Kavya can distinguish between natural and artificial sweeteners.} 
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<5->[scale=.0125]{images/freq\_diagram}
+%		\caption{\only<5->{A frequentist knowledge-building diagram}}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}{Pembahasan Soal Quiz nomor 3 (2/2)}
+%	\begin{itemize}
+%		\item<2-> In contrast, a Bayesian analysis gives voice to our prior knowledge. 
+%		\item<3-> Here, our experience on Earth suggests that Zuofu is probably overstating his abilities but that Kavya's claim is reasonable.
+%		\item<4-> Thus, after weighing their equivalent "10 out of 10" achievements against these different priors, our posterior understanding of Zuofu's and Kavya's claims differ. 
+%		\item<5-> Since the data is consistent with our prior, we're even more certain that Kavya is a sweetener savant. However, given its inconsistency with our prior experience, we are chalking Zuofu's "psychic" achievement up to simple luck. 
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Seperti Apakah Filosofi Bayesian?}
+%	\begin{itemize}
+%		\item<2-> The Bayesian philosophy provides a formal framework for such knowledge creation. This framework depends upon prior information, data, and the balance between them. 		
+%	\end{itemize}
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<3->[width=\textwidth]{images/bayes-balance-1}
+%		\caption{\only<3->{Bayesian analyses balance our prior experiences with new data. Depending upon the setting, the prior is given more weight than the data (left), the prior and data are given equal weight (middle), or the prior is given less weight than the data (right)}}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}{Bayesian knowledge-building process}
+%	\begin{itemize}
+%		\item<2-> When we have little data, our posterior can draw upon the power in our prior knowledge. 
+%		\item<3-> As we collect more data, the prior loses its influence. Whether in science, policy-making, or life, this is how people tend to think \citep{elgamal1995people} and how progress is made. As they collect more and more data, two scientists will come to agreement on the human role in climate change, no matter their prior training and experience.
+%	\end{itemize}
+%	\begin{figure}[!ht]
+%	\centering
+%	\includegraphics<4->[scale=.12]{images/our\_bayes\_diagram}
+%	\caption{\only<4->{A two-person Bayesian knowledge-building diagram}}
+%	\end{figure}
+%\end{frame}
+%
+%\section{Asking Questions}
+%\begin{frame}{Asking Questions: Bayesian \& Frequentist}
+%	\begin{itemize}
+%		\item<2-> Di Question 4, you were asked to imagine that you tested positive for a rare disease and only got to ask the doctor one question: \\
+%		\onslide<3->{(a) what's the chance that I actually have the disease?, or}  \\
+%		\onslide<4->{(b) if in fact I do not have the disease, what's the chance that I would've gotten this positive test result?}  \\
+%		\onslide<5->{Meskipun kedua pertanyaan di atas bermanfaat, we'd rather know the answer to (a). That is, we'd rather understand the uncertainty in our unknown disease status than in our observed test result.} 
+%	\end{itemize}
+%\begin{block}<6->{Asking questions}
+%	\begin{itemize}
+%		\item<7-> A Bayesian hypothesis test seeks to answer: In light of the observed data, what's the chance that the hypothesis is correct? 
+%		\item<8-> A frequentist hypothesis test seeks to answer: If in fact the hypothesis is incorrect, what's the chance I'd have observed this, or even more extreme, data?
+%	\end{itemize}
+%\end{block}
+%\end{frame}
+%
+%\begin{frame}{Contoh: Asking Questions (1/3)}
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<2->[scale=.35]{images/table-disease}
+%	\end{figure}
+%\onslide<3->{In this scenario, a Bayesian analysis would ask: \textit{Given my positive test result, what's the chance that I actually have the disease?}} \onslide<4->{Since only 3 of the 12 people that tested positive have the disease (Table 1.1), there's only a $25\%$ chance that you have the disease. Thus, when we take into account the disease's rarity and the relatively high false positive rate, it's relatively unlikely that you actually have the disease. What a relief.}
+%\end{frame}
+%
+%\begin{frame}{Contoh: Asking Questions (2/3)}
+%	\begin{itemize}
+%		\item<2-> You might anticipate that a frequentist approach to this analysis would differ. \\
+%		\onslide<3->{From the frequentist standpoint, since disease status isn't repeatable, the probability you have the disease is either 1 or 0--you have it or you don't.} \onslide<4->{To the contrary, medical testing (and data collection in general) is repeatable. You can get tested for the disease over and over and over.} \onslide<5->{Thus, a frequentist analysis would ask: \textit{If I don't actually have the disease, what's the chance that I would've tested positive?}}  \onslide<6->{Since only 9 of the 96 people without the disease tested positive, there's a roughly $10\%$ (9/96) chance that you would've tested positive even if you didn't have the disease.}
+%		\item<7-> The 9/96 frequentist probability calculation is similar in spirit to a \textbf{p-value}.
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Contoh: Asking Questions (3/3)}
+%	\begin{itemize}
+%		\item<2-> In general, p-values measure the chance of having observed data as or more extreme than ours if in fact our original hypothesis is incorrect. Though the p-value was prominent in the frequentist practice for decades, it's slowly being de-emphasized across the frequentist and Bayesian spectrum. Essentially, it's so commonly misinterpreted and misused \citep{goodman2008dirty}.  
+%	\end{itemize}
+%\end{frame}
+%
+%\section{Studi Kasus: Fake News}
+%\begin{frame}[fragile]{Studi Kasus: Fake News (1/3)}
+%	\begin{itemize}
+%		\item<2-> We'll examine a sample of 150 articles which were posted on Facebook and fact checked by five BuzzFeed journalists \citep{shu2017fake}. 
+%		\item<3->  Information about each article is stored in the \texttt{fake\_news}  dataset in the \texttt{bayesrules} package. To learn more about this dataset, type \texttt{?fake\_news}  in your console.
+%	\end{itemize}
+%
+%\bigskip
+%\begin{overprint}
+%	\onslide<4->
+%	\begin{minted}{R}
+%	# Load packages
+%	library(bayesrules)
+%	library(tidyverse)
+%	library(janitor)
+%	
+%	# Import article data
+%	data(fake_news)
+%\end{minted}
+%\end{overprint}
+%\end{frame}
+%
+%\begin{frame}[fragile]{Studi Kasus: Fake News (2/3)}
+%The table below, constructed using the \texttt{tabyl()} function in the \texttt{janitor}  package, illustrates that 40\% of the articles in this particular collection are fake and 60\% are real:
+%
+%\bigskip
+%\begin{overprint}
+%	\onslide<2->
+%	\begin{minted}{R}
+%	fake_news %>% 
+%	tabyl(type) %>% 
+%	adorn_totals("row")
+%	type   n percent
+%	fake  60     0.4
+%	real  90     0.6
+%	Total 150    1.0
+%	\end{minted}
+%\end{overprint}
+%
+%\onslide<3->{Using this information alone, we could build a very simple news filter which uses the following rule: since most articles are real, we should read and believe all articles.} \\
+%\end{frame}
+%
+%\begin{frame}[fragile]{Studi Kasus: Fake News (3/3)}
+%	\begin{itemize}
+%		\item<2-> For example, suppose that the most recent article posted to a social media platform is titled: "The president has a funny secret!" Some features of this title probably set off some red flags. For example, the usage of an exclamation point might seem like an odd choice for a real news article.
+%		\item<3-> Our data backs up this instinct--in our article collection, 26.67\% (16 of 60) of fake news titles but only 2.22\% (2 of 90) of real news titles use an exclamation point: 
+%	\end{itemize}
+%\begin{overprint}
+%	\onslide<4->
+%	\begin{minted}{R}
+%# Tabulate exclamation usage and article type
+%fake_news %>% 
+%tabyl(title_has_excl, type) %>% 
+%adorn_totals("row")
+%title_has_excl fake real
+%FALSE   44   88
+%TRUE    16    2
+%Total   60   90
+%	\end{minted}
+%\end{overprint}	
+%\end{frame}
+%
+%\begin{frame}{Two Contradictory Information}
+%	\begin{itemize}
+%		\item<2-> Thus, we have two pieces of contradictory information. 
+%		\item<3-> Our prior information suggested that incoming articles are most likely real. However, the exclamation point data is more consistent with fake news. 
+%		\item<4-> Thinking like Bayesians, we know that balancing both pieces of information is important in developing a posterior understanding of whether the article is fake.
+%	\end{itemize}	
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics<5->[scale=.125]{images/fake_news_diagram}
+%	\caption{\only<5->{Bayesian knowledge-building diagram for whether or not the article is fake}}
+%\end{figure}	
+%\end{frame}
+%
+%\begin{frame}{Quiz Yourself}
+%	What best describes your updated, posterior understanding about the article?
+%	\begin{itemize}
+%		\item[a.] The chance that this article is fake drops from 40\% to 20\%. The exclamation point in the title might simply reflect the author's enthusiasm. 
+%		\item[b.] The chance that this article is fake jumps from 40\% to roughly 90\%. Though exclamation points are more common among fake articles, let's not forget that only 40\% of articles are fake.
+%		\item[c.] The chance that this article is fake jumps from 40\% to roughly 98\%. Given that so few real articles use exclamation points, this article is most certainly fake.
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Goals}
+%	\begin{itemize}
+%		\item<2-> Explore foundational probability tools.
+%		\item<3-> Conduct your first formal Bayesian analysis.
+%	\end{itemize}
+%\end{frame}
+%
+%\section{Building a Bayesian model for events}
+%\begin{frame}{Prior Probability model}
+%	Letting $B$ denote the event that an article is fake and $B^c$ (read "$B$ complement" or "$B$ not") denote the event that it's not fake, we have
+%	\begin{equation*}
+%		\onslide<2->{P(B) = 0.40 \text{ and }P(B^c) = 0.60.} 
+%	\end{equation*}	
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics<3->[scale=.5]{images/prior-model}
+%\end{figure}
+%\end{frame}
+%
+%\begin{frame}{Conditional Probability \& Likelihood}
+%	The following conditional probabilities of exclamation point usage ($A$) given an article's fake status ($B$ or $B^c$) are:
+%	\begin{equation*}
+%		\onslide<2->{P(A \mid B ) = 0.2667 \text{ and }P(A \mid B^c) = 0.0222.} 
+%	\end{equation*}
+%	
+%	\onslide<3->{$\bm{P(A \mid B)}$ vs $\bm{P(A)}$:} \\
+%	\onslide<4->{For example, if somebody practices the clarinet every day, then their probability of joining an orchestra's clarinet section is higher than that among the general population:} 
+%	\begin{equation*}
+%		\onslide<5->{P(\text{orchestra} \mid \text{practice}) > P(\text{orchestra})} 
+%	\end{equation*}	
+%	\onslide<6->{Conversely, the certainty of an event might decrease in light of new data. For example, if you're a fastidious hand washer, then you're less likely to get the flu:}
+%	\begin{equation*}
+%	\onslide<7->{P(\text{flu} \mid \text{wash hands}) < P(\text{flu}). } 
+%	\end{equation*}		
+%\end{frame}
+%
+%\begin{frame}{Joint Probability of Both $A$ and $B$}
+%	\onslide<2->{Articles that are fake \textit{and} use exclamation points, denoted $A^c \cap B$.} \\
+%	\onslide<3->{To determine the probabilities of these joint events, we already have}
+%	\begin{equation*}
+%		\onslide<4->{P(B) = 0.4 \text{ and }P(A \mid B) = 0.2667.} 
+%	\end{equation*}
+%	\onslide<5->{Jadi,}
+%	\begin{equation*}
+%	\onslide<6->{P(A \cap B) = P(A \mid B) P(B) = 0.2667 \cdot 0.4 = 0.1067.} 
+%	\end{equation*}
+%	\onslide<7->{We also have}
+%	\begin{equation*}
+%		\onslide<8->{P(A^c \mid B) = 1 - P(A \mid B) = 1 - 0.2667 = 0.7333} 
+%	\end{equation*}
+%	\onslide<9->{Jadi,}
+%	\begin{equation*}
+%		\onslide<10->{P(A^c \cap B) = P(A^c \mid B) P(B) = 0.7333 \cdot 0.4 = 0.2933.} 
+%	\end{equation*}
+%\end{frame}
+%
+%\begin{frame}{Total Probability of Observing Articles}
+%	In summary, the \textbf{total probability} of observing a fake article is the sum of its parts:
+%	\begin{equation*}
+%		\onslide<2->{P(B) = P(A \cap B) + P(A^c \cap B) = 0.1067 + 0.2933 = 0.4.}
+%	\end{equation*}
+%	\onslide<3->{Dengan cara yang sama,}
+%	\begin{align*}
+%	\onslide<4->{P(A \cap B^c)   &= P(A \mid B^c) P(B^c) = 0.0222 \cdot 0.6 = 0.0133} \\
+%	\onslide<5->{P(A^c \cap B^c) &= P(A^c \mid B^c) P(B^c) = 0.9778 \cdot 0.6 = 0.5867.} \\
+%	\end{align*}	
+%	\onslide<6->{Jadi, total probability untuk mengamati artikel yang real adalah}
+%	\begin{equation*}
+%		\onslide<7->{P(B^c) = P(A \cap B^c) + P(A^c \cap B^c) = 0.0133 + 0.5867 = 0.6.}
+%	\end{equation*}
+%\end{frame}
+%
+%\begin{frame}{Calculating Joint \& Conditional Probabilities}
+%	\begin{equation}
+%		P(A \cap B) = P(A \mid B) P(B).
+%		\label{eq:joint}
+%	\end{equation}
+%	\onslide<2->{Jika $A$ dan $B$ \textit{independent}, maka}
+%	\begin{equation*}
+%		\onslide<3->{P(A \cap B) = P(A) P(B)}.
+%	\end{equation*} 
+%	\onslide<4->{Dividing both sides of \eqref{eq:joint} by $P(B)$, and assuming $P(B) \neq 0$, reveals the definition of the conditional probability of $A$ given $B$:}
+%	\begin{equation*}
+%		\onslide<5->{P(A \mid B) = \frac{P(A \cap B)}{P(B)}.} 
+%	\end{equation*}
+%\end{frame}
+%
+%\begin{frame}{Bayes' Rule for Events}
+%	For events $A$ and $B$, the posterior probability of $B$ given $A$:
+%	\begin{equation*}
+%		\onslide<2->{P(B \mid A ) = \frac{P(A \cap B)}{P(A)} = \frac{P(B) P(A \mid B )}{P(A)}}
+%	\end{equation*}
+%	\onslide<3->{dengan} 
+%	\begin{equation*}
+%		\onslide<4->{P(A) = P(B) P(A \mid B) + P(B^c) P(A \mid B^c)}.
+%	\end{equation*}
+%	\onslide<5->{Lebih umumnya,}
+%	\begin{equation*}
+%		\onslide<6->{\text{posterior} = \frac{\text{prior} \cdot \text{likelihood}}{\text{normalizing constant}}.}
+%	\end{equation*}	
+%	\onslide<7->{Untuk kasus kita, posterior probability that the incoming article is fake:}
+%	\begin{equation*}
+%		\onslide<8->{P(B \mid A ) = \frac{P(B) P(A \mid B )}{P(A)} = \frac{0.4 \cdot 0.2667}{0.12} = 0.889.}
+%	\end{equation*}
+%\end{frame}
+
+% \setcounter{enumi}{4}
+%our_bayes_diagram
+
+
+
+
+
+
+
+%%%% predictive distribution
+
+
+ % \begin{frame}
+ %   \frametitle{Some other one parameter models}
+
+ %   \begin{itemize}
+ %   \item Poisson
+ %   \item Exponential
+ %   \item Cauchy
+ %   \end{itemize}
+   
+ % \end{frame}
+
+\begin{frame}[plain]
+	
+	\vspace*{1.5cm}
+	\centering\includegraphics[scale=1]{images/thank-you}	
+	hendra.bunyamin@it.maranatha.edu
+\end{frame}
+\end{document}
+
+%
+%\section<presentation>*{\appendixname}
+%\subsection<presentation>*{For Further Reading}
+%
+%\begin{frame}[allowframebreaks]
+%  \frametitle<presentation>{Daftar Pustaka}
+%    {\footnotesize
+%%    \bibliographystyle{apalike}
+%    \bibliography{references}
+%    }    
+%\end{frame}
+
+\end{document}
+
+%%% Local Variables: 
+%%% TeX-PDF-mode: t
+%%% TeX-master: t
+%%% End: 

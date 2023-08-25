@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 2020-slides-AI_for_everyone.aux
+The style file: apalike.bst
+Database file #1: references.bib
+Warning--empty publisher in molnar2019
+You've used 7 entries,
+            1935 wiz_defined-function locations,
+            506 strings with 4796 characters,
+and the built_in function-call counts, 1980 in all, are:
+= -- 192
+> -- 65
+< -- 6
++ -- 22
+- -- 20
+* -- 130
+:= -- 383
+add.period$ -- 24
+call.type$ -- 7
+change.case$ -- 42
+chr.to.int$ -- 7
+cite$ -- 8
+duplicate$ -- 85
+empty$ -- 135
+format.name$ -- 27
+if$ -- 371
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 41
+num.names$ -- 21
+pop$ -- 39
+preamble$ -- 1
+purify$ -- 45
+quote$ -- 0
+skip$ -- 68
+stack$ -- 0
+substring$ -- 86
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 1
+while$ -- 14
+width$ -- 0
+write$ -- 92
+(There was 1 warning)

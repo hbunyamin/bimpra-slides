@@ -1,0 +1,2201 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.28)  4 DEC 2021 14:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**2020-slides-AI_for_everyone.tex
+(./2020-slides-AI_for_everyone.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-24>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2020/07/22 v3.59 A class for typesetting presentations
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count168
+)
+\beamer@tempbox=\box45
+\beamer@tempcount=\count169
+\c@beamerpauses=\count170
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count171
+\beamer@minimum=\count172
+\beamer@decode@box=\box46
+)
+\beamer@commentbox=\box47
+\beamer@modecount=\count173
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\headdp=\dimen134
+\footheight=\dimen135
+\sidebarheight=\dimen136
+\beamer@tempdim=\dimen137
+\beamer@finalheight=\dimen138
+\beamer@animht=\dimen139
+\beamer@animdp=\dimen140
+\beamer@animwd=\dimen141
+\beamer@leftmargin=\dimen142
+\beamer@rightmargin=\dimen143
+\beamer@leftsidebar=\dimen144
+\beamer@rightsidebar=\dimen145
+\beamer@boxsize=\dimen146
+\beamer@vboxoffset=\dimen147
+\beamer@descdefault=\dimen148
+\beamer@descriptionwidth=\dimen149
+\beamer@lastskip=\skip47
+\beamer@areabox=\box48
+\beamer@animcurrent=\box49
+\beamer@animshowbox=\box50
+\beamer@sectionbox=\box51
+\beamer@logobox=\box52
+\beamer@linebox=\box53
+\beamer@sectioncount=\count174
+\beamer@subsubsectionmax=\count175
+\beamer@subsectionmax=\count176
+\beamer@sectionmax=\count177
+\beamer@totalheads=\count178
+\beamer@headcounter=\count179
+\beamer@partstartpage=\count180
+\beamer@sectionstartpage=\count181
+\beamer@subsectionstartpage=\count182
+\beamer@animationtempa=\count183
+\beamer@animationtempb=\count184
+\beamer@xpos=\count185
+\beamer@ypos=\count186
+\beamer@ypos@offset=\count187
+\beamer@showpartnumber=\count188
+\beamer@currentsubsection=\count189
+\beamer@coveringdepth=\count190
+\beamer@sectionadjust=\count191
+\beamer@tocsectionnumber=\count192
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box54
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count266
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count269
+\pgfmath@box=\box55
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count270
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count271
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen191
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen195
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box59
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count274
+\XC@countmixins=\count275
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+Package hyperref Info: Option `bookmarks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4338.
+Package hyperref Info: Option `implicit' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count279
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen198
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+\Hy@abspage=\count281
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/07/22 v3.31 KOMA-Script package (loading files)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count284
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count285
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count286
+\c@part=\count287
+\c@section=\count288
+\c@subsection=\count289
+\c@subsubsection=\count290
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box60
+\beamer@frametitlebox=\box61
+\beamer@zoombox=\box62
+\beamer@zoomcount=\count291
+\beamer@zoomframecount=\count292
+\beamer@frametextheight=\dimen257
+\c@subsectionslide=\count293
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks28
+\framewidth=\dimen258
+\c@framenumber=\count294
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box63
+\beamer@autobreakcount=\count295
+\beamer@autobreaklastheight=\dimen259
+\beamer@frametitletoks=\toks29
+\beamer@framesubtitletoks=\toks30
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+\beamer@footins=\box64
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box65
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks31
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box66
+\bmb@colorbox=\box67
+\bmb@boxshadow=\box68
+\bmb@boxshadowball=\box69
+\bmb@boxshadowballlarge=\box70
+\bmb@temp=\dimen260
+\bmb@dima=\dimen261
+\bmb@dimb=\dimen262
+\bmb@prevheight=\dimen263
+)
+\beamer@blockheadheight=\dimen264
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
+)
+\c@figure=\count296
+\c@table=\count297
+\abovecaptionskip=\skip55
+\belowcaptionskip=\skip56
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen265
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen266
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+\big@size=\dimen268
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count303
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip17
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks34
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks35
+\eqnshift@=\dimen269
+\alignsep@=\dimen270
+\tagshift@=\dimen271
+\tagwidth@=\dimen272
+\totwidth@=\dimen273
+\lineht@=\dimen274
+\@envbody=\toks36
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip60
+\thm@postskip=\skip61
+\thm@headsep=\skip62
+\dth@everypar=\toks43
+)
+\c@theorem=\count310
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemedefault.st
+y)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
+y
+\beamer@dima=\dimen275
+\beamer@dimb=\dimen276
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y))) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/09/12 v3.5b Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+\captionmargin=\dimen277
+\captionmargin@=\dimen278
+\captionwidth=\dimen279
+\caption@tempdima=\dimen280
+\caption@indent=\dimen281
+\caption@parindent=\dimen282
+\caption@hangindent=\dimen283
+Package caption Info: beamer document class detected.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ beamer document classes (AR)
+))
+\c@caption@flags=\count311
+\c@continuedfloat=\count312
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip63
+\bibsep=\skip64
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count313
+)
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 8.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count314
+\calc@Bcount=\count315
+\calc@Adimen=\dimen284
+\calc@Bdimen=\dimen285
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count316
+\calc@Cskip=\skip67
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count317
+\l_MT_multwidth_dim=\dimen286
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen287
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen288
+\l_MT_above_intertext_sep=\dimen289
+\l_MT_below_intertext_sep=\dimen290
+\l_MT_above_shortintertext_sep=\dimen291
+\l_MT_below_shortintertext_sep=\dimen292
+\xmathstrut@box=\box73
+\xmathstrut@dim=\dimen293
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks44
+\SOUL@lasttoken=\toks45
+\SOUL@cmds=\toks46
+\SOUL@buffer=\toks47
+\SOUL@token=\toks48
+\SOUL@spaceskip=\skip69
+\SOUL@ttwidth=\dimen294
+\SOUL@uldp=\dimen295
+\SOUL@ulht=\dimen296
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count318
+\float@exts=\toks49
+\float@box=\box74
+\@float@everytoks=\toks50
+\@floatcapt=\box75
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks51
+\c@algorithm=\count319
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count320
+\c@ALG@rem=\count321
+\c@ALG@nested=\count322
+\ALG@tlm=\skip70
+\ALG@thistlm=\skip71
+\c@ALG@Lnr=\count323
+\c@ALG@blocknr=\count324
+\c@ALG@storecount=\count325
+\c@ALG@tmpcounter=\count326
+\ALG@tmplength=\skip72
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
+y)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.
+sty)) (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/09/01 3.48 The Babel package
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/09/01 3.48 Babel common definitions
+\babel@savecnt=\count327
+\U@D=\dimen297
+\l@babelnohyphens=\language86
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+)
+LaTeX Info: Redefining \textlatin on input line 680.
+\bbl@dirlevel=\count328
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks52
+\inpenc@posthook=\toks53
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/empheq.sty
+Package: empheq 2017/03/31 v2.15 Emphasizing equations
+\l_EQ_equationtype_int=\count329
+\l_EQ_alignmentmode_int=\count330
+\l_EQ_totalwidth_dim=\dimen298
+\l_EQ_displaywidth_dim=\dimen299
+\l_EQ_temp_linewidth_dim=\dimen300
+\l_EQ_linewidth_dim=\dimen301
+\EmphEqdelimitershortfall=\dimen302
+\EmphEqdelimiterfactor=\count331
+\g_EQ_toptag_height_dim=\dimen303
+\g_EQ_bottomtag_depth_dim=\dimen304
+\g_EQ_toprow_height_dim=\dimen305
+\g_EQ_bottomrow_depth_dim=\dimen306
+\g_EQ_widesttag_dim=\dimen307
+\EQ_mathdisplay_box=\box76
+\EQ_tag_box=\box77
+\g_EQ_temprow_int=\count332
+)
+\mytemplen=\skip73
+\mytempbox=\box78
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\footnote' on input line 207.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count333
+\l__pdf_internal_box=\box79
+)
+(./2020-slides-AI_for_everyone.aux)
+\openout1 = `2020-slides-AI_for_everyone.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count334
+\scratchdimen=\dimen308
+\scratchbox=\box80
+\nofMPsegments=\count335
+\nofMParguments=\count336
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count337
+\MPscratchDim=\dimen309
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
+\everyMPtoPDFconversion=\toks55
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box81
+Package hyperref Info: Link coloring OFF on input line 207.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count340
+)
+LaTeX Info: Redefining \ref on input line 207.
+LaTeX Info: Redefining \pageref on input line 207.
+LaTeX Info: Redefining \nameref on input line 207.
+ (./2020-slides-AI_for_everyone.out) (./2020-slides-AI_for_everyone.out)
+\@outlinefile=\write5
+\openout5 = `2020-slides-AI_for_everyone.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 207.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 207.
+\symnumbers=\mathgroup12
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 207.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `pureletters' in the math version `normal' on input line 20
+7.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/m/sl --> T1/phv/m/it on input line 207
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `pureletters' in the math version `bold' on input line 207.
+
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/m/it on input line 20
+7.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 207.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 207.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> T1/ptm/b/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 207.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 207
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `boldpureletters' in the math version `normal' on input lin
+e 207.
+LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `norma
+l'
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/bx/it on input line 2
+07.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `boldpureletters' in the math version `bold' on input line 
+207.
+LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
+
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/phv/bx/it on input line 2
+07.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (./2020-slides-AI_for_everyone.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 211
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 211
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <8> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <8> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <6> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <6> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 211.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 21
+1.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <9> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <9> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 211.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 211.
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo-
+mcu.jpeg>]
+(./2020-slides-AI_for_everyone.toc) [2
+
+] (./2020-slides-AI_for_everyone.toc)
+[3
+
+]
+<AI-value-creation.png, id=196, 1442.38875pt x 442.65375pt>
+File: AI-value-creation.png Graphic file (type png)
+<use AI-value-creation.png>
+Package pdftex.def Info: AI-value-creation.png  used on input line 251.
+(pdftex.def)             Requested size: 324.54547pt x 99.59953pt.
+ [4
+
+ <./AI-value-creation.png>] [5
+
+] [6
+
+]
+<ex-machina.jpg, id=292, 676.5275pt x 1003.75pt>
+File: ex-machina.jpg Graphic file (type jpg)
+<use ex-machina.jpg>
+Package pdftex.def Info: ex-machina.jpg  used on input line 265.
+(pdftex.def)             Requested size: 84.56572pt x 125.46844pt.
+<upgrade.jpg, id=293, 676.5275pt x 1003.75pt>
+File: upgrade.jpg Graphic file (type jpg)
+<use upgrade.jpg>
+Package pdftex.def Info: upgrade.jpg  used on input line 265.
+(pdftex.def)             Requested size: 84.56572pt x 125.46844pt.
+ [7
+
+ <./ex-machina.jpg> <./upgrade.jpg>] (./2020-slides-AI_for_everyone.toc) [8
+
+]
+<diagram-venn-deep-learning.png, id=360, 604.2575pt x 425.59pt>
+File: diagram-venn-deep-learning.png Graphic file (type png)
+<use diagram-venn-deep-learning.png>
+Package pdftex.def Info: diagram-venn-deep-learning.png  used on input line 274
+.
+(pdftex.def)             Requested size: 271.91336pt x 191.51372pt.
+ [9
+
+ <./diagram-venn-deep-learning.png (PNG copy)>] [10
+
+] [11
+
+] [12
+
+]
+<images/programming-with-without-ml.png, id=482, 1325.95375pt x 669.50125pt>
+File: images/programming-with-without-ml.png Graphic file (type png)
+<use images/programming-with-without-ml.png>
+Package pdftex.def Info: images/programming-with-without-ml.png  used on input 
+line 286.
+(pdftex.def)             Requested size: 238.66138pt x 120.50502pt.
+ [13
+
+ <./images/programming-with-without-ml.png>]
+[14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
+
+] [19
+
+]
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 315.
+ [20
+
+] [21
+
+] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+] [28
+
+]
+Overfull \hbox (9.87114pt too wide) in paragraph at lines 355--355
+ [] 
+ []
+
+[29
+
+]
+Overfull \hbox (9.87114pt too wide) in paragraph at lines 355--355
+ [] 
+ []
+
+[30
+
+]
+Overfull \hbox (9.87114pt too wide) in paragraph at lines 355--355
+ [] 
+ []
+
+[31
+
+]
+Overfull \hbox (9.87114pt too wide) in paragraph at lines 355--355
+ [] 
+ []
+
+[32
+
+]
+Overfull \hbox (9.87114pt too wide) in paragraph at lines 355--355
+ [] 
+ []
+
+[33
+
+]
+Overfull \hbox (9.87114pt too wide) in paragraph at lines 355--355
+ [] 
+ []
+
+[34
+
+]
+Overfull \hbox (9.87114pt too wide) in paragraph at lines 355--355
+ [] 
+ []
+
+[35
+
+]
+<big-data.png, id=1154, 1247.66125pt x 558.085pt>
+File: big-data.png Graphic file (type png)
+<use big-data.png>
+Package pdftex.def Info: big-data.png  used on input line 364.
+(pdftex.def)             Requested size: 311.91455pt x 139.5209pt.
+ [36
+
+ <./big-data.png>] (./2020-slides-AI_for_everyone.toc) [37
+
+]
+<example-dataset-2.png, id=1224, 634.37pt x 514.92375pt>
+File: example-dataset-2.png Graphic file (type png)
+<use example-dataset-2.png>
+Package pdftex.def Info: example-dataset-2.png  used on input line 374.
+(pdftex.def)             Requested size: 190.31245pt x 154.4783pt.
+ [38
+
+ <./example-dataset-2.png>]
+<example-dataset-1.png, id=1257, 627.34375pt x 510.90875pt>
+File: example-dataset-1.png Graphic file (type png)
+<use example-dataset-1.png>
+Package pdftex.def Info: example-dataset-1.png  used on input line 384.
+(pdftex.def)             Requested size: 188.20457pt x 153.2738pt.
+ [39
+
+ <./example-dataset-1.png>]
+<example-dataset-3.png, id=1289, 369.38pt x 537.00626pt>
+File: example-dataset-3.png Graphic file (type png)
+<use example-dataset-3.png>
+Package pdftex.def Info: example-dataset-3.png  used on input line 393.
+(pdftex.def)             Requested size: 110.81485pt x 161.10312pt.
+ [40
+
+ <./example-dataset-3.png>]
+<manual-labeling.png, id=1321, 1000.73875pt x 124.465pt>
+File: manual-labeling.png Graphic file (type png)
+<use manual-labeling.png>
+Package pdftex.def Info: manual-labeling.png  used on input line 407.
+(pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
+<observing-behaviors.png, id=1322, 835.12pt x 194.7275pt>
+File: observing-behaviors.png Graphic file (type png)
+<use observing-behaviors.png>
+Package pdftex.def Info: observing-behaviors.png  used on input line 407.
+(pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
+ [41
+
+ <./manual-labeling.png> <./observing-behaviors.png>]
+File: manual-labeling.png Graphic file (type png)
+<use manual-labeling.png>
+Package pdftex.def Info: manual-labeling.png  used on input line 407.
+(pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
+File: observing-behaviors.png Graphic file (type png)
+<use observing-behaviors.png>
+Package pdftex.def Info: observing-behaviors.png  used on input line 407.
+(pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
+ [42
+
+]
+File: manual-labeling.png Graphic file (type png)
+<use manual-labeling.png>
+Package pdftex.def Info: manual-labeling.png  used on input line 407.
+(pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
+File: observing-behaviors.png Graphic file (type png)
+<use observing-behaviors.png>
+Package pdftex.def Info: observing-behaviors.png  used on input line 407.
+(pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
+ [43
+
+]
+File: manual-labeling.png Graphic file (type png)
+<use manual-labeling.png>
+Package pdftex.def Info: manual-labeling.png  used on input line 407.
+(pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
+File: observing-behaviors.png Graphic file (type png)
+<use observing-behaviors.png>
+Package pdftex.def Info: observing-behaviors.png  used on input line 407.
+(pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
+ [44
+
+]
+<data-problems.png, id=1439, 639.38875pt x 350.30875pt>
+File: data-problems.png Graphic file (type png)
+<use data-problems.png>
+Package pdftex.def Info: data-problems.png  used on input line 419.
+(pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
+
+[45
+
+ <./data-problems.png>]
+File: data-problems.png Graphic file (type png)
+<use data-problems.png>
+Package pdftex.def Info: data-problems.png  used on input line 419.
+(pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
+ [46
+
+]
+File: data-problems.png Graphic file (type png)
+<use data-problems.png>
+Package pdftex.def Info: data-problems.png  used on input line 419.
+(pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
+ [47
+
+]
+File: data-problems.png Graphic file (type png)
+<use data-problems.png>
+Package pdftex.def Info: data-problems.png  used on input line 419.
+(pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
+ [48
+
+] (./2020-slides-AI_for_everyone.toc)
+[49
+
+]
+<ml-vs-ds.png, id=1592, 1022.82124pt x 420.57124pt>
+File: ml-vs-ds.png Graphic file (type png)
+<use ml-vs-ds.png>
+Package pdftex.def Info: ml-vs-ds.png  used on input line 437.
+(pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
+ [50
+
+ <./ml-vs-ds.png>]
+File: ml-vs-ds.png Graphic file (type png)
+<use ml-vs-ds.png>
+Package pdftex.def Info: ml-vs-ds.png  used on input line 437.
+(pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
+ [51
+
+]
+File: ml-vs-ds.png Graphic file (type png)
+<use ml-vs-ds.png>
+Package pdftex.def Info: ml-vs-ds.png  used on input line 437.
+(pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
+ [52
+
+] [53
+
+] [54
+
+] [55
+
+]
+(./2020-slides-AI_for_everyone.toc) [56
+
+]
+File: diagram-venn-deep-learning.png Graphic file (type png)
+<use diagram-venn-deep-learning.png>
+Package pdftex.def Info: diagram-venn-deep-learning.png  used on input line 462
+.
+(pdftex.def)             Requested size: 271.91336pt x 191.51372pt.
+ [57
+
+]
+File: ml-vs-ds.png Graphic file (type png)
+<use ml-vs-ds.png>
+Package pdftex.def Info: ml-vs-ds.png  used on input line 470.
+(pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
+ [58
+
+]
+<deep-learning.png, id=1862, 1201.48875pt x 538.01pt>
+File: deep-learning.png Graphic file (type png)
+<use deep-learning.png>
+Package pdftex.def Info: deep-learning.png  used on input line 476.
+(pdftex.def)             Requested size: 330.40126pt x 147.9491pt.
+ [59
+
+ <./deep-learning.png>]
+<deep-learning-2.png, id=1892, 1411.2725pt x 700.6175pt>
+File: deep-learning-2.png Graphic file (type png)
+<use deep-learning-2.png>
+Package pdftex.def Info: deep-learning-2.png  used on input line 482.
+(pdftex.def)             Requested size: 338.71233pt x 168.15163pt.
+
+[60
+
+ <./deep-learning-2.png>] (./2020-slides-AI_for_everyone.toc) [61
+
+]
+<demand-prediction.png, id=1960, 760.8425pt x 559.08875pt>
+File: demand-prediction.png Graphic file (type png)
+<use demand-prediction.png>
+Package pdftex.def Info: demand-prediction.png  used on input line 496.
+(pdftex.def)             Requested size: 171.19379pt x 125.79807pt.
+<t-shirt.jpg, id=1961, 617.30624pt x 616.3025pt>
+File: t-shirt.jpg Graphic file (type jpg)
+<use t-shirt.jpg>
+Package pdftex.def Info: t-shirt.jpg  used on input line 496.
+(pdftex.def)             Requested size: 138.89732pt x 138.67148pt.
+
+Overfull \hbox (1.9813pt too wide) in paragraph at lines 496--496
+[][]  
+ []
+
+[62
+
+ <./demand-prediction.png> <./t-shirt.jpg>]
+<demand-prediction-line.png, id=1992, 1394.20876pt x 561.09625pt>
+File: demand-prediction-line.png Graphic file (type png)
+<use demand-prediction-line.png>
+Package pdftex.def Info: demand-prediction-line.png  used on input line 501.
+(pdftex.def)             Requested size: 313.70471pt x 126.24977pt.
+ [63
+
+ <./demand-prediction-line.png>]
+<demand-prediction-nn-0.png, id=2022, 1148.29pt x 503.8825pt>
+File: demand-prediction-nn-0.png Graphic file (type png)
+<use demand-prediction-nn-0.png>
+Package pdftex.def Info: demand-prediction-nn-0.png  used on input line 506.
+(pdftex.def)             Requested size: 315.77196pt x 138.56427pt.
+ [64
+
+ <./demand-prediction-nn-0.png>]
+<demand-prediction-nn.png, id=2052, 1148.29pt x 503.8825pt>
+File: demand-prediction-nn.png Graphic file (type png)
+<use demand-prediction-nn.png>
+Package pdftex.def Info: demand-prediction-nn.png  used on input line 511.
+(pdftex.def)             Requested size: 315.77196pt x 138.56427pt.
+ [65
+
+ <./demand-prediction-nn.png>]
+<demand-prediction-nn-2.png, id=2082, 1214.5375pt x 613.29124pt>
+File: demand-prediction-nn-2.png Graphic file (type png)
+<use demand-prediction-nn-2.png>
+Package pdftex.def Info: demand-prediction-nn-2.png  used on input line 518.
+(pdftex.def)             Requested size: 333.98958pt x 168.65092pt.
+
+[66
+
+ <./demand-prediction-nn-2.png>]
+<demand-prediction-nn-3.png, id=2113, 1216.545pt x 602.25pt>
+File: demand-prediction-nn-3.png Graphic file (type png)
+<use demand-prediction-nn-3.png>
+Package pdftex.def Info: demand-prediction-nn-3.png  used on input line 523.
+(pdftex.def)             Requested size: 334.54163pt x 165.61465pt.
+ [67
+
+ <./demand-prediction-nn-3.png>]
+<face-recognition-intro.png, id=2144, 1359.0775pt x 654.445pt>
+File: face-recognition-intro.png Graphic file (type png)
+<use face-recognition-intro.png>
+Package pdftex.def Info: face-recognition-intro.png  used on input line 533.
+(pdftex.def)             Requested size: 339.76854pt x 163.61084pt.
+
+[68
+
+ <./face-recognition-intro.png>]
+<face-recognition-intro-2.png, id=2175, 1289.81876pt x 623.32875pt>
+File: face-recognition-intro-2.png Graphic file (type png)
+<use face-recognition-intro-2.png>
+Package pdftex.def Info: face-recognition-intro-2.png  used on input line 538.
+(pdftex.def)             Requested size: 322.4539pt x 155.8318pt.
+ [69
+
+ <./face-recognition-intro-2.png>]
+<face-recognition-intro-3.png, id=2205, 1488.56125pt x 652.4375pt>
+File: face-recognition-intro-3.png Graphic file (type png)
+<use face-recognition-intro-3.png>
+Package pdftex.def Info: face-recognition-intro-3.png  used on input line 543.
+(pdftex.def)             Requested size: 334.93454pt x 146.80205pt.
+
+[70
+
+ <./face-recognition-intro-3.png>] [71
+
+] (./2020-slides-AI_for_everyone.toc)
+[72
+
+]
+<what-ML-can-do.png, id=2304, 945.5325pt x 459.7175pt>
+File: what-ML-can-do.png Graphic file (type png)
+<use what-ML-can-do.png>
+Package pdftex.def Info: what-ML-can-do.png  used on input line 558.
+(pdftex.def)             Requested size: 283.66194pt x 137.9163pt.
+ [73
+
+ <./what-ML-can-do.png>]
+File: what-ML-can-do.png Graphic file (type png)
+<use what-ML-can-do.png>
+Package pdftex.def Info: what-ML-can-do.png  used on input line 558.
+(pdftex.def)             Requested size: 283.66194pt x 137.9163pt.
+ [74
+
+] [75
+
+] [76
+
+] [77
+
+] [78
+
+] [79
+
+] [80
+
+] [81
+
+]
+[82
+
+] [83
+
+] [84
+
+] [85
+
+] (./2020-slides-AI_for_everyone.toc) [86
+
+] [87
+
+]
+<kiri-can.png, id=2743, 566.115pt x 412.54124pt>
+File: kiri-can.png Graphic file (type png)
+<use kiri-can.png>
+Package pdftex.def Info: kiri-can.png  used on input line 643.
+(pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
+ [88
+
+ <./kiri-can.png>]
+File: kiri-can.png Graphic file (type png)
+<use kiri-can.png>
+Package pdftex.def Info: kiri-can.png  used on input line 643.
+(pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
+<kanan-can.png, id=2773, 745.78625pt x 481.8pt>
+File: kanan-can.png Graphic file (type png)
+<use kanan-can.png>
+Package pdftex.def Info: kanan-can.png  used on input line 643.
+(pdftex.def)             Requested size: 167.80605pt x 108.40767pt.
+ [89
+
+ <./kanan-can.png>]
+File: kiri-can.png Graphic file (type png)
+<use kiri-can.png>
+Package pdftex.def Info: kiri-can.png  used on input line 643.
+(pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
+File: kanan-can.png Graphic file (type png)
+<use kanan-can.png>
+Package pdftex.def Info: kanan-can.png  used on input line 643.
+(pdftex.def)             Requested size: 167.80605pt x 108.40767pt.
+ [90
+
+]
+File: kiri-can.png Graphic file (type png)
+<use kiri-can.png>
+Package pdftex.def Info: kiri-can.png  used on input line 643.
+(pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
+File: kanan-can.png Graphic file (type png)
+<use kanan-can.png>
+Package pdftex.def Info: kanan-can.png  used on input line 643.
+(pdftex.def)             Requested size: 167.80605pt x 108.40767pt.
+ [91
+
+]
+<x-ray.png, id=2861, 1410.26875pt x 254.9525pt>
+File: x-ray.png Graphic file (type png)
+<use x-ray.png>
+Package pdftex.def Info: x-ray.png  used on input line 657.
+(pdftex.def)             Requested size: 317.3183pt x 57.36572pt.
+ [92
+
+ <./x-ray.png>]
+File: x-ray.png Graphic file (type png)
+<use x-ray.png>
+Package pdftex.def Info: x-ray.png  used on input line 657.
+(pdftex.def)             Requested size: 317.3183pt x 57.36572pt.
+ [93
+
+]
+File: x-ray.png Graphic file (type png)
+<use x-ray.png>
+Package pdftex.def Info: x-ray.png  used on input line 657.
+(pdftex.def)             Requested size: 317.3183pt x 57.36572pt.
+ [94
+
+] [95
+
+]
+[96
+
+] [97
+
+] [98
+
+]
+<new-types-of-data.png, id=3059, 1169.36874pt x 231.86626pt>
+File: new-types-of-data.png Graphic file (type png)
+<use new-types-of-data.png>
+Package pdftex.def Info: new-types-of-data.png  used on input line 676.
+(pdftex.def)             Requested size: 321.56848pt x 63.76164pt.
+ [99
+
+ <./new-types-of-data.png>]
+(./2020-slides-AI_for_everyone.toc) [100
+
+]
+<image-classification.png, id=3127, 264.99pt x 143.53625pt>
+File: image-classification.png Graphic file (type png)
+<use image-classification.png>
+Package pdftex.def Info: image-classification.png  used on input line 693.
+(pdftex.def)             Requested size: 105.99411pt x 57.41347pt.
+ [101
+
+ <./image-classification.png>]
+File: image-classification.png Graphic file (type png)
+<use image-classification.png>
+Package pdftex.def Info: image-classification.png  used on input line 693.
+(pdftex.def)             Requested size: 105.99411pt x 57.41347pt.
+<face-recognition.png, id=3158, 742.775pt x 137.51375pt>
+File: face-recognition.png Graphic file (type png)
+<use face-recognition.png>
+Package pdftex.def Info: face-recognition.png  used on input line 693.
+(pdftex.def)             Requested size: 259.97514pt x 48.13052pt.
+
+[102
+
+ <./face-recognition.png>]
+<object-detection-1.png, id=3191, 284.06125pt x 180.675pt>
+File: object-detection-1.png Graphic file (type png)
+<use object-detection-1.png>
+Package pdftex.def Info: object-detection-1.png  used on input line 704.
+(pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
+ [103
+
+ <./object-detection-1.png>]
+File: object-detection-1.png Graphic file (type png)
+<use object-detection-1.png>
+Package pdftex.def Info: object-detection-1.png  used on input line 704.
+(pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
+<object-detection-2.png, id=3221, 283.0575pt x 181.67876pt>
+File: object-detection-2.png Graphic file (type png)
+<use object-detection-2.png>
+Package pdftex.def Info: object-detection-2.png  used on input line 704.
+(pdftex.def)             Requested size: 113.22098pt x 72.6702pt.
+ [104
+
+ <./object-detection-2.png>]
+File: object-detection-1.png Graphic file (type png)
+<use object-detection-1.png>
+Package pdftex.def Info: object-detection-1.png  used on input line 704.
+(pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
+File: object-detection-2.png Graphic file (type png)
+<use object-detection-2.png>
+Package pdftex.def Info: object-detection-2.png  used on input line 704.
+(pdftex.def)             Requested size: 113.22098pt x 72.6702pt.
+<object-detection-3.png, id=3250, 238.8925pt x 183.68625pt>
+File: object-detection-3.png Graphic file (type png)
+<use object-detection-3.png>
+Package pdftex.def Info: object-detection-3.png  used on input line 704.
+(pdftex.def)             Requested size: 95.5553pt x 73.47318pt.
+ [105
+
+ <./object-detection-3.png>]
+File: object-detection-1.png Graphic file (type png)
+<use object-detection-1.png>
+Package pdftex.def Info: object-detection-1.png  used on input line 717.
+(pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
+<tracking.png, id=3283, 227.85126pt x 178.6675pt>
+File: tracking.png Graphic file (type png)
+<use tracking.png>
+Package pdftex.def Info: tracking.png  used on input line 717.
+(pdftex.def)             Requested size: 91.13889pt x 71.46573pt.
+ [106
+
+ <./tracking.png>]
+File: object-detection-1.png Graphic file (type png)
+<use object-detection-1.png>
+Package pdftex.def Info: object-detection-1.png  used on input line 717.
+(pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
+<image-segmentation.png, id=3312, 286.06876pt x 182.6825pt>
+File: image-segmentation.png Graphic file (type png)
+<use image-segmentation.png>
+Package pdftex.def Info: image-segmentation.png  used on input line 717.
+(pdftex.def)             Requested size: 114.42546pt x 73.07169pt.
+File: tracking.png Graphic file (type png)
+<use tracking.png>
+Package pdftex.def Info: tracking.png  used on input line 717.
+(pdftex.def)             Requested size: 91.13889pt x 71.46573pt.
+
+[107
+
+ <./image-segmentation.png>]
+File: object-detection-1.png Graphic file (type png)
+<use object-detection-1.png>
+Package pdftex.def Info: object-detection-1.png  used on input line 717.
+(pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
+File: image-segmentation.png Graphic file (type png)
+<use image-segmentation.png>
+Package pdftex.def Info: image-segmentation.png  used on input line 717.
+(pdftex.def)             Requested size: 114.42546pt x 73.07169pt.
+File: tracking.png Graphic file (type png)
+<use tracking.png>
+Package pdftex.def Info: tracking.png  used on input line 717.
+(pdftex.def)             Requested size: 91.13889pt x 71.46573pt.
+ [108
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 745.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 745.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 745.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 745.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 745.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 745.
+<four-stars.png, id=3371, 234.8775pt x 63.23625pt>
+File: four-stars.png Graphic file (type png)
+<use four-stars.png>
+Package pdftex.def Info: four-stars.png  used on input line 745.
+(pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
+<one-star.png, id=3372, 54.2025pt x 59.22125pt>
+File: one-star.png Graphic file (type png)
+<use one-star.png>
+Package pdftex.def Info: one-star.png  used on input line 745.
+(pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
+ [109
+
+ <./four-stars.png> <./one-star.png>]
+File: four-stars.png Graphic file (type png)
+<use four-stars.png>
+Package pdftex.def Info: four-stars.png  used on input line 745.
+(pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
+File: one-star.png Graphic file (type png)
+<use one-star.png>
+Package pdftex.def Info: one-star.png  used on input line 745.
+(pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
+ [110
+
+]
+File: four-stars.png Graphic file (type png)
+<use four-stars.png>
+Package pdftex.def Info: four-stars.png  used on input line 745.
+(pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
+File: one-star.png Graphic file (type png)
+<use one-star.png>
+Package pdftex.def Info: one-star.png  used on input line 745.
+(pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
+ [111
+
+]
+File: four-stars.png Graphic file (type png)
+<use four-stars.png>
+Package pdftex.def Info: four-stars.png  used on input line 745.
+(pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
+File: one-star.png Graphic file (type png)
+<use one-star.png>
+Package pdftex.def Info: one-star.png  used on input line 745.
+(pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
+ [112
+
+]
+File: four-stars.png Graphic file (type png)
+<use four-stars.png>
+Package pdftex.def Info: four-stars.png  used on input line 745.
+(pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
+File: one-star.png Graphic file (type png)
+<use one-star.png>
+Package pdftex.def Info: one-star.png  used on input line 745.
+(pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
+ [113
+
+]
+File: four-stars.png Graphic file (type png)
+<use four-stars.png>
+Package pdftex.def Info: four-stars.png  used on input line 745.
+(pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
+File: one-star.png Graphic file (type png)
+<use one-star.png>
+Package pdftex.def Info: one-star.png  used on input line 745.
+(pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
+ [114
+
+]
+<ner.png, id=3546, 494.84875pt x 172.645pt>
+File: ner.png Graphic file (type png)
+<use ner.png>
+Package pdftex.def Info: ner.png  used on input line 757.
+(pdftex.def)             Requested size: 123.71188pt x 43.16113pt.
+ [115
+
+ <./ner.png>]
+File: ner.png Graphic file (type png)
+<use ner.png>
+Package pdftex.def Info: ner.png  used on input line 757.
+(pdftex.def)             Requested size: 123.71188pt x 43.16113pt.
+<ner-2.png, id=3577, 505.89pt x 181.67876pt>
+File: ner-2.png Graphic file (type png)
+<use ner-2.png>
+Package pdftex.def Info: ner-2.png  used on input line 757.
+(pdftex.def)             Requested size: 126.47218pt x 45.41957pt.
+ [116
+
+ <./ner-2.png>]
+File: ner.png Graphic file (type png)
+<use ner.png>
+Package pdftex.def Info: ner.png  used on input line 757.
+(pdftex.def)             Requested size: 123.71188pt x 43.16113pt.
+File: ner-2.png Graphic file (type png)
+<use ner-2.png>
+Package pdftex.def Info: ner-2.png  used on input line 757.
+(pdftex.def)             Requested size: 126.47218pt x 45.41957pt.
+<ner-3.png, id=3607, 501.875pt x 183.68625pt>
+File: ner-3.png Graphic file (type png)
+<use ner-3.png>
+Package pdftex.def Info: ner-3.png  used on input line 757.
+(pdftex.def)             Requested size: 125.46843pt x 45.92143pt.
+ [117
+
+ <./ner-3.png>]
+File: ner.png Graphic file (type png)
+<use ner.png>
+Package pdftex.def Info: ner.png  used on input line 757.
+(pdftex.def)             Requested size: 123.71188pt x 43.16113pt.
+File: ner-2.png Graphic file (type png)
+<use ner-2.png>
+Package pdftex.def Info: ner-2.png  used on input line 757.
+(pdftex.def)             Requested size: 126.47218pt x 45.41957pt.
+File: ner-3.png Graphic file (type png)
+<use ner-3.png>
+Package pdftex.def Info: ner-3.png  used on input line 757.
+(pdftex.def)             Requested size: 125.46843pt x 45.92143pt.
+ [118
+
+]
+<parsing-1.png, id=3664, 1005.7575pt x 59.22125pt>
+File: parsing-1.png Graphic file (type png)
+<use parsing-1.png>
+Package pdftex.def Info: parsing-1.png  used on input line 766.
+(pdftex.def)             Requested size: 251.43875pt x 14.80527pt.
+ [119
+
+ <./parsing-1.png>]
+<parsing-2.png, id=3694, 1041.8925pt x 130.4875pt>
+File: parsing-2.png Graphic file (type png)
+<use parsing-2.png>
+Package pdftex.def Info: parsing-2.png  used on input line 775.
+(pdftex.def)             Requested size: 260.47249pt x 32.62178pt.
+ [120
+
+ <./parsing-2.png>]
+<parsing-3.png, id=3725, 1048.91875pt x 234.8775pt>
+File: parsing-3.png Graphic file (type png)
+<use parsing-3.png>
+Package pdftex.def Info: parsing-3.png  used on input line 784.
+(pdftex.def)             Requested size: 262.22903pt x 58.71922pt.
+ [121
+
+ <./parsing-3.png>]
+<parsing-4.png, id=3756, 1030.85126pt x 294.09875pt>
+File: parsing-4.png Graphic file (type png)
+<use parsing-4.png>
+Package pdftex.def Info: parsing-4.png  used on input line 793.
+(pdftex.def)             Requested size: 257.71217pt x 73.5245pt.
+ [122
+
+ <./parsing-4.png>]
+<parsing-5.png, id=3786, 1052.93375pt x 437.635pt>
+File: parsing-5.png Graphic file (type png)
+<use parsing-5.png>
+Package pdftex.def Info: parsing-5.png  used on input line 802.
+(pdftex.def)             Requested size: 263.23279pt x 109.40848pt.
+ [123
+
+ <./parsing-5.png>]
+<speech-1.png, id=3817, 933.4875pt x 270.00874pt>
+File: speech-1.png Graphic file (type png)
+<use speech-1.png>
+Package pdftex.def Info: speech-1.png  used on input line 814.
+(pdftex.def)             Requested size: 233.3713pt x 67.50201pt.
+<smart-speakers.png, id=3818, 1432.35126pt x 448.67625pt>
+File: smart-speakers.png Graphic file (type png)
+<use smart-speakers.png>
+Package pdftex.def Info: smart-speakers.png  used on input line 814.
+(pdftex.def)             Requested size: 286.46518pt x 89.73366pt.
+ [124
+
+ <./speech-1.png> <./smart-speakers.png>]
+File: speech-1.png Graphic file (type png)
+<use speech-1.png>
+Package pdftex.def Info: speech-1.png  used on input line 814.
+(pdftex.def)             Requested size: 233.3713pt x 67.50201pt.
+File: smart-speakers.png Graphic file (type png)
+<use smart-speakers.png>
+Package pdftex.def Info: smart-speakers.png  used on input line 814.
+(pdftex.def)             Requested size: 286.46518pt x 89.73366pt.
+ [125
+
+]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 82
+7.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [126
+
+] [127
+
+]
+<perception.png, id=3938, 742.775pt x 393.47pt>
+File: perception.png Graphic file (type png)
+<use perception.png>
+Package pdftex.def Info: perception.png  used on input line 839.
+(pdftex.def)             Requested size: 148.55237pt x 78.6926pt.
+<motion-planning.png, id=3939, 752.8125pt x 397.485pt>
+File: motion-planning.png Graphic file (type png)
+<use motion-planning.png>
+Package pdftex.def Info: motion-planning.png  used on input line 839.
+(pdftex.def)             Requested size: 188.20265pt x 99.371pt.
+
+[128
+
+ <./perception.png> <./motion-planning.png>]
+File: perception.png Graphic file (type png)
+<use perception.png>
+Package pdftex.def Info: perception.png  used on input line 839.
+(pdftex.def)             Requested size: 148.55237pt x 78.6926pt.
+<perception-2.png, id=3970, 747.79375pt x 398.48875pt>
+File: perception-2.png Graphic file (type png)
+<use perception-2.png>
+Package pdftex.def Info: perception-2.png  used on input line 839.
+(pdftex.def)             Requested size: 149.55609pt x 79.69633pt.
+File: motion-planning.png Graphic file (type png)
+<use motion-planning.png>
+Package pdftex.def Info: motion-planning.png  used on input line 839.
+(pdftex.def)             Requested size: 188.20265pt x 99.371pt.
+
+Overfull \vbox (0.37523pt too high) detected at line 839
+ []
+
+[129
+
+ <./perception-2.png>]
+File: perception.png Graphic file (type png)
+<use perception.png>
+Package pdftex.def Info: perception.png  used on input line 839.
+(pdftex.def)             Requested size: 148.55237pt x 78.6926pt.
+File: perception-2.png Graphic file (type png)
+<use perception-2.png>
+Package pdftex.def Info: perception-2.png  used on input line 839.
+(pdftex.def)             Requested size: 149.55609pt x 79.69633pt.
+File: motion-planning.png Graphic file (type png)
+<use motion-planning.png>
+Package pdftex.def Info: motion-planning.png  used on input line 839.
+(pdftex.def)             Requested size: 188.20265pt x 99.371pt.
+
+Overfull \vbox (0.37523pt too high) detected at line 839
+ []
+
+[130
+
+]
+File: perception.png Graphic file (type png)
+<use perception.png>
+Package pdftex.def Info: perception.png  used on input line 839.
+(pdftex.def)             Requested size: 148.55237pt x 78.6926pt.
+File: perception-2.png Graphic file (type png)
+<use perception-2.png>
+Package pdftex.def Info: perception-2.png  used on input line 839.
+(pdftex.def)             Requested size: 149.55609pt x 79.69633pt.
+File: motion-planning.png Graphic file (type png)
+<use motion-planning.png>
+Package pdftex.def Info: motion-planning.png  used on input line 839.
+(pdftex.def)             Requested size: 188.20265pt x 99.371pt.
+
+Overfull \vbox (0.37523pt too high) detected at line 839
+ []
+
+[131
+
+]
+<potato-chip-sales.png, id=4056, 505.89pt x 441.65pt>
+File: potato-chip-sales.png Graphic file (type png)
+<use potato-chip-sales.png>
+Package pdftex.def Info: potato-chip-sales.png  used on input line 847.
+(pdftex.def)             Requested size: 126.47218pt x 110.41222pt.
+ [132
+
+ <./potato-chip-sales.png>]
+File: potato-chip-sales.png Graphic file (type png)
+<use potato-chip-sales.png>
+Package pdftex.def Info: potato-chip-sales.png  used on input line 847.
+(pdftex.def)             Requested size: 126.47218pt x 110.41222pt.
+<potato-chip-sales-2.png, id=4085, 516.93124pt x 449.68pt>
+File: potato-chip-sales-2.png Graphic file (type png)
+<use potato-chip-sales-2.png>
+Package pdftex.def Info: potato-chip-sales-2.png  used on input line 847.
+(pdftex.def)             Requested size: 129.23248pt x 112.41972pt.
+ [133
+
+ <./potato-chip-sales-2.png>]
+<google-cats.png, id=4117, 486.81876pt x 425.59pt>
+File: google-cats.png Graphic file (type png)
+<use google-cats.png>
+Package pdftex.def Info: google-cats.png  used on input line 863.
+(pdftex.def)             Requested size: 121.70439pt x 106.39723pt.
+
+[134
+
+ <./google-cats.png>]
+File: google-cats.png Graphic file (type png)
+<use google-cats.png>
+Package pdftex.def Info: google-cats.png  used on input line 863.
+(pdftex.def)             Requested size: 121.70439pt x 106.39723pt.
+ [135
+
+]
+<transfer-learning.png, id=4175, 1511.6475pt x 357.335pt>
+File: transfer-learning.png Graphic file (type png)
+<use transfer-learning.png>
+Package pdftex.def Info: transfer-learning.png  used on input line 872.
+(pdftex.def)             Requested size: 340.12907pt x 80.40234pt.
+ [136
+
+ <./transfer-learning.png>]
+<reinforcement-learning.png, id=4205, 1017.8025pt x 498.86375pt>
+File: reinforcement-learning.png Graphic file (type png)
+<use reinforcement-learning.png>
+Package pdftex.def Info: reinforcement-learning.png  used on input line 879.
+(pdftex.def)             Requested size: 330.78189pt x 162.1288pt.
+ [137
+
+ <./reinforcement-learning.png>]
+<reinforcement-learning-2.png, id=4235, 616.3025pt x 422.57875pt>
+File: reinforcement-learning-2.png Graphic file (type png)
+<use reinforcement-learning-2.png>
+Package pdftex.def Info: reinforcement-learning-2.png  used on input line 886.
+(pdftex.def)             Requested size: 200.29593pt x 137.33646pt.
+ [138
+
+ <./reinforcement-learning-2.png>]
+<GANs.png, id=4266, 1251.67625pt x 321.2pt>
+File: GANs.png Graphic file (type png)
+<use GANs.png>
+Package pdftex.def Info: GANs.png  used on input line 895.
+(pdftex.def)             Requested size: 312.91829pt x 80.2998pt.
+ [139
+
+ <./GANs.png>]
+<leonardo-da-vinci.png, id=4299, 746.79pt x 478.78876pt>
+File: leonardo-da-vinci.png Graphic file (type png)
+<use leonardo-da-vinci.png>
+Package pdftex.def Info: leonardo-da-vinci.png  used on input line 902.
+(pdftex.def)             Requested size: 261.3804pt x 167.57857pt.
+[140
+
+ <./leonardo-da-vinci.png>]
+<ada-lovelace.png, id=4329, 786.94pt x 567.11874pt>
+File: ada-lovelace.png Graphic file (type png)
+<use ada-lovelace.png>
+Package pdftex.def Info: ada-lovelace.png  used on input line 908.
+(pdftex.def)             Requested size: 275.43312pt x 198.49452pt.
+ [141
+
+ <./ada-lovelace.png>]
+<knowledge-graph-1.png, id=4358, 517.935pt x 294.09875pt>
+File: knowledge-graph-1.png Graphic file (type png)
+<use knowledge-graph-1.png>
+Package pdftex.def Info: knowledge-graph-1.png  used on input line 914.
+(pdftex.def)             Requested size: 181.27995pt x 102.9361pt.
+ [142
+
+ <./knowledge-graph-1.png>]
+<knowledge-graph-2.png, id=4388, 512.91624pt x 284.06125pt>
+File: knowledge-graph-2.png Graphic file (type png)
+<use knowledge-graph-2.png>
+Package pdftex.def Info: knowledge-graph-2.png  used on input line 920.
+(pdftex.def)             Requested size: 179.52338pt x 99.42291pt.
+ [143
+
+ <./knowledge-graph-2.png>] (./2020-slides-AI_for_everyone.bbl) [144
+
+]
+<Logo-Maranatha-Untuk-Belakang-02.png, id=4450, 315.42844pt x 127.97812pt>
+File: Logo-Maranatha-Untuk-Belakang-02.png Graphic file (type png)
+<use Logo-Maranatha-Untuk-Belakang-02.png>
+Package pdftex.def Info: Logo-Maranatha-Untuk-Belakang-02.png  used on input li
+ne 976.
+(pdftex.def)             Requested size: 157.71382pt x 63.98889pt.
+ [145
+
+ <./Logo-Maranatha-Untuk-Belakang-02.png>]
+\tf@nav=\write6
+\openout6 = `2020-slides-AI_for_everyone.nav'.
+
+\tf@toc=\write7
+\openout7 = `2020-slides-AI_for_everyone.toc'.
+
+\tf@snm=\write8
+\openout8 = `2020-slides-AI_for_everyone.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 978.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 978.
+
+(./2020-slides-AI_for_everyone.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 978.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 978.
+
+
+Package rerunfilecheck Warning: File `2020-slides-AI_for_everyone.out' has chan
+ged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `2020-slides-AI_for_everyone.out':
+(rerunfilecheck)             Before: AAE41567A879F968E017E996E31C0517;784
+(rerunfilecheck)             After:  FED3E3C8704383827D4ABA915D4BC9A7;784.
+ ) 
+Here is how much of TeX's memory you used:
+ 23749 strings out of 480875
+ 440633 string characters out of 5907551
+ 698169 words of memory out of 5000000
+ 38446 multiletter control sequences out of 15000+600000
+ 609801 words of font info for 134 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,15n,67p,794b,912s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Outline1.10.1.143} has been referenced but does n
+ot exist, replaced by a fixed one
+
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/urw/helvetic/uhvro8a.pfb>
+Output written on 2020-slides-AI_for_everyone.pdf (145 pages, 14147987 bytes).
+PDF statistics:
+ 4585 PDF objects out of 5155 (max. 8388607)
+ 4247 compressed objects within 43 object streams
+ 317 named destinations out of 1000 (max. 500000)
+ 514 words of extra memory for PDF output out of 10000 (max. 10000000)
+

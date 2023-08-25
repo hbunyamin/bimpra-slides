@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{step\PYGZus{}function}\PYG{p}{(}\PYG{n}{z}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n}{z} \PYG{o}{\PYGZlt{}=} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{k}{return} \PYG{l+m+mi}{0}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{k}{return} \PYG{l+m+mi}{1}
+\end{Verbatim}

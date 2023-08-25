@@ -1,0 +1,205 @@
+\documentclass[10pt,xcolor=svgnames]{beamer} %Beamer
+\usepackage{palatino} %font type
+\usefonttheme{metropolis} %Type of slides
+\usefonttheme[onlymath]{serif} %font type Mathematical expressions
+\usetheme[progressbar=frametitle,titleformat frame=smallcaps,numbering=counter]{metropolis} %This adds a bar at the beginning of each section.
+\useoutertheme[subsection=false]{miniframes} %Circles in the top of each frame, showing the slide of each section you are at
+
+\usepackage{appendixnumberbeamer} %enumerate each slide without counting the appendix
+\setbeamercolor{progress bar}{fg=Maroon!70!Coral} %These are the colours of the progress bar. Notice that the names used are the svgnames
+\setbeamercolor{title separator}{fg=DarkSalmon} %This is the line colour in the title slide
+\setbeamercolor{structure}{fg=black} %Colour of the text of structure, numbers, items, blah. Not the big text.
+\setbeamercolor{normal text}{fg=black!87} %Colour of normal text
+\setbeamercolor{alerted text}{fg=DarkRed!60!Gainsboro} %Color of the alert box
+\setbeamercolor{example text}{fg=Maroon!70!Coral} %Colour of the Example block text
+
+\setbeamercolor{palette primary}{bg=NavyBlue!50!DarkOliveGreen, fg=white} %These are the colours of the background. Being this the main combination and so one. 
+\setbeamercolor{palette secondary}{bg=NavyBlue!50!DarkOliveGreen, fg=white}
+\setbeamercolor{palette tertiary}{bg=NavyBlue!40!Black, fg= white}
+\setbeamercolor{section in toc}{fg=NavyBlue!40!Black} %Color of the text in the table of contents (toc)
+
+% =========================
+%   Added Packages
+% =========================
+\usepackage{natbib}
+
+
+
+%These next packages are the useful for Physics in general, you can add the extras here. 
+\usepackage{amsmath,amssymb}
+\usepackage{slashed}
+\usepackage{cite}
+\usepackage{relsize}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+\usepackage{geometry}
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{bluetemp}\xspace}}%metropolis}}\xspace}
+
+\title{Sharing Penelitian Antar Fakultas}
+\author[Name]{Hendra Bunyamin} %With inst, you can change the institution they belong
+\subtitle{Rapat Plotting Dosen}
+%\institute[uni]{\inst{$\dagger$} Department of blah blah \\ University of \LaTeX}
+\date{\today} %Here you can change the date
+\titlegraphic{\vspace{-0.5cm}\hfill\includegraphics[scale=0.4]{images/logo-maranatha.png}} %You can modify the location of the logo by changing the command \vspace{}. 
+
+\begin{document}
+{
+\setbeamercolor{background canvas}{bg=NavyBlue!50!DarkOliveGreen, fg=white}
+\setbeamercolor{normal text}{fg=white}
+\maketitle
+}%This is the colour of the first slide. bg= background and fg=foreground
+
+\metroset{titleformat frame=smallcaps} %This changes the titles for small caps
+
+\begin{frame}{Outline}
+  \setbeamertemplate{section in toc}[sections numbered] %This is numbering the sections
+  \tableofcontents[hideallsubsections] %You can comment this line if you want to show the subsections in the table of contents
+\end{frame}
+
+\section{Motivasi}
+\begin{frame}{Motivasi}
+\begin{itemize}
+	\item<2-> Salah satu indikator mutu dari Program Studi (Prodi) adalah \textbf{jumlah penelitian gabungan antar disiplin ilmu (antar Fakultas)}.
+	\item<3-> Saat ini jumlah penelitian antar Fakultas di Prodi Teknik Informatika \textit{minim}.
+\end{itemize}
+\end{frame}
+
+\section{Sharing \#1: Sumber Daya}
+\begin{frame}{Mengidentifikasi Sumber Daya di Universitas}
+	\textbf{Contoh}:
+	\begin{itemize}
+		\item<2-> Mengidentifikasi sumber daya perpustakaan \citep{bunyamin2017automatic,bunyamin2019topic}.
+		\item<3-> Mengidentifikasi sumber daya Fakultas Kedokteran \citep{bunyamin2021breast}.
+	\end{itemize}
+\end{frame}
+
+\section{Sharing \#2: Relasi}
+\begin{frame}{Berelasi dengan Fakultas Lain (1/2)}
+	\onslide<2->{\textbf{Relasi dengan Fakultas Ekonomi}:}
+	\begin{itemize}
+		\item<3-> Menggunakan algoritma Machine Learning untuk bidang Ekonomi, khususnya mengkalkulasi hubungan antara \textit{country risk} dan \textit{company performance} \citep{bunyamin2018relationship}.
+		\item<4-> Mempelajari ilmu baru, \textit{Time Series Analysis} \& \textit{Prediction} untuk memprediksi Indonesian Economic Growth \citep{Bunyamin2021}.
+	\end{itemize}
+ 
+	\onslide<5->{\textbf{Relasi dengan Fakultas Kedokteran}:}
+	\begin{itemize}
+		\item<6-> Menguji algoritma \textit{image classification} dengan pendekatan \textit{progressive resizing} pada gabungan tiga dataset \textit{breast cancer histopathological images} \citep{bunyamin2021breast}.
+	\end{itemize} 		
+\end{frame}
+
+\begin{frame}{Berelasi dengan Fakultas Lain (2/2)} 
+	\onslide<2->{\textbf{Relasi dengan Fakultas Psikologi \& Perpustakaan}:}
+	\begin{itemize}
+		\item<3-> Menguji algoritma clustering, yaitu \textit{Latent Dirichlet Allocation} (LDA) with Skip-gram model pada abstrak Tugas Akhir (TA) Fakultas Psikologi \citep{bunyamin2017automatic}.
+		\item<4-> Membandingkan algoritma clustering untuk topik-topik TA Fakultas Psikologi \citep{bunyamin2019topic}.
+	\end{itemize}	
+\end{frame}
+
+\section{Sharing \#3: Humble \& Show Yourself}
+\begin{frame}{Bersikap \textit{Humble} \& Show Yourself}
+	\textbf{Contoh}:	
+	\begin{itemize}
+		\item<2-> Melihat \textit{potensi} Fakultas Kedokteran.
+		\item<3-> Membuat \textit{janji} dengan ketua LPPM.
+		\item<4-> Memberikan \textit{presentasi singkat} tentang skill yang dimiliki.
+		\item<5-> Menerima dan mengikuti \textit{pointer} berikutnya.
+	\end{itemize}
+\end{frame}
+
+%\begin{frame}{Objectives}
+%\underline{\textsc{Some text:}}
+%\begin{small}
+%This is some small Text. 
+%\end{small}
+%
+%\metroset{block=fill}
+%\begin{exampleblock}{\textsc{Example block}}
+%\begin{itemize}
+%    \item You know how to do itemize
+%    \item Also here
+%\end{itemize}
+%\end{exampleblock}
+%\end{frame}
+
+
+%\section{Introduction}
+%
+%\begin{frame}[fragile]{Introduction: blah blah} %You can change fragile by standout
+%Text Text Text Text. \\You can change the size of the footnote text like  Text\footnote{\small{ here.}} Text\footnote{\large{And here.}} Text\footnote{\tiny{And here.}}
+%\begin{itemize} %The symbol of the items can be changed by which ever you want, this is just an example.
+%    \item[$\diamond$] Text,
+%    \item[$\diamond$] Text,
+%    \item[$\diamond$] Text.
+%\end{itemize}
+%An equation without number could be represented by:
+%\begin{equation*}
+%    c^{2} = a^{2} + b^{2}
+%\end{equation*}
+%That's all for this slide.
+%\end{frame}
+%
+%\begin{frame}[standout]{This is other type of slide}
+%There is some text here.
+%And an equation with number:
+%\begin{equation}
+%    E^{2} = m^{2} + p^{2}
+%\end{equation}
+%\end{frame}
+%
+%\include{Othersection}
+%
+%\section{This is another section}
+%\begin{frame}{Frame Title} %You can also not write fragile or standout and you can see how it looks
+%    Hello world!
+%\end{frame}
+%
+%\section{Final section}
+%
+%\begin{frame}{Conclusion}
+%    These are the final words, you do your best to try to wake up everyone that was listening to your talk.
+%\end{frame}
+%
+
+%{\setbeamercolor{palette primary}{fg=black, bg=white!30} %You can change the colours
+%\begin{frame}[standout]
+%%  Thank you! And thank to yourself because you did all the job. 
+%		\centering\includegraphics[scale=1]{images/thank-you}	
+%		hendra.bunyamin@it.maranatha.edu
+%\end{frame}
+%}
+%
+%\begin{frame}[plain]
+%		\centering\includegraphics[scale=1]{images/thank-you}	
+%		hendra.bunyamin@gmail.com
+%\end{frame}
+
+
+\appendix
+\begin{frame}[allowframebreaks]
+  \frametitle<presentation>{}
+    {\footnotesize
+    \bibliographystyle{apalike}
+    \bibliography{references}
+    }    
+\end{frame}
+
+%\begin{frame}{Back up}
+%    These slides won't appear in the table of contents and will not be counted as the total slides.
+%\end{frame}
+{\setbeamercolor{palette primary}{fg=black, bg=white!30} %You can change the colours
+\begin{frame}[standout]
+%  Thank you! And thank to yourself because you did all the job. 
+		\centering\includegraphics[scale=1]{images/thank-you}	
+		hendra.bunyamin@it.maranatha.edu
+\end{frame}
+}
+
+
+
+\end{document}

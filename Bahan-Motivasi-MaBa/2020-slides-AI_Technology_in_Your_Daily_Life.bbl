@@ -1,0 +1,22 @@
+\begin{thebibliography}{}
+
+\bibitem[Karras et~al., 2017]{karras2017progressive}
+Karras, T., Aila, T., Laine, S., and Lehtinen, J. (2017).
+\newblock Progressive growing of gans for improved quality, stability, and
+  variation.
+\newblock {\em arXiv preprint arXiv:1710.10196}.
+
+\bibitem[Kharkovyba, 2019]{kharkovyna2019ABeginnersGuide}
+Kharkovyba, O. (2019).
+\newblock A beginner's guide to data science.
+\newblock
+  \url{https://towardsdatascience.com/a-beginners-guide-to-data-science-55edd0288973}.
+\newblock Accessed: 2019-11-14.
+
+\bibitem[Ng, 2019]{ng2019AIForEveryone}
+Ng, A.~Y. (2019).
+\newblock Ai for everyone.
+\newblock \url{https://www.coursera.org/learn/ai-for-everyone/home/welcome}.
+\newblock Accessed: 2019-11-10.
+
+\end{thebibliography}

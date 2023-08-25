@@ -1,0 +1,45 @@
+\begin{thebibliography}{}
+
+\bibitem[G\'{e}ron, 2019]{geron2019handson}
+G\'{e}ron, A. (2019).
+\newblock {\em Hands-on Machine Learning with Scikit-Learn, Keras, and
+  TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
+  Second Edition}.
+\newblock O'Reilly Media Inc.
+
+\bibitem[Karras et~al., 2017]{karras2017progressive}
+Karras, T., Aila, T., Laine, S., and Lehtinen, J. (2017).
+\newblock Progressive growing of gans for improved quality, stability, and
+  variation.
+\newblock {\em arXiv preprint arXiv:1710.10196}.
+
+\bibitem[Kharkovyba, 2019]{kharkovyna2019ABeginnersGuide}
+Kharkovyba, O. (2019).
+\newblock A beginner's guide to data science.
+\newblock
+  \url{https://towardsdatascience.com/a-beginners-guide-to-data-science-55edd0288973}.
+\newblock Accessed: 2019-11-14.
+
+\bibitem[Molnar, 2019]{molnar2019}
+Molnar, C. (2019).
+\newblock {\em Interpretable Machine Learning}.
+\newblock \url{https://christophm.github.io/interpretable-ml-book/}.
+
+\bibitem[Ng, 2019]{ng2019AIForEveryone}
+Ng, A.~Y. (2019).
+\newblock Ai for everyone.
+\newblock \url{https://www.coursera.org/learn/ai-for-everyone/home/welcome}.
+\newblock Accessed: 2019-11-10.
+
+\bibitem[{Phiresky}, 2017]{phiresky2017neuralnetwork}
+{Phiresky} (2017).
+\newblock Neural network demo.
+\newblock \url{https://phiresky.github.io/neural-network-demo/}.
+\newblock Accessed: 2020-12-16.
+
+\bibitem[Trask, 2019]{trask2019grokking}
+Trask, A.~W. (2019).
+\newblock {\em Grokking Deep Learning}.
+\newblock Manning Publications.
+
+\end{thebibliography}

@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Apa Kata Alkitab?}{3}{0}{1}
+\beamer@sectionintoc {2}{Natural Order of the Family}{41}{0}{2}
+\beamer@sectionintoc {3}{Natur Pria dan Wanita}{49}{0}{3}
+\beamer@sectionintoc {4}{Tokoh Alkitab I}{57}{0}{4}
+\beamer@sectionintoc {5}{Tokoh Alkitab II}{69}{0}{5}
+\beamer@sectionintoc {6}{Tokoh Alkitab III}{93}{0}{6}
+\beamer@sectionintoc {7}{Kesimpulan}{137}{0}{7}

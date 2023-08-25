@@ -1,0 +1,14 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Machine Learning}{14}{0}{2}
+\beamer@sectionintoc {3}{Example: Predicting Profits of Food Trucks}{41}{0}{3}
+\beamer@sectionintoc {4}{A Machine Learning Component: Data}{46}{0}{4}
+\beamer@sectionintoc {5}{A Machine Learning Component: Model/Hypothesis}{55}{0}{5}
+\beamer@sectionintoc {6}{A Machine Learning Component: Cost/Lost Function}{73}{0}{6}
+\beamer@sectionintoc {7}{A Machine Learning Component: Optimization Algorithm}{88}{0}{7}
+\beamer@sectionintoc {8}{Demo from Stanford Machine Learning}{116}{0}{8}
+\beamer@sectionintoc {9}{Interpretability}{118}{0}{9}
+\beamer@sectionintoc {10}{Interpretable Models}{134}{0}{10}
+\beamer@sectionintoc {11}{Example of an Interpretable Model}{157}{0}{11}
+\beamer@sectionintoc {12}{Example: How to Interpret the Model}{186}{0}{12}
+\beamer@sectionintoc {13}{Conclusion}{273}{0}{13}

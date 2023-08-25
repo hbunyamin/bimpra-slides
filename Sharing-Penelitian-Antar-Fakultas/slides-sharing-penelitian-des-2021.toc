@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Motivasi}{3}{0}{1}
+\beamer@sectionintoc {2}{Sharing \#1: Sumber Daya}{7}{0}{2}
+\beamer@sectionintoc {3}{Sharing \#2: Relasi}{11}{0}{3}
+\beamer@sectionintoc {4}{Sharing \#3: Humble \& Show Yourself}{22}{0}{4}

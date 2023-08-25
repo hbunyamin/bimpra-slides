@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Ayat Firman Tuhan}{3}{0}{1}
+\beamer@sectionintoc {2}{Renungan}{7}{0}{2}
+\beamer@sectionintoc {3}{Pertanyaan Refleksi}{13}{0}{3}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{plotData}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{):}
+    \PYG{n}{pyplot}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}ro\PYGZsq{}}\PYG{p}{,} \PYG{n}{ms}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{n}{mec}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}k\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{pyplot}\PYG{o}{.}\PYG{n}{ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Profil in \PYGZdl{}10,000\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{pyplot}\PYG{o}{.}\PYG{n}{xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Population of City in 10,000s\PYGZsq{}}\PYG{p}{)}	
+\end{Verbatim}

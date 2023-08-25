@@ -1,0 +1,9 @@
+\frametitle{Step Activation Function (3/3)}
+Dalam Python:
+	\begin{minted}{python}
+def step_function(z):
+    if z <= 0:
+        return 0
+    else:
+        return 1
+	\end{minted}
