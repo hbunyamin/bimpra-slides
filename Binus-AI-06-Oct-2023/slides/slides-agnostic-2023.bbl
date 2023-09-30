@@ -1,0 +1,31 @@
+\begin{thebibliography}{}
+
+\bibitem[Friedman, 2001]{friedman2001greedy}
+Friedman, J.~H. (2001).
+\newblock Greedy function approximation: a gradient boosting machine.
+\newblock {\em Annals of statistics}, pages 1189--1232.
+
+\bibitem[Kim et~al., 2016]{kim2016examples}
+Kim, B., Khanna, R., and Koyejo, O.~O. (2016).
+\newblock Examples are not enough, learn to criticize! criticism for
+  interpretability.
+\newblock {\em Advances in neural information processing systems}, 29.
+
+\bibitem[Miller, 2019]{miller2019explanation}
+Miller, T. (2019).
+\newblock Explanation in artificial intelligence: Insights from the social
+  sciences.
+\newblock {\em Artificial intelligence}, 267:1--38.
+
+\bibitem[Molnar, 2022]{molnar2022}
+Molnar, C. (2022).
+\newblock {\em Interpretable Machine Learning}.
+\newblock 2 edition.
+
+\bibitem[Ribeiro et~al., 2016]{ribeiro2016model}
+Ribeiro, M.~T., Singh, S., and Guestrin, C. (2016).
+\newblock Model-agnostic interpretability of machine learning.
+\newblock In {\em ICML Workshop on Human Interpretability in Machine Learning
+  (WHI)}.
+
+\end{thebibliography}
