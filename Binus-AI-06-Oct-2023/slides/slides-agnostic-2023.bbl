@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Fernandes and Fernandes, 2017]{cervical_cancer_(risk_factors)_383}
+Fernandes, Kelwin, C.~J. and Fernandes, J. (2017).
+\newblock {Cervical cancer (Risk Factors)}.
+\newblock UCI Machine Learning Repository.
+\newblock {DOI}: https://doi.org/10.24432/C5Z310.
+
 \bibitem[Friedman, 2001]{friedman2001greedy}
 Friedman, J.~H. (2001).
 \newblock Greedy function approximation: a gradient boosting machine.

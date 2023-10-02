@@ -26,6 +26,7 @@
 % Will be ignored if LuaTeX engine is used
 \usepackage[utf8]{inputenc}
 \usepackage{tikz}
+\usepackage{multicol}
 
 % =======================================
 %   Using symbols for a checklist
@@ -78,7 +79,9 @@
 \end{frame}
 
 \begin{frame}{Prerequisites}
+	Pemahaman mengenai
 	\begin{vfilleditems}
+		\item Perbedaan masalah regresi \& klasifikasi.
 		\item Model \textit{machine learning} seperti linear regression.
 		\item Statistika $\Rightarrow$ peluang bersyarat \& distribusi marginal.
 	\end{vfilleditems}
@@ -178,14 +181,92 @@
 	\end{vfilleditems}
 \end{frame}
 
-
 \section{Partial Dependence Plot}
-\begin{frame}{Partial Dependence Plot (PDP)}
+\begin{frame}{Partial Dependence Plot (PDP)$^\dagger$}
 	\begin{vfilleditems}
 		\item PDP menunjukkan \textbf{efek marginal satu atau dua fitur} pada hasil prediksi sebuah model machine learning \citep{friedman2001greedy}.
-		\item 
+		\item PDP dapat menunjukkan hubungan antara target dan fitur apakah linier, monotonik atau lebih kompleks.
 	\end{vfilleditems}
 \end{frame}
+
+\begin{frame}{Definisi Fungsi Partial Dependence$^\dagger$}
+	Bila \\
+	$x_S$ = fitur-fitur yang akan diplot oleh fungsi partial dependence, \\
+	$X_C$ = fitur-fitur lainnya dalam model machine learning $\hat{f}$, maka
+	\begin{equation*}
+		\hat{f}_S(x_S) = E_{X_C}\left[ \hat{f}(x_S, X_C) \right] = \int \hat{f}(x_S, X_C) \; d\mathbb{P}(X_C).
+	\end{equation*}
+\end{frame}
+
+\begin{frame}{Estimasi Fungsi Partial Dependence$^{\dagger}$}
+	Fungsi partial $\hat{f}_S$ diestimasi dengan menghitung rata-rata di \textit{train set} (metode Monte Carlo):
+	\begin{equation*}
+		\hat{f}_S(x_S) = \frac{1}{n} \sum_{i=1}^n \hat{f}(x_S, x_C^{(i)}).
+	\end{equation*}
+	\onslide<2->{\textbf{Asumsi}: fitur di $C$ tidak berkorelasi dengan fitur di $S$.} 
+\end{frame}
+
+\begin{frame}{Bagaimana dengan fitur kategorikal?$^\dagger$}
+	\begin{vfilleditems}
+		\item Untuk setiap nilai kategori, kita hitung nilai PDP dengan "memaksa" semua instance  data mempunyai nilai kategori yang sama.
+		\item Hitung rata-rata dari semua nilai PDP yang sudah diperoleh.
+	\end{vfilleditems}
+\end{frame}
+
+\begin{frame}{Contoh: \#Sepeda yang dipinjam (1/3)}
+	\begin{vfilleditems}
+		\item Model machine learning, \textit{random forest} dilatih.
+		\item PDP plot $\Rightarrow$ visualisasi relationship yang model sudah pelajari.
+	\end{vfilleditems}
+\end{frame}
+
+\begin{frame}{Contoh: \#Sepeda yang dipinjam (2/3)$^\dagger$}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.75]{images/pdp-bike-1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Contoh: \#Sepeda yang dipinjam (3/3)$^\dagger$}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.6]{images/pdp-bike-cat-1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Contoh: Kanker Serviks \citep{cervical_cancer_(risk_factors)_383}}
+	\begin{multicols}{2} 
+	\begin{itemize}
+		\item  \footnotesize Age in years
+		\item  \footnotesize Number of sexual partners
+		\item  \footnotesize First sexual intercourse (age in years)
+		\item  \footnotesize Number of pregnancies
+		\item  \footnotesize Smoking yes or no
+		\item  \footnotesize Smoking (in years)
+		\item  \footnotesize Hormonal contraceptives yes or no
+	\end{itemize}
+	\columnbreak
+	\begin{itemize}
+		\item  \footnotesize Hormonal contraceptives (in years)
+\item  \footnotesize Intrauterine device yes or no (IUD)
+\item  \footnotesize Number of years with an intrauterine device (IUD)
+\item  \footnotesize Has patient ever had a sexually transmitted disease (STD) yes or no
+\item  \footnotesize Number of STD diagnoses
+\item  \footnotesize Time since first STD diagnosis
+\item  \footnotesize Time since last STD diagnosis
+\item  \footnotesize The biopsy results : "Healthy" or "Cancer". Target outcome.		
+	\end{itemize}
+\end{multicols}
+\end{frame}
+
+\begin{frame}{Contoh: Kanker Serviks}
+	\begin{vfilleditems}
+		\item Kembali, random forest, 
+	\end{vfilleditems}
+\end{frame}
+
+
+
 
 
 
