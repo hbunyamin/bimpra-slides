@@ -83,7 +83,7 @@
 	\begin{vfilleditems}
 		\item Perbedaan masalah regresi \& klasifikasi.
 		\item Model \textit{machine learning} seperti linear regression.
-		\item Statistika $\Rightarrow$ peluang bersyarat \& distribusi marginal.
+		\item Statistika $\Rightarrow$ distribusi marginal.
 	\end{vfilleditems}
 \end{frame}
 
@@ -234,6 +234,52 @@
 	\end{figure}
 \end{frame}
 
+\begin{frame}{Contoh: Prediksi Lead Menjadi Customer\footnote{\href{https://www.kaggle.com/datasets/lakshmikalyan/lead-scoring-x-online-education}{link dataset} }}
+	\begin{vfilleditems}
+		\item Perusahaan edukasi (X Education) menjual online courses ke profesional industri.
+		\item Perusahaan memasarkan course-course pada beberapa website dan search engines like Google.
+	\end{vfilleditems}
+\end{frame}
+
+\begin{frame}{Contoh: Prediksi Lead Menjadi Customer (Tidak Semua)}
+	\begin{multicols}{2} 
+		\begin{itemize}
+			\item  \footnotesize Lead origin
+			\item  \footnotesize Lead source
+			\item  \footnotesize Do Not Email
+			\item  \footnotesize Do Not Call
+			\item  \footnotesize Converted
+			\item  \footnotesize TotalVisits
+			\item  \footnotesize Total Time Spent on Website
+		\end{itemize}
+		\columnbreak
+		\begin{itemize}
+			\item  \footnotesize Page Views Per Visit
+			\item  \footnotesize Last activity
+			\item  \footnotesize Country
+			\item  \footnotesize Specialization
+			\item  \footnotesize How did you hear about X Education
+			\item  \footnotesize What is your current occupation
+			\item  \footnotesize What matters most to you in choosing this course
+			\item  \footnotesize Search
+		\end{itemize}
+	\end{multicols}
+\end{frame}
+
+\begin{frame}{PDP for Model Prediksi Converted \& Total Time Spent on Website}
+		\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.55]{images/pdp-leads-1}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{PDP for Model Prediksi Converted \& What is Your Occupation}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.45]{images/pdp-leads-2}
+	\end{figure}
+\end{frame}
+
 \begin{frame}{Contoh: Kanker Serviks \citep{cervical_cancer_(risk_factors)_383}}
 	\begin{multicols}{2} 
 	\begin{itemize}
@@ -259,11 +305,46 @@
 \end{multicols}
 \end{frame}
 
-\begin{frame}{Contoh: Kanker Serviks}
+\begin{frame}{Contoh: Kanker Serviks$^\dagger$ (1/2)}
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[scale=.6]{images/pdp-cervical-1.jpeg}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Contoh: Kanker Serviks$^\dagger$ (2/2)}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=.5]{images/pdp-cervical-2.jpeg}
+	\end{figure}
+\end{frame}
+
+\section{Advantages \& Disadvantages}
+\begin{frame}{Advantages$^\dagger$}
 	\begin{vfilleditems}
-		\item Kembali, random forest, 
+		\item Perhitungan PDP \textit{intuitif}.
+		\item Dalam kasus tidak ada korelasi, interpretasi PDP jelas.
+		\item PDP mudah untuk diimplementasi.
+		\item Perhitungan PDPs mempunyai interpretasi \textit{causal} \citep{zhao2021causal}. 
 	\end{vfilleditems}
 \end{frame}
+
+\begin{frame}{Disadvantages$^\dagger$}
+	\begin{vfilleditems}
+	\item Jumlah maksimum fitur yang realistik dalam PDPs = 2.
+	\item Beberapa PD plots tidak menampilkan distribusi dari fitur. 
+	\item Asumsi \textit{independence} adalah masalah terbesar dengan PD plots $\Rightarrow$ \textit{Accumulated Local Effect} (ALE) plots.
+	\item Efek heterogeneous mungkin dapat tersembunyi $\Rightarrow$  kurva Individual Conditional Expectation (ICE).
+\end{vfilleditems}	
+\end{frame}
+
+\begin{frame}{Softwares}
+	\begin{vfilleditems}
+		\item R programming language: package \texttt{iml}, \texttt{pdp}, atau \texttt{DALEX}.
+		\item Python programming language: \texttt{scikit-learn} atau library \texttt{PDPBox}
+	\end{vfilleditems}
+\end{frame}
+
 
 
 

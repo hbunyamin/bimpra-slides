@@ -34,4 +34,9 @@ Ribeiro, M.~T., Singh, S., and Guestrin, C. (2016).
 \newblock In {\em ICML Workshop on Human Interpretability in Machine Learning
   (WHI)}.
 
+\bibitem[Zhao and Hastie, 2021]{zhao2021causal}
+Zhao, Q. and Hastie, T. (2021).
+\newblock Causal interpretations of black-box models.
+\newblock {\em Journal of Business \& Economic Statistics}, 39(1):272--281.
+
 \end{thebibliography}

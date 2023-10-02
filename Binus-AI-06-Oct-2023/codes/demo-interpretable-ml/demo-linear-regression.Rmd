@@ -45,6 +45,18 @@ We summarize the `bike_to_interpreted` dataset.
 ```{r message=FALSE, warning=FALSE, highlight=TRUE}
 summary(bike_to_interpreted)
 ```
+
+
+
+Kita coba
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+lm_bike <- lm(temp ~ weathersit, data=bike_to_interpreted)
+```
+
+We show the details of the linear models as follows:
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+summary(lm_bike)
+```
    
 At last, we create the _interpretable linear model_ that is **linear regression** as follows:
 ```{r message=FALSE, warning=FALSE, highlight=TRUE}

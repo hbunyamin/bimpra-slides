@@ -2,3 +2,4 @@
 \beamer@sectionintoc {2}{Metode \textit {Model-Agnostic}}{11}{0}{2}
 \beamer@sectionintoc {3}{Metode \textit {Global Model-Agnostic}}{15}{0}{3}
 \beamer@sectionintoc {4}{Partial Dependence Plot}{20}{0}{4}
+\beamer@sectionintoc {5}{Advantages \& Disadvantages}{36}{0}{5}
