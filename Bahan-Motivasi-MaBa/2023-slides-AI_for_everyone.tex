@@ -143,11 +143,11 @@
 
 \makeatother
 
-\title[AI untuk Semua] % (optional, use only with long paper titles)
-{\textbf{Pengenalan \textit{Artificial Intelligence}}}
+\title[AI (Now \& Future )] % (optional, use only with long paper titles)
+{\textbf{AI Now \& Future}}
 
 \subtitle
-{Jalur Peminatan \textit{AI Specialist}}
+{\textit{Jalur Peminatan: AI Specialist}}
 
 \author[Hendra Bunyamin] % (optional, use only with lots of authors)
 {Hendra Bunyamin}
@@ -176,7 +176,7 @@
 % - Not really informative to the audience, more for people (including
 %   yourself) who are reading the slides online
 
-\subject{Pengantar Teknologi Informasi}
+\subject{Sibernetika}
 % This is only inserted into the PDF information catalog. Can be left
 % out. 
 
@@ -234,7 +234,7 @@
 
 %\begin{frame}{Make Titles Informative. Use Uppercase Letters.}{Subtitles are optional.}
 
-\section{Introduction}
+\section{Motivasi AI}
 \begin{frame}{Introduction}
 	\begin{figure}[!ht]
 		\centering
@@ -277,13 +277,17 @@
 \end{frame}
 
 \begin{frame}{Machine Learning (2/2)}	
-	The way a machine or computer learns can be categorized into several types~\citep{geron2019handson}:
+	The way a machine or computer learns can be categorized into several types~\citep{ng2023generative}:
 	\begin{itemize}
-		\item<2-> \textcolor <6-> {orange} {\textbf<6->{Supervised Learning}},
-		\item<3-> Unsupervised Learning,
-		\item<4-> Semi-supervised Learning, and
-		\item<5-> Reinforcement learning
+		\item<2-> \textcolor <7-> {orange} {\textbf<7->{Supervised Learning}},
+		\item<3-> Unsupervised Learning, and
+		\item<4-> Reinforcement learning
+		\item<5-> Generative AI
 	\end{itemize}	
+	\begin{center}
+		\includegraphics<6->[scale=.32]{images/diagram-learning.png}
+	\end{center}
+	
 	
 \end{frame}
 
@@ -325,17 +329,25 @@
 		\begin{tabular}{ccc|l}
 			\textbf{Input ($\bm{A}$)} &  & \textbf{Output ($\bm{B}$)} & \textbf{Application} \\
 			\hline
-			\onslide<2-> email     & $\longrightarrow$  & spam? (0/1)                & \textbf{spam filtering}   \\
+			\onslide<2-> Email     & $\longrightarrow$  & spam? (0/1)                & \textbf{Spam filtering}   \\
 			          &                    &                            &                  \\
-			\onslide<3-> audio     & $\longrightarrow$  & text transcript            & \textbf{speech recognition}      \\
-			          &                    &                            &                  \\
-			\onslide<4-> English   & $\longrightarrow$  & Indonesia                  & \textbf{machine translation} \\
-			          &                    &                            &                  \\
-			\onslide<5-> ad, user info & $\longrightarrow$ & click? (0/1)            & \textbf{online advertising} \\
+			 \hline         
+			\onslide<3-> Audio recording    & $\longrightarrow$  & text transcript            & \textbf{Speech}      \\
+			          &                    &                            &      \textbf{recognition}            \\
+			    \hline      
+			\onslide<4-> Ad, user info & $\longrightarrow$ & Click? (0/1)            & \textbf{Online advertising} \\
 			          &                    &                               &                  \\
-			\onslide<6-> image, radar info & $\longrightarrow$ & position of other cars &  \textbf{self-driving car} \\
+			      \hline    
+			\onslide<5-> Image, radar info & $\longrightarrow$ & Position of other cars &  \textbf{Self-driving car} \\
 			          &                    &                               &                  \\
-			\onslide<7-> image of phone & $\longrightarrow$ & defect? (0/1)             & \textbf{visual inspection} \\
+			       \hline
+			\onslide<6-> Image of phone & $\longrightarrow$ & Defect? (0/1)             & \textbf{Visual inspection} \\ 
+    			      &                    &                               &                  \\
+    			   \hline   
+			\onslide<7-> Restaurant reviews & $\longrightarrow$ & Sentiment (pos/neg)             & \textbf{Reputation} \\ 		    		 			
+		    		                                                      &                    &                               &           \textbf{Monitoring}        \\
+		   \hline 		                                                      
+			\onslide<8-> X-ray image & $\longrightarrow$ & Diagnosis             & \textbf{Healthcare} \\ 
 			\hline           			             
 		\end{tabular}
 	\end{table}
@@ -344,13 +356,12 @@
 \begin{frame}{Why Now?}
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[scale=.25]{big-data}
-		\caption{Large neural net + Big Data = High Performance \citep{ng2019AIForEveryone}}
+		\includegraphics[scale=.2]{images/big-data}
+		\caption{Large neural net + Big Data = High Performance \citep{ng2023generative}}
 		\label{fig:big-data}
 	\end{figure}
 \end{frame}
 
-\section{What is Data?}
 \begin{frame}{Example of a Table of Data (Dataset) (1/3)}
 	\begin{table}[!ht]
 		\centering
@@ -359,7 +370,6 @@
 		\label{fig:example-dataset-2}
 	\end{table}
 \end{frame}
-
 
 \begin{frame}{Example of a Table of Data (Dataset) (2/3)}
 	\begin{table}[!ht]
@@ -476,7 +486,6 @@
 	\end{center}	
 \end{frame}
 
-\section{Non-technical explanation of deep learning}
 \begin{frame}{Demand prediction (1/2)}
 	\begin{columns}[c]		
 		\begin{column}{0.6\textwidth}
@@ -504,8 +513,6 @@
 	\centering
 	\includegraphics[scale=.275]{demand-prediction-nn.png}
 \end{frame}
-
-
 
 \begin{frame}{Demand prediction: a little bit more complex (3/4)}
 	\centering
@@ -619,7 +626,6 @@
 	\end{enumerate}
 \end{frame}	
 
-\section{More examples of what ML can and cannot do}
 \begin{frame}{Self-driving car}
 	\begin{columns}[c]		
 		\begin{column}{0.5\textwidth}
@@ -705,6 +711,16 @@
 \end{frame}
 
 \section{Jalur Peminatan AI: Becoming AI Specialist}
+\begin{frame}{Mata Kuliah-Mata Kuliah Jalur Peminatan \textit{AI Specialist}}
+	\begin{enumerate}
+		\item \textit{Computer Vision}
+		\bigskip
+		\item \textit{Natural Language Processing}
+		\bigskip
+		\item \textit{AI Computing Platform}
+	\end{enumerate}	
+\end{frame}
+
 \begin{frame}{Computer Vision (1/7)}
 	\begin{itemize}
 		\item Image classification/Object recognition 
@@ -880,7 +896,6 @@ The search for factual information on Google returns both the precise answer to 
 	\end{figure}
 \end{frame}
 
-
 \begin{frame}{NLP: Speech (1/2)}
 	\begin{center}
 		\includegraphics[scale=.25]{speech-1}
@@ -906,104 +921,70 @@ The search for factual information on Google returns both the precise answer to 
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Times Series Forecasting (1/3)}
-\begin{figure}[!ht]
-		\centering
-		\includegraphics[scale=.25]{images/time-series-forecasting}
-	\end{figure}		
-\end{frame}
+%\begin{frame}{Times Series Forecasting (1/3)}
+%\begin{figure}[!ht]
+%		\centering
+%		\includegraphics[scale=.25]{images/time-series-forecasting}
+%	\end{figure}		
+%\end{frame}
 
-\begin{frame}{Times Series Forecasting (2/3)}
-	\onslide<2->{Forecasting has fascinated people for thousands of years, sometimes being considered a \textit{sign of divine inspiration}, and sometimes being seen as \textit{a criminal activity} \citep{hyndman2021forecasting}.}
-	\begin{figure}[!ht]
-		\centering
-		\includegraphics<3->[scale=.5]{fourexamples-time-series}
-	\end{figure}		
-\end{frame}
+%\begin{frame}{Times Series Forecasting (2/3)}
+%	\onslide<2->{Forecasting has fascinated people for thousands of years, sometimes being considered a \textit{sign of divine inspiration}, and sometimes being seen as \textit{a criminal activity} \citep{hyndman2021forecasting}.}
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<3->[scale=.5]{fourexamples-time-series}
+%	\end{figure}		
+%\end{frame}
+%
+%\begin{frame}{Times Series Forecasting (3/3)}
+%	This is an example of a time series which is decomposed by classical decomposition.
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<2->[scale=.4]{classical-empl-1}
+%	\end{figure}		
+%\end{frame}
 
-\begin{frame}{Times Series Forecasting (3/3)}
-	This is an example of a time series which is decomposed by classical decomposition.
-	\begin{figure}[!ht]
-		\centering
-		\includegraphics<2->[scale=.4]{classical-empl-1}
-	\end{figure}		
-\end{frame}
+%\begin{frame}{Times Series Forecasting (4/3)}
+%	This is an example of a time series which is decomposed by a better decomposition, X-11.
+%	\begin{figure}[!ht]
+%		\centering
+%		\includegraphics<2->[scale=.4]{x11-1}
+%	\end{figure}		
+%\end{frame}
 
-\begin{frame}{Times Series Forecasting (4/3)}
-	This is an example of a time series which is decomposed by a better decomposition, X-11.
-	\begin{figure}[!ht]
-		\centering
-		\includegraphics<2->[scale=.4]{x11-1}
-	\end{figure}		
-\end{frame}
+%\begin{frame}{Times Series Forecasting (5/3)}
+%	\begin{center}
+%	\includegraphics[scale=.25]{images/prophet-symbol}
+%	\end{center}
+%	Salah satu algoritma untuk forecasting time series yang populer adalah \href{https://facebook.github.io/prophet/}{\textcolor{orange}{\textbf{Facebook Prophet}}} .	
+%	\begin{center}
+%		\includegraphics[scale=.35]{images/facebook-prophet-model}
+%	\end{center}	
+%\end{frame}
 
-\begin{frame}{Times Series Forecasting (5/3)}
-	\begin{center}
-	\includegraphics[scale=.25]{images/prophet-symbol}
-	\end{center}
-	Salah satu algoritma untuk forecasting time series yang populer adalah \href{https://facebook.github.io/prophet/}{\textcolor{orange}{\textbf{Facebook Prophet}}} .	
-	\begin{center}
-		\includegraphics[scale=.35]{images/facebook-prophet-model}
-	\end{center}	
-\end{frame}
-
-\begin{frame}{Reinforcement learning (1/3)}
-	\begin{center}
-		\includegraphics[scale=.325]{reinforcement-learning}
-	\end{center}
-	Use a "reward" signal to tell the AI when it is doing well or poorly. It automatically learns to maximize its rewards. \\
-	(Contoh: \href{https://drive.google.com/file/d/19Zb2hjhyJ6lEUXo_OHQ0RSLrKSf6188x/view?usp=sharing}{\textcolor {orange} {\textbf{Stanford Autonomous Helicopter}} }).
-\end{frame}
-
-\begin{frame}{Reinforcement learning (2/3)}
-	\begin{center}
-		\includegraphics[scale=.325]{reinforcement-learning-2}
-	\end{center}
-	Use a "reward" signal to tell the AI when it is doing well or poorly. It automatically learns to maximize its rewards.
-	(Contoh: \href{https://drive.google.com/file/d/1Bia4pGf2m1lg9Fd8Suu732Hz471nUg6j/view?usp=sharing}{\textcolor {orange} {\textbf{AlphaGo is beating Humanity}}})
-\end{frame}
-
-\begin{frame}{Reinforcement learning (3/3)}
-	Dapatkah robot belajar bergerak di alam bebas? \\
-	Dengan implementasi yang tepat, \textit{it can be a walk in the park} \citep{smith2022awalk}.
-	
-	\bigskip
-	Link Video is \href{https://drive.google.com/file/d/1UE8JdqxJxpUn9McbEbfnRQXDLV9Pkmwl/view?usp=sharing}{\textcolor{orange}{\textbf{here}}}
-\end{frame}
-
-\begin{frame}{GANs (Generative Adversarial Network) (1/3)}
-	\begin{center}
-		Synthesize new images from scratch~\citep{karras2017progressive} (\href{https://drive.google.com/file/d/12kyeMlwG7geHo3WzO9wOo00n53LBOvpj/view?usp=sharing}{\textcolor{orange}{\textbf{GANs in Action}}})
-	\end{center}
-	\begin{center}
-		\includegraphics[scale=.25]{GANs}
-	\end{center}			
-\end{frame}
-
-\begin{frame}{GANs (Generative Adversarial Network) (2/3)}
-	\textbf{GauGan} won a 2019 PopSci Magazine "Best of What's New Award" in the engineering category.
-	
-	\bigskip
-	Developed by NVIDIA researchers in 2019, GauGAN is the first AI model that can produce complex images with only a few brushstrokes. 
-	
-	\bigskip
-	Video Link is \href{https://twitter.com/NVIDIAAIDev/status/1201907407242153986}{\textcolor{orange}{\textbf{here}} }.
-	
-	\bigskip
-	Aplikasi yang mirip: \href{https://affinelayer.com/pixsrv/?utm_source=pocket_reader}{\textcolor{orange}{\textbf{Image-to-Image Demo}}}	
-\end{frame}
-
-\begin{frame}{GANs (Generative Adversarial Network) (3/3)}
-	\begin{itemize}
-		\item Using AI to generate fashion by utilizing DALL-E. \\
-		Video Link is \href{https://drive.google.com/file/d/1xrvBm1TKbGASN8CApdZkgL8sP5aXW2T_/view?usp=sharing}{\textcolor{orange}{\textbf{here}} }.
-		
-		\bigskip
-		\item DALL-E: Introducing Outpainting \\
-		Extend creativity and tell a bigger story with DALL-E images of any size. \\
-		Video Link is \href{https://drive.google.com/file/d/1mJzmS_tayjQWHqwH9WyqvOdv9NGkOBMs/view?usp=share_link}{\textcolor{orange}{\textbf{here}} }.		
-	\end{itemize}	
-\end{frame}
+%\begin{frame}{Reinforcement learning (1/3)}
+%	\begin{center}
+%		\includegraphics[scale=.325]{reinforcement-learning}
+%	\end{center}
+%	Use a "reward" signal to tell the AI when it is doing well or poorly. It automatically learns to maximize its rewards. \\
+%	(Contoh: \href{https://drive.google.com/file/d/19Zb2hjhyJ6lEUXo_OHQ0RSLrKSf6188x/view?usp=sharing}{\textcolor {orange} {\textbf{Stanford Autonomous Helicopter}} }).
+%\end{frame}
+%
+%\begin{frame}{Reinforcement learning (2/3)}
+%	\begin{center}
+%		\includegraphics[scale=.325]{reinforcement-learning-2}
+%	\end{center}
+%	Use a "reward" signal to tell the AI when it is doing well or poorly. It automatically learns to maximize its rewards.
+%	(Contoh: \href{https://drive.google.com/file/d/1Bia4pGf2m1lg9Fd8Suu732Hz471nUg6j/view?usp=sharing}{\textcolor {orange} {\textbf{AlphaGo is beating Humanity}}})
+%\end{frame}
+%
+%\begin{frame}{Reinforcement learning (3/3)}
+%	Dapatkah robot belajar bergerak di alam bebas? \\
+%	Dengan implementasi yang tepat, \textit{it can be a walk in the park} \citep{smith2022awalk}.
+%	
+%	\bigskip
+%	Link Video is \href{https://drive.google.com/file/d/1UE8JdqxJxpUn9McbEbfnRQXDLV9Pkmwl/view?usp=sharing}{\textcolor{orange}{\textbf{here}}}
+%\end{frame}
 
 \begin{frame}{AI Computing Platform}
 	\begin{figure}[!ht]
@@ -1014,21 +995,320 @@ The search for factual information on Google returns both the precise answer to 
 	Huawei HCIA-AI certification : \st{\$200} \textbf{\$0}.	
 \end{frame}
 
-
-
-\begin{frame}{Mata Kuliah-Mata Kuliah Jalur Peminatan \textit{AI Specialist}}
-	\begin{enumerate}
-		\item \textit{Computer Vision}
-		\bigskip
-		\item \textit{Natural Language Processing}
-		\bigskip
-		\item \textit{Time Series Forecasting}
-		\bigskip
-		\item \textit{Reinforcement Learning}
-		\bigskip		
-		\item \textit{AI Computing Platform}
-	\end{enumerate}	
+\section{Future of AI: Generative AI}
+\begin{frame}{Kebangkitan Generative AI}
+	\begin{columns}
+		\begin{column}{.5\textwidth}
+			\begin{center}
+				\includegraphics[width=\textwidth]{images/rise-generative-reuters.png}
+			\end{center}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			Generative AI dapat
+			\begin{itemize}
+				\item<2-> Menambah \$2,6-\$4,4 triliun per tahun ke bidang ekonomi \citep{mckinsey2023economic}.
+				\item<3-> Meningkatkan global GDP sebesar 7\% pada 10 tahun ke depan \citep{goldman2023large}.
+				\item<4-> Berdampak 10\% dari tasks yang dikerjakan harian oleh 80\% dari pegawai \citep{eloundou2023gpts}.
+			\end{itemize}			
+		\end{column}
+	\end{columns}
 \end{frame}
+
+\begin{frame}{Apakah Generative AI? (1/2)}
+	Sistem Artificial Intelligence yang dapat menghasilkan high quality content, terutama untuk \textbf{text}, gambar (\textbf{images}), dan suara (\textbf{audio}). 
+	
+	\bigskip
+	Beberapa contoh Generative AI adalah
+			\begin{itemize}
+	\item<2-> ChatGPT dari OpenAI
+	\item<3-> Bard dari Google
+	\item<4-> Bing Chat dari Microsoft
+	\end{itemize}			
+	
+	\bigskip
+	\onslide<5->Prompt $\Rightarrow$ pertanyaan yang meng-trigger Generative AI untuk me-respons.
+\end{frame}
+
+\begin{frame}{Apakah Generative AI? (2/2)}
+	Generative AI juga merupakan \textbf{developer tool} \citep{ng2023generative}.
+	\begin{center}
+		\includegraphics[scale=.25]{images/generative-developer-tool.png}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Image, Audio, and Video Generation}
+	\begin{columns}
+		\begin{column}{.5\textwidth}
+			A beautiful, pastoral mountain scene. Landscape painting style (\textbf{Midjourney})
+			\begin{center}
+				\includegraphics<2->[scale=.25]{images/contoh-midjourney.png}
+			\end{center}
+		\end{column}
+		\begin{column}{.5\textwidth}
+	\onslide<3->Two cute kittens playing (\textbf{DALL-E})
+	\begin{center}
+		\includegraphics<4->[scale=.25]{images/contoh-dall-e.png}
+	\end{center}
+\end{column}		
+	\end{columns}
+\end{frame}	
+
+\begin{frame}{Menghasilkan Teks dengan Large Language Models (LLMs)}
+	Text generation process \citep{ng2023generative}
+	
+	\begin{center}
+		\includegraphics<2->[scale=.25]{images/prompt-and-llm.png}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Bagaimana LLMs belajar}
+	LLMs dibuat dengan menggunakan supervised learning ($A \rightarrow B$) untuk memprediksi kata berikut secara berulang kali.
+	
+	\begin{center}
+		\includegraphics<2->[scale=.25]{images/tabel-next-word.png}
+	\end{center}
+	
+	\onslide<3->{Ketika kita melatih sistem AI yang sangat besar pada a lot of data (ratusan miliar kata), kita memperoleh Large Language Model  \\ seperti ChatGPT.}
+\end{frame}
+
+\begin{frame}{Cara Baru Mencari Informasi}
+	\begin{columns}
+		\begin{column}{.5\textwidth}
+			\includegraphics<2->[scale=.2]{images/cari-informasi-1.png}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\includegraphics<3->[scale=.2]{images/cari-informasi-2.png}
+		\end{column}		
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Partner Menulis \citep{ng2023generative}}
+	\begin{columns}
+	\begin{column}{.5\textwidth} 
+		\includegraphics<2->[scale=.2]{images/partner-writing-1.png}
+	\end{column}
+	\begin{column}{.5\textwidth}
+		\includegraphics<3->[scale=.2]{images/partner-writing-2.png}
+	\end{column}		
+\end{columns}	
+\end{frame}
+
+\begin{frame}{Web search atau using an LLM \citep{ng2023generative}}
+	\begin{columns}
+		\begin{column}{.5\textwidth} 
+			\begin{center}
+				\includegraphics<2->[scale=.2]{images/web-search.png}
+			\end{center}			
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\begin{center}
+				\includegraphics<3->[scale=.2]{images/llm.png}
+			\end{center}			
+		\end{column}		
+	\end{columns}	
+\end{frame}
+
+\begin{frame}{Web search atau using an LLM \citep{ng2023generative}}
+	\begin{columns}
+		\begin{column}{.5\textwidth} 
+			\begin{center}
+				\includegraphics<2->[scale=.2]{images/recipe.png}
+			\end{center}			
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\begin{center}
+				\includegraphics<3->[scale=.2]{images/recipe-2.png}
+			\end{center}			
+		\end{column}		
+	\end{columns}	
+\end{frame}
+
+\begin{frame}{Web search atau using an LLM \citep{ng2023generative}}
+	\begin{columns}
+		\begin{column}{.5\textwidth} 
+			\begin{center}
+				\includegraphics<2->[scale=.2]{images/coffee-1.png}
+			\end{center}			
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\begin{center}
+				\includegraphics<3->[scale=.2]{images/coffee-2.png}
+			\end{center}			
+		\end{column}		
+	\end{columns}	
+\end{frame}
+
+\begin{frame}{Contoh Tasks yang LLMs dapat Lakukan}
+	\begin{columns}
+		\begin{column}{.33\textwidth} 
+			\begin{center}
+				\includegraphics<2->[scale=.2]{images/writing.png}
+			\end{center}			
+		\end{column}
+		\begin{column}{.33\textwidth}
+			\begin{center}
+				\includegraphics<3->[scale=.2]{images/reading.png}
+			\end{center}			
+		\end{column}		
+		\begin{column}{.33\textwidth}
+	\begin{center}
+		\includegraphics<4->[scale=.2]{images/chatting.png}
+	\end{center}			
+\end{column}				
+	\end{columns}	
+\end{frame}
+
+\begin{frame}{Contoh Tasks yang LLMs dapat Lakukan}
+	\begin{columns}
+		\begin{column}{.33\textwidth} 
+			\begin{center}
+				\includegraphics<2->[scale=.2]{images/writing-2.png}
+			\end{center}			
+		\end{column}
+		\begin{column}{.33\textwidth}
+			\begin{center}
+				\includegraphics<3->[scale=.2]{images/reading-2.png}
+			\end{center}			
+		\end{column}		
+		\begin{column}{.33\textwidth}
+			\begin{center}
+				\includegraphics<4->[scale=.2]{images/chatting-2.png}
+			\end{center}			
+		\end{column}				
+	\end{columns}	
+\end{frame}
+
+\begin{frame}{Web-based vs. Software application use of LLMs}
+	\begin{columns}
+		\begin{column}{.5\textwidth} 
+			\begin{center}
+				\includegraphics<2->[scale=.2]{images/web-based.png}
+			\end{center}			
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\begin{center}
+				\includegraphics<3->[scale=.2]{images/software-based.png}
+			\end{center}			
+		\end{column}		
+	\end{columns}	
+\end{frame}
+
+\begin{frame}{Demo: Mencoba Kode Generative AI}
+	\begin{enumerate}
+		\item<2-> Sentiment Analysis dari Restaurant Review.
+		
+		\bigskip
+		\item<3-> Sistem Reputation Monitoring. 
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Writing: Brainstorming product names}
+	\begin{center}
+		\includegraphics<2->[scale=.25]{images/brainstorm}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Writing: Developing sales strategy}
+	\begin{center}
+		\includegraphics<2->[scale=.25]{images/develop-strategy}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Writing: Memberikan ide riset terbaru}
+	\begin{center}
+		\includegraphics<2->[scale=.45]{images/ide-riset}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Reading: Proofreading}
+	\begin{center}
+		\includegraphics<2->[scale=.225]{images/proofread}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Reading: Merangkum Artikel Ilmiah}
+	\begin{center}
+		\includegraphics<2->[scale=.225]{images/rangkuman}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Reading: Reputation Monitoring}
+	\begin{center}
+		\includegraphics<2->[scale=.175]{images/reputation-monitoring}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Chatting: ChatBot Khusus}
+	\begin{center}
+		\includegraphics<2->[scale=.2]{images/chatbot-khusus}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Chatting: IT Service ChatBot}
+	\begin{center}
+		\includegraphics<2->[scale=.25]{images/it-chatbot}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Chatting: The Rise of Chatbots in Customer Service}
+	\begin{center}
+		\includegraphics<2->[scale=.18]{images/rise-chatbots}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Kesimpulan}
+	\begin{enumerate}
+		\item<2-> AI dapat dibagi menjadi 2, yaitu: ANI dan AGI.
+		\item<3-> \textit{Supervised Learning} merupakan tipe algoritma machine learning yang umum digunakan saat ini. 
+		\item<4-> \textit{Supervised learning} sangat membutuhkan dataset yang mempunyai A (input) dan B (output).
+		\item<5-> \textit{Artificial Neural Networks} merupakan fondasi dari teknologi \textbf{Deep Learning}.
+		\item<6-> \textit{Feature extraction} secara otomatis merupakan kekuatan dari Deep Learning.
+		\item<7-> \textbf{Large Language Models} merupakan fondasi dari Generative AI $\Rightarrow$ Future AI.
+		\item<8-> LLMs dapat diaplikasikan dalam banyak aplikasi, contohnya: writing, reading, chatting, dan masih banyak peluang lainnya.
+	\end{enumerate}
+\end{frame}
+
+
+
+
+
+%\begin{frame}{GANs (Generative Adversarial Network) (1/3)}
+%	\begin{center}
+%		Synthesize new images from scratch~\citep{karras2017progressive} (\href{https://drive.google.com/file/d/12kyeMlwG7geHo3WzO9wOo00n53LBOvpj/view?usp=sharing}{\textcolor{orange}{\textbf{GANs in Action}}})
+%	\end{center}
+%	\begin{center}
+%		\includegraphics[scale=.25]{GANs}
+%	\end{center}			
+%\end{frame}
+
+%\begin{frame}{GANs (Generative Adversarial Network) (2/3)}
+%	\textbf{GauGan} won a 2019 PopSci Magazine "Best of What's New Award" in the engineering category.
+%	
+%	\bigskip
+%	Developed by NVIDIA researchers in 2019, GauGAN is the first AI model that can produce complex images with only a few brushstrokes. 
+%	
+%	\bigskip
+%	Video Link is \href{https://twitter.com/NVIDIAAIDev/status/1201907407242153986}{\textcolor{orange}{\textbf{here}} }.
+%	
+%	\bigskip
+%	Aplikasi yang mirip: \href{https://affinelayer.com/pixsrv/?utm_source=pocket_reader}{\textcolor{orange}{\textbf{Image-to-Image Demo}}}	
+%\end{frame}
+
+%\begin{frame}{GANs (Generative Adversarial Network) (3/3)}
+%	\begin{itemize}
+%		\item Using AI to generate fashion by utilizing DALL-E. \\
+%		Video Link is \href{https://drive.google.com/file/d/1xrvBm1TKbGASN8CApdZkgL8sP5aXW2T_/view?usp=sharing}{\textcolor{orange}{\textbf{here}} }.
+%		
+%		\bigskip
+%		\item DALL-E: Introducing Outpainting \\
+%		Extend creativity and tell a bigger story with DALL-E images of any size. \\
+%		Video Link is \href{https://drive.google.com/file/d/1mJzmS_tayjQWHqwH9WyqvOdv9NGkOBMs/view?usp=share_link}{\textcolor{orange}{\textbf{here}} }.		
+%	\end{itemize}	
+%\end{frame}
+
+
+
+
 
 %\noindent\fbox{%
 %    \parbox{\textwidth}{%

@@ -12,6 +12,11 @@ Elgendy, M. (2020).
 \newblock {\em Deep Learning for Vision Systems}.
 \newblock Manning Publications.
 
+\bibitem[Eloundou et~al., 2023]{eloundou2023gpts}
+Eloundou, T., Manning, S., Mishkin, P., and Rock, D. (2023).
+\newblock Gpts are gpts: An early look at the labor market impact potential of
+  large language models.
+
 \bibitem[G\'{e}ron, 2019]{geron2019handson}
 G\'{e}ron, A. (2019).
 \newblock {\em Hands-on Machine Learning with Scikit-Learn, Keras, and
@@ -19,10 +24,12 @@ G\'{e}ron, A. (2019).
   Second Edition}.
 \newblock O'Reilly Media Inc.
 
-\bibitem[Hyndman, 2021]{hyndman2021forecasting}
-Hyndman, R.~J. (2021).
-\newblock {\em Forecasting: Principles and Practice 3rd Edition}.
-\newblock Otexts.
+\bibitem[{Goldman Sachs}, 2023]{goldman2023large}
+{Goldman Sachs} (2023).
+\newblock The potentially large effects of artificial intelligence on economic
+  growth.
+\newblock \url{https://shorturl.at/biwE3}.
+\newblock Accessed: 2023-12-08.
 
 \bibitem[Karras et~al., 2017]{karras2017progressive}
 Karras, T., Aila, T., Laine, S., and Lehtinen, J. (2017).
@@ -42,6 +49,13 @@ Kochmar, E. (2022).
 \newblock {\em Getting Started with Natural Language Processing}.
 \newblock Manning Publications.
 
+\bibitem[{McKinsey}, 2023]{mckinsey2023economic}
+{McKinsey} (2023).
+\newblock The economic potential of generative ai: The next productivity
+  frontier.
+\newblock \url{https://mck.co/3XcWPHt}.
+\newblock Accessed: 2023-12-08.
+
 \bibitem[Molnar, 2019]{molnar2019}
 Molnar, C. (2019).
 \newblock {\em Interpretable Machine Learning}.
@@ -53,16 +67,18 @@ Ng, A.~Y. (2019).
 \newblock \url{https://www.coursera.org/learn/ai-for-everyone/home/welcome}.
 \newblock Accessed: 2019-11-10.
 
+\bibitem[Ng, 2023]{ng2023generative}
+Ng, A.~Y. (2023).
+\newblock Generative ai for everyone.
+\newblock
+  \url{https://www.coursera.org/learn/generative-ai-for-everyone/home/week/1}.
+\newblock Accessed: 2023-12-06.
+
 \bibitem[{Phiresky}, 2017]{phiresky2017neuralnetwork}
 {Phiresky} (2017).
 \newblock Neural network demo.
 \newblock \url{https://phiresky.github.io/neural-network-demo/}.
 \newblock Accessed: 2020-12-16.
-
-\bibitem[Smith et~al., 2022]{smith2022awalk}
-Smith, L., Kostrikov, I., and Levine, S. (2022).
-\newblock A walk in the park: Learning to walk in 20 minutes with model-free
-  reinforcement learning.
 
 \bibitem[Trask, 2019]{trask2019grokking}
 Trask, A.~W. (2019).

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  6 DEC 2023 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  10 DEC 2023 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1105,8 +1105,6 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./2023-slides-AI_for_everyone.nav)
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 210.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 210.
  [1
@@ -1119,7 +1117,7 @@ ne.toc) [2
 (./2023-slides-AI_for_everyone.toc) [3
 
 ]
-<AI-value-creation.png, id=204, 1442.38875pt x 442.65375pt>
+<AI-value-creation.png, id=189, 1442.38875pt x 442.65375pt>
 File: AI-value-creation.png Graphic file (type png)
 <use AI-value-creation.png>
 Package pdftex.def Info: AI-value-creation.png  used on input line 250.
@@ -1164,12 +1162,12 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ] [6
 
 ]
-<ex-machina.jpg, id=299, 676.5275pt x 1003.75pt>
+<ex-machina.jpg, id=284, 676.5275pt x 1003.75pt>
 File: ex-machina.jpg Graphic file (type jpg)
 <use ex-machina.jpg>
 Package pdftex.def Info: ex-machina.jpg  used on input line 264.
 (pdftex.def)             Requested size: 84.56572pt x 125.46844pt.
-<upgrade.jpg, id=300, 676.5275pt x 1003.75pt>
+<upgrade.jpg, id=285, 676.5275pt x 1003.75pt>
 File: upgrade.jpg Graphic file (type jpg)
 <use upgrade.jpg>
 Package pdftex.def Info: upgrade.jpg  used on input line 264.
@@ -1216,7 +1214,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--277
 [11
 
 ]
-<images/programming-with-without-ml.png, id=458, 1325.95375pt x 669.50125pt>
+<images/programming-with-without-ml.png, id=441, 1325.95375pt x 669.50125pt>
 File: images/programming-with-without-ml.png Graphic file (type png)
 <use images/programming-with-without-ml.png>
 Package pdftex.def Info: images/programming-with-without-ml.png  used on input 
@@ -1245,14 +1243,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--277
 ] [17
 
 ]
+<images/diagram-learning.png, id=622, 527.9725pt x 475.7775pt>
+File: images/diagram-learning.png Graphic file (type png)
+<use images/diagram-learning.png>
+Package pdftex.def Info: images/diagram-learning.png  used on input line 292.
+(pdftex.def)             Requested size: 168.95465pt x 152.2519pt.
+
+Overfull \vbox (12.7752pt too high) detected at line 292
+ []
+
 [18
+
+ <./images/diagram-learning.png>]
+File: images/diagram-learning.png Graphic file (type png)
+<use images/diagram-learning.png>
+Package pdftex.def Info: images/diagram-learning.png  used on input line 292.
+(pdftex.def)             Requested size: 168.95465pt x 152.2519pt.
+
+Overfull \vbox (12.7752pt too high) detected at line 292
+ []
+
+[19
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 306.
- [19
-
-] [20
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 310.
+ [20
 
 ] [21
 
@@ -1268,322 +1284,327 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 
 ] [27
 
-]
-Overfull \hbox (9.87114pt too wide) in paragraph at lines 342--342
- [] 
- []
-
-[28
+] [28
 
 ]
-Overfull \hbox (9.87114pt too wide) in paragraph at lines 342--342
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
  [] 
  []
 
 [29
 
 ]
-Overfull \hbox (9.87114pt too wide) in paragraph at lines 342--342
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
  [] 
  []
 
 [30
 
 ]
-Overfull \hbox (9.87114pt too wide) in paragraph at lines 342--342
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
  [] 
  []
 
 [31
 
 ]
-Overfull \hbox (9.87114pt too wide) in paragraph at lines 342--342
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
  [] 
  []
 
 [32
 
 ]
-Overfull \hbox (9.87114pt too wide) in paragraph at lines 342--342
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
  [] 
  []
 
 [33
 
 ]
-Overfull \hbox (9.87114pt too wide) in paragraph at lines 342--342
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
  [] 
  []
 
 [34
 
 ]
-<big-data.png, id=1129, 1247.66125pt x 558.085pt>
-File: big-data.png Graphic file (type png)
-<use big-data.png>
-Package pdftex.def Info: big-data.png  used on input line 351.
-(pdftex.def)             Requested size: 311.91455pt x 139.5209pt.
- [35
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
+ [] 
+ []
 
- <./big-data.png>] (./2023-slides-AI_for_everyone.toc) [36
+[35
 
 ]
-<example-dataset-2.png, id=1198, 634.37pt x 514.92375pt>
-File: example-dataset-2.png Graphic file (type png)
-<use example-dataset-2.png>
-Package pdftex.def Info: example-dataset-2.png  used on input line 361.
-(pdftex.def)             Requested size: 190.31245pt x 154.4783pt.
+Overfull \hbox (14.29504pt too wide) in paragraph at lines 354--354
+ [] 
+ []
+
+[36
+
+]
+<images/big-data.png, id=1173, 1628.0825pt x 785.93625pt>
+File: images/big-data.png Graphic file (type png)
+<use images/big-data.png>
+Package pdftex.def Info: images/big-data.png  used on input line 363.
+(pdftex.def)             Requested size: 325.61073pt x 157.18446pt.
  [37
 
- <./example-dataset-2.png>]
-<example-dataset-1.png, id=1231, 627.34375pt x 510.90875pt>
-File: example-dataset-1.png Graphic file (type png)
-<use example-dataset-1.png>
-Package pdftex.def Info: example-dataset-1.png  used on input line 371.
-(pdftex.def)             Requested size: 188.20457pt x 153.2738pt.
+ <./images/big-data.png>]
+<example-dataset-2.png, id=1206, 634.37pt x 514.92375pt>
+File: example-dataset-2.png Graphic file (type png)
+<use example-dataset-2.png>
+Package pdftex.def Info: example-dataset-2.png  used on input line 372.
+(pdftex.def)             Requested size: 190.31245pt x 154.4783pt.
  [38
 
- <./example-dataset-1.png>]
-<example-dataset-3.png, id=1264, 369.38pt x 537.00626pt>
-File: example-dataset-3.png Graphic file (type png)
-<use example-dataset-3.png>
-Package pdftex.def Info: example-dataset-3.png  used on input line 380.
-(pdftex.def)             Requested size: 110.81485pt x 161.10312pt.
+ <./example-dataset-2.png>]
+<example-dataset-1.png, id=1239, 627.34375pt x 510.90875pt>
+File: example-dataset-1.png Graphic file (type png)
+<use example-dataset-1.png>
+Package pdftex.def Info: example-dataset-1.png  used on input line 381.
+(pdftex.def)             Requested size: 188.20457pt x 153.2738pt.
  [39
 
+ <./example-dataset-1.png>]
+<example-dataset-3.png, id=1271, 369.38pt x 537.00626pt>
+File: example-dataset-3.png Graphic file (type png)
+<use example-dataset-3.png>
+Package pdftex.def Info: example-dataset-3.png  used on input line 390.
+(pdftex.def)             Requested size: 110.81485pt x 161.10312pt.
+ [40
+
  <./example-dataset-3.png>]
-<manual-labeling.png, id=1296, 1000.73875pt x 124.465pt>
+<manual-labeling.png, id=1303, 1000.73875pt x 124.465pt>
 File: manual-labeling.png Graphic file (type png)
 <use manual-labeling.png>
-Package pdftex.def Info: manual-labeling.png  used on input line 395.
+Package pdftex.def Info: manual-labeling.png  used on input line 405.
 (pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
-<observing-behaviors.png, id=1297, 835.12pt x 194.7275pt>
+<observing-behaviors.png, id=1304, 835.12pt x 194.7275pt>
 File: observing-behaviors.png Graphic file (type png)
 <use observing-behaviors.png>
-Package pdftex.def Info: observing-behaviors.png  used on input line 395.
+Package pdftex.def Info: observing-behaviors.png  used on input line 405.
 (pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
- [40
+ [41
 
  <./manual-labeling.png> <./observing-behaviors.png>]
 File: manual-labeling.png Graphic file (type png)
 <use manual-labeling.png>
-Package pdftex.def Info: manual-labeling.png  used on input line 395.
+Package pdftex.def Info: manual-labeling.png  used on input line 405.
 (pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
 File: observing-behaviors.png Graphic file (type png)
 <use observing-behaviors.png>
-Package pdftex.def Info: observing-behaviors.png  used on input line 395.
-(pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
- [41
-
-]
-File: manual-labeling.png Graphic file (type png)
-<use manual-labeling.png>
-Package pdftex.def Info: manual-labeling.png  used on input line 395.
-(pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
-File: observing-behaviors.png Graphic file (type png)
-<use observing-behaviors.png>
-Package pdftex.def Info: observing-behaviors.png  used on input line 395.
+Package pdftex.def Info: observing-behaviors.png  used on input line 405.
 (pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
  [42
 
 ]
 File: manual-labeling.png Graphic file (type png)
 <use manual-labeling.png>
-Package pdftex.def Info: manual-labeling.png  used on input line 395.
+Package pdftex.def Info: manual-labeling.png  used on input line 405.
 (pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
 File: observing-behaviors.png Graphic file (type png)
 <use observing-behaviors.png>
-Package pdftex.def Info: observing-behaviors.png  used on input line 395.
+Package pdftex.def Info: observing-behaviors.png  used on input line 405.
 (pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
  [43
 
 ]
-<data-problems.png, id=1422, 639.38875pt x 350.30875pt>
+File: manual-labeling.png Graphic file (type png)
+<use manual-labeling.png>
+Package pdftex.def Info: manual-labeling.png  used on input line 405.
+(pdftex.def)             Requested size: 300.22394pt x 37.33978pt.
+File: observing-behaviors.png Graphic file (type png)
+<use observing-behaviors.png>
+Package pdftex.def Info: observing-behaviors.png  used on input line 405.
+(pdftex.def)             Requested size: 292.29637pt x 68.15564pt.
+ [44
+
+]
+<data-problems.png, id=1429, 639.38875pt x 350.30875pt>
 File: data-problems.png Graphic file (type png)
 <use data-problems.png>
-Package pdftex.def Info: data-problems.png  used on input line 407.
+Package pdftex.def Info: data-problems.png  used on input line 417.
 (pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
-
-[44
+ [45
 
  <./data-problems.png>]
 File: data-problems.png Graphic file (type png)
 <use data-problems.png>
-Package pdftex.def Info: data-problems.png  used on input line 407.
-(pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
- [45
-
-]
-File: data-problems.png Graphic file (type png)
-<use data-problems.png>
-Package pdftex.def Info: data-problems.png  used on input line 407.
+Package pdftex.def Info: data-problems.png  used on input line 417.
 (pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
  [46
 
 ]
 File: data-problems.png Graphic file (type png)
 <use data-problems.png>
-Package pdftex.def Info: data-problems.png  used on input line 407.
+Package pdftex.def Info: data-problems.png  used on input line 417.
 (pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
- [47
 
-] (./2023-slides-AI_for_everyone.toc)
-[48
+[47
 
 ]
-<diagram-venn-deep-learning.png, id=1574, 604.2575pt x 425.59pt>
+File: data-problems.png Graphic file (type png)
+<use data-problems.png>
+Package pdftex.def Info: data-problems.png  used on input line 417.
+(pdftex.def)             Requested size: 191.8181pt x 105.09343pt.
+ [48
+
+] (./2023-slides-AI_for_everyone.toc) [49
+
+]
+<diagram-venn-deep-learning.png, id=1580, 604.2575pt x 425.59pt>
 File: diagram-venn-deep-learning.png Graphic file (type png)
 <use diagram-venn-deep-learning.png>
-Package pdftex.def Info: diagram-venn-deep-learning.png  used on input line 416
+Package pdftex.def Info: diagram-venn-deep-learning.png  used on input line 426
 .
 (pdftex.def)             Requested size: 271.91336pt x 191.51372pt.
- [49
+ [50
 
  <./diagram-venn-deep-learning.png (PNG copy)>]
-<ml-vs-ds.png, id=1606, 1022.82124pt x 420.57124pt>
+<ml-vs-ds.png, id=1611, 1022.82124pt x 420.57124pt>
 File: ml-vs-ds.png Graphic file (type png)
 <use ml-vs-ds.png>
-Package pdftex.def Info: ml-vs-ds.png  used on input line 432.
+Package pdftex.def Info: ml-vs-ds.png  used on input line 442.
 (pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
- [50
+ [51
 
  <./ml-vs-ds.png>]
 File: ml-vs-ds.png Graphic file (type png)
 <use ml-vs-ds.png>
-Package pdftex.def Info: ml-vs-ds.png  used on input line 432.
+Package pdftex.def Info: ml-vs-ds.png  used on input line 442.
 (pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
-
-[51
+ [52
 
 ]
 File: ml-vs-ds.png Graphic file (type png)
 <use ml-vs-ds.png>
-Package pdftex.def Info: ml-vs-ds.png  used on input line 432.
+Package pdftex.def Info: ml-vs-ds.png  used on input line 442.
 (pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
- [52
-
-] [53
+ [53
 
 ] [54
 
 ] [55
 
-] (./2023-slides-AI_for_everyone.toc) [56
+] [56
+
+]
+(./2023-slides-AI_for_everyone.toc) [57
 
 ]
 File: ml-vs-ds.png Graphic file (type png)
 <use ml-vs-ds.png>
-Package pdftex.def Info: ml-vs-ds.png  used on input line 457.
+Package pdftex.def Info: ml-vs-ds.png  used on input line 467.
 (pdftex.def)             Requested size: 255.70468pt x 105.14255pt.
- [57
-
-]
-<deep-learning.png, id=1847, 1201.48875pt x 538.01pt>
-File: deep-learning.png Graphic file (type png)
-<use deep-learning.png>
-Package pdftex.def Info: deep-learning.png  used on input line 463.
-(pdftex.def)             Requested size: 330.40126pt x 147.9491pt.
  [58
 
- <./deep-learning.png>]
-<images/brain-neurons.png, id=1878, 752.8125pt x 430.60875pt>
-File: images/brain-neurons.png Graphic file (type png)
-<use images/brain-neurons.png>
-Package pdftex.def Info: images/brain-neurons.png  used on input line 471.
-(pdftex.def)             Requested size: 301.11966pt x 172.24043pt.
+]
+<deep-learning.png, id=1850, 1201.48875pt x 538.01pt>
+File: deep-learning.png Graphic file (type png)
+<use deep-learning.png>
+Package pdftex.def Info: deep-learning.png  used on input line 473.
+(pdftex.def)             Requested size: 330.40126pt x 147.9491pt.
  [59
 
+ <./deep-learning.png>]
+<images/brain-neurons.png, id=1881, 752.8125pt x 430.60875pt>
+File: images/brain-neurons.png Graphic file (type png)
+<use images/brain-neurons.png>
+Package pdftex.def Info: images/brain-neurons.png  used on input line 481.
+(pdftex.def)             Requested size: 301.11966pt x 172.24043pt.
+
+[60
+
  <./images/brain-neurons.png>]
-<deep-learning-2.png, id=1908, 1411.2725pt x 700.6175pt>
+<deep-learning-2.png, id=1912, 1411.2725pt x 700.6175pt>
 File: deep-learning-2.png Graphic file (type png)
 <use deep-learning-2.png>
-Package pdftex.def Info: deep-learning-2.png  used on input line 477.
+Package pdftex.def Info: deep-learning-2.png  used on input line 487.
 (pdftex.def)             Requested size: 338.71233pt x 168.15163pt.
- [60
+ [61
 
- <./deep-learning-2.png>] (./2023-slides-AI_for_everyone.toc) [61
-
-]
-<demand-prediction.png, id=1976, 760.8425pt x 559.08875pt>
+ <./deep-learning-2.png>]
+<demand-prediction.png, id=1943, 760.8425pt x 559.08875pt>
 File: demand-prediction.png Graphic file (type png)
 <use demand-prediction.png>
-Package pdftex.def Info: demand-prediction.png  used on input line 491.
+Package pdftex.def Info: demand-prediction.png  used on input line 500.
 (pdftex.def)             Requested size: 171.19379pt x 125.79807pt.
-<t-shirt.jpg, id=1977, 617.30624pt x 616.3025pt>
+<t-shirt.jpg, id=1944, 617.30624pt x 616.3025pt>
 File: t-shirt.jpg Graphic file (type jpg)
 <use t-shirt.jpg>
-Package pdftex.def Info: t-shirt.jpg  used on input line 491.
+Package pdftex.def Info: t-shirt.jpg  used on input line 500.
 (pdftex.def)             Requested size: 138.89732pt x 138.67148pt.
 
-Overfull \hbox (1.9813pt too wide) in paragraph at lines 491--491
+Overfull \hbox (1.9813pt too wide) in paragraph at lines 500--500
 [][]  
  []
 
 [62
 
  <./demand-prediction.png> <./t-shirt.jpg>]
-<demand-prediction-line.png, id=2008, 1394.20876pt x 561.09625pt>
+<demand-prediction-line.png, id=1974, 1394.20876pt x 561.09625pt>
 File: demand-prediction-line.png Graphic file (type png)
 <use demand-prediction-line.png>
-Package pdftex.def Info: demand-prediction-line.png  used on input line 496.
+Package pdftex.def Info: demand-prediction-line.png  used on input line 505.
 (pdftex.def)             Requested size: 313.70471pt x 126.24977pt.
  [63
 
  <./demand-prediction-line.png>]
-<demand-prediction-nn-0.png, id=2038, 1148.29pt x 503.8825pt>
+<demand-prediction-nn-0.png, id=2005, 1148.29pt x 503.8825pt>
 File: demand-prediction-nn-0.png Graphic file (type png)
 <use demand-prediction-nn-0.png>
-Package pdftex.def Info: demand-prediction-nn-0.png  used on input line 501.
+Package pdftex.def Info: demand-prediction-nn-0.png  used on input line 510.
 (pdftex.def)             Requested size: 315.77196pt x 138.56427pt.
  [64
 
  <./demand-prediction-nn-0.png>]
-<demand-prediction-nn.png, id=2068, 1148.29pt x 503.8825pt>
+<demand-prediction-nn.png, id=2035, 1148.29pt x 503.8825pt>
 File: demand-prediction-nn.png Graphic file (type png)
 <use demand-prediction-nn.png>
-Package pdftex.def Info: demand-prediction-nn.png  used on input line 506.
+Package pdftex.def Info: demand-prediction-nn.png  used on input line 515.
 (pdftex.def)             Requested size: 315.77196pt x 138.56427pt.
  [65
 
  <./demand-prediction-nn.png>]
-<demand-prediction-nn-2.png, id=2099, 1214.5375pt x 613.29124pt>
+<demand-prediction-nn-2.png, id=2065, 1214.5375pt x 613.29124pt>
 File: demand-prediction-nn-2.png Graphic file (type png)
 <use demand-prediction-nn-2.png>
-Package pdftex.def Info: demand-prediction-nn-2.png  used on input line 513.
+Package pdftex.def Info: demand-prediction-nn-2.png  used on input line 520.
 (pdftex.def)             Requested size: 333.98958pt x 168.65092pt.
 
 [66
 
  <./demand-prediction-nn-2.png>]
-<demand-prediction-nn-3.png, id=2129, 1216.545pt x 602.25pt>
+<demand-prediction-nn-3.png, id=2095, 1216.545pt x 602.25pt>
 File: demand-prediction-nn-3.png Graphic file (type png)
 <use demand-prediction-nn-3.png>
-Package pdftex.def Info: demand-prediction-nn-3.png  used on input line 518.
+Package pdftex.def Info: demand-prediction-nn-3.png  used on input line 525.
 (pdftex.def)             Requested size: 334.54163pt x 165.61465pt.
  [67
 
  <./demand-prediction-nn-3.png>]
-<face-recognition-intro.png, id=2160, 1359.0775pt x 654.445pt>
+<face-recognition-intro.png, id=2127, 1359.0775pt x 654.445pt>
 File: face-recognition-intro.png Graphic file (type png)
 <use face-recognition-intro.png>
-Package pdftex.def Info: face-recognition-intro.png  used on input line 529.
+Package pdftex.def Info: face-recognition-intro.png  used on input line 536.
 (pdftex.def)             Requested size: 339.76854pt x 163.61084pt.
 
 [68
 
  <./face-recognition-intro.png>]
-<face-recognition-intro-2.png, id=2191, 1289.81876pt x 623.32875pt>
+<face-recognition-intro-2.png, id=2158, 1289.81876pt x 623.32875pt>
 File: face-recognition-intro-2.png Graphic file (type png)
 <use face-recognition-intro-2.png>
-Package pdftex.def Info: face-recognition-intro-2.png  used on input line 534.
+Package pdftex.def Info: face-recognition-intro-2.png  used on input line 541.
 (pdftex.def)             Requested size: 322.4539pt x 155.8318pt.
  [69
 
  <./face-recognition-intro-2.png>]
-<face-recognition-intro-3.png, id=2222, 1488.56125pt x 652.4375pt>
+<face-recognition-intro-3.png, id=2188, 1488.56125pt x 652.4375pt>
 File: face-recognition-intro-3.png Graphic file (type png)
 <use face-recognition-intro-3.png>
-Package pdftex.def Info: face-recognition-intro-3.png  used on input line 539.
+Package pdftex.def Info: face-recognition-intro-3.png  used on input line 546.
 (pdftex.def)             Requested size: 334.93454pt x 146.80205pt.
 
 [70
@@ -1594,17 +1615,17 @@ Package pdftex.def Info: face-recognition-intro-3.png  used on input line 539.
 [72
 
 ]
-<what-ML-can-do.png, id=2320, 945.5325pt x 459.7175pt>
+<what-ML-can-do.png, id=2284, 945.5325pt x 459.7175pt>
 File: what-ML-can-do.png Graphic file (type png)
 <use what-ML-can-do.png>
-Package pdftex.def Info: what-ML-can-do.png  used on input line 554.
+Package pdftex.def Info: what-ML-can-do.png  used on input line 561.
 (pdftex.def)             Requested size: 283.66194pt x 137.9163pt.
  [73
 
  <./what-ML-can-do.png>]
 File: what-ML-can-do.png Graphic file (type png)
 <use what-ML-can-do.png>
-Package pdftex.def Info: what-ML-can-do.png  used on input line 554.
+Package pdftex.def Info: what-ML-can-do.png  used on input line 561.
 (pdftex.def)             Requested size: 283.66194pt x 137.9163pt.
  [74
 
@@ -1631,202 +1652,206 @@ Package pdftex.def Info: what-ML-can-do.png  used on input line 554.
 
 ] [85
 
-] (./2023-slides-AI_for_everyone.toc) [86
-
-] [87
+] [86
 
 ]
-<kiri-can.png, id=2759, 566.115pt x 412.54124pt>
+<kiri-can.png, id=2687, 566.115pt x 412.54124pt>
 File: kiri-can.png Graphic file (type png)
 <use kiri-can.png>
-Package pdftex.def Info: kiri-can.png  used on input line 639.
+Package pdftex.def Info: kiri-can.png  used on input line 645.
 (pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
- [88
+ [87
 
  <./kiri-can.png>]
 File: kiri-can.png Graphic file (type png)
 <use kiri-can.png>
-Package pdftex.def Info: kiri-can.png  used on input line 639.
+Package pdftex.def Info: kiri-can.png  used on input line 645.
 (pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
-<kanan-can.png, id=2789, 745.78625pt x 481.8pt>
+<kanan-can.png, id=2717, 745.78625pt x 481.8pt>
 File: kanan-can.png Graphic file (type png)
 <use kanan-can.png>
-Package pdftex.def Info: kanan-can.png  used on input line 639.
+Package pdftex.def Info: kanan-can.png  used on input line 645.
 (pdftex.def)             Requested size: 167.80605pt x 108.40767pt.
- [89
+ [88
 
  <./kanan-can.png>]
 File: kiri-can.png Graphic file (type png)
 <use kiri-can.png>
-Package pdftex.def Info: kiri-can.png  used on input line 639.
+Package pdftex.def Info: kiri-can.png  used on input line 645.
 (pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
 File: kanan-can.png Graphic file (type png)
 <use kanan-can.png>
-Package pdftex.def Info: kanan-can.png  used on input line 639.
+Package pdftex.def Info: kanan-can.png  used on input line 645.
 (pdftex.def)             Requested size: 167.80605pt x 108.40767pt.
- [90
+ [89
 
 ]
 File: kiri-can.png Graphic file (type png)
 <use kiri-can.png>
-Package pdftex.def Info: kiri-can.png  used on input line 639.
+Package pdftex.def Info: kiri-can.png  used on input line 645.
 (pdftex.def)             Requested size: 127.37901pt x 92.82407pt.
 File: kanan-can.png Graphic file (type png)
 <use kanan-can.png>
-Package pdftex.def Info: kanan-can.png  used on input line 639.
+Package pdftex.def Info: kanan-can.png  used on input line 645.
 (pdftex.def)             Requested size: 167.80605pt x 108.40767pt.
- [91
+
+[90
 
 ]
-<x-ray.png, id=2875, 1410.26875pt x 254.9525pt>
+<x-ray.png, id=2802, 1410.26875pt x 254.9525pt>
 File: x-ray.png Graphic file (type png)
 <use x-ray.png>
-Package pdftex.def Info: x-ray.png  used on input line 653.
+Package pdftex.def Info: x-ray.png  used on input line 659.
 (pdftex.def)             Requested size: 317.3183pt x 57.36572pt.
- [92
+ [91
 
  <./x-ray.png>]
 File: x-ray.png Graphic file (type png)
 <use x-ray.png>
-Package pdftex.def Info: x-ray.png  used on input line 653.
+Package pdftex.def Info: x-ray.png  used on input line 659.
 (pdftex.def)             Requested size: 317.3183pt x 57.36572pt.
- [93
+ [92
 
 ]
 File: x-ray.png Graphic file (type png)
 <use x-ray.png>
-Package pdftex.def Info: x-ray.png  used on input line 653.
+Package pdftex.def Info: x-ray.png  used on input line 659.
 (pdftex.def)             Requested size: 317.3183pt x 57.36572pt.
- [94
+ [93
+
+] [94
 
 ] [95
 
-]
-[96
+] [96
 
 ] [97
 
-] [98
-
 ]
-<new-types-of-data.png, id=3078, 1169.36874pt x 231.86626pt>
+<new-types-of-data.png, id=3006, 1169.36874pt x 231.86626pt>
 File: new-types-of-data.png Graphic file (type png)
 <use new-types-of-data.png>
-Package pdftex.def Info: new-types-of-data.png  used on input line 672.
+Package pdftex.def Info: new-types-of-data.png  used on input line 678.
 (pdftex.def)             Requested size: 321.56848pt x 63.76164pt.
- [99
+ [98
 
- <./new-types-of-data.png>] [100
+ <./new-types-of-data.png>] [99
+
+] [100
 
 ] [101
 
 ] [102
 
-] [103
-
 ]
-<potato-chip-sales.png, id=3225, 505.89pt x 441.65pt>
+<potato-chip-sales.png, id=3153, 505.89pt x 441.65pt>
 File: potato-chip-sales.png Graphic file (type png)
 <use potato-chip-sales.png>
-Package pdftex.def Info: potato-chip-sales.png  used on input line 689.
+Package pdftex.def Info: potato-chip-sales.png  used on input line 695.
 (pdftex.def)             Requested size: 126.47218pt x 110.41222pt.
- [104
+ [103
 
  <./potato-chip-sales.png>]
 File: potato-chip-sales.png Graphic file (type png)
 <use potato-chip-sales.png>
-Package pdftex.def Info: potato-chip-sales.png  used on input line 689.
+Package pdftex.def Info: potato-chip-sales.png  used on input line 695.
 (pdftex.def)             Requested size: 126.47218pt x 110.41222pt.
-<potato-chip-sales-2.png, id=3256, 516.93124pt x 449.68pt>
+<potato-chip-sales-2.png, id=3186, 516.93124pt x 449.68pt>
 File: potato-chip-sales-2.png Graphic file (type png)
 <use potato-chip-sales-2.png>
-Package pdftex.def Info: potato-chip-sales-2.png  used on input line 689.
+Package pdftex.def Info: potato-chip-sales-2.png  used on input line 695.
 (pdftex.def)             Requested size: 129.23248pt x 112.41972pt.
- [105
+ [104
 
  <./potato-chip-sales-2.png>]
-<google-cats.png, id=3286, 486.81876pt x 425.59pt>
+<google-cats.png, id=3215, 486.81876pt x 425.59pt>
 File: google-cats.png Graphic file (type png)
 <use google-cats.png>
-Package pdftex.def Info: google-cats.png  used on input line 705.
+Package pdftex.def Info: google-cats.png  used on input line 711.
 (pdftex.def)             Requested size: 121.70439pt x 106.39723pt.
- [106
+ [105
 
  <./google-cats.png>]
 File: google-cats.png Graphic file (type png)
 <use google-cats.png>
-Package pdftex.def Info: google-cats.png  used on input line 705.
+Package pdftex.def Info: google-cats.png  used on input line 711.
 (pdftex.def)             Requested size: 121.70439pt x 106.39723pt.
- [107
-
-] (./2023-slides-AI_for_everyone.toc) [108
+ [106
 
 ]
-<image-classification.png, id=3380, 264.99pt x 143.53625pt>
+(./2023-slides-AI_for_everyone.toc) [107
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 722.
+ [108
+
+]
+<image-classification.png, id=3336, 264.99pt x 143.53625pt>
 File: image-classification.png Graphic file (type png)
 <use image-classification.png>
-Package pdftex.def Info: image-classification.png  used on input line 715.
+Package pdftex.def Info: image-classification.png  used on input line 731.
 (pdftex.def)             Requested size: 105.99411pt x 57.41347pt.
  [109
 
  <./image-classification.png>]
-<images/face-identification-recognition.jpg, id=3411, 1473.505pt x 837.1275pt>
+<images/face-identification-recognition.jpg, id=3367, 1473.505pt x 837.1275pt>
 File: images/face-identification-recognition.jpg Graphic file (type jpg)
 <use images/face-identification-recognition.jpg>
 Package pdftex.def Info: images/face-identification-recognition.jpg  used on in
-put line 726.
+put line 742.
 (pdftex.def)             Requested size: 341.8444pt x 194.2086pt.
 
-Overfull \vbox (3.63329pt too high) detected at line 726
+Overfull \vbox (3.63329pt too high) detected at line 742
  []
 
 [110
 
  <./images/face-identification-recognition.jpg>]
-<object-detection-1.png, id=3442, 284.06125pt x 180.675pt>
+<object-detection-1.png, id=3399, 284.06125pt x 180.675pt>
 File: object-detection-1.png Graphic file (type png)
 <use object-detection-1.png>
-Package pdftex.def Info: object-detection-1.png  used on input line 737.
+Package pdftex.def Info: object-detection-1.png  used on input line 753.
 (pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
  [111
 
  <./object-detection-1.png>]
 File: object-detection-1.png Graphic file (type png)
 <use object-detection-1.png>
-Package pdftex.def Info: object-detection-1.png  used on input line 737.
+Package pdftex.def Info: object-detection-1.png  used on input line 753.
 (pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
-<object-detection-2.png, id=3474, 283.0575pt x 181.67876pt>
+<object-detection-2.png, id=3431, 283.0575pt x 181.67876pt>
 File: object-detection-2.png Graphic file (type png)
 <use object-detection-2.png>
-Package pdftex.def Info: object-detection-2.png  used on input line 737.
+Package pdftex.def Info: object-detection-2.png  used on input line 753.
 (pdftex.def)             Requested size: 113.22098pt x 72.6702pt.
  [112
 
  <./object-detection-2.png>]
 File: object-detection-1.png Graphic file (type png)
 <use object-detection-1.png>
-Package pdftex.def Info: object-detection-1.png  used on input line 737.
+Package pdftex.def Info: object-detection-1.png  used on input line 753.
 (pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
 File: object-detection-2.png Graphic file (type png)
 <use object-detection-2.png>
-Package pdftex.def Info: object-detection-2.png  used on input line 737.
+Package pdftex.def Info: object-detection-2.png  used on input line 753.
 (pdftex.def)             Requested size: 113.22098pt x 72.6702pt.
-<object-detection-3.png, id=3504, 238.8925pt x 183.68625pt>
+<object-detection-3.png, id=3460, 238.8925pt x 183.68625pt>
 File: object-detection-3.png Graphic file (type png)
 <use object-detection-3.png>
-Package pdftex.def Info: object-detection-3.png  used on input line 737.
+Package pdftex.def Info: object-detection-3.png  used on input line 753.
 (pdftex.def)             Requested size: 95.5553pt x 73.47318pt.
  [113
 
  <./object-detection-3.png>]
 File: object-detection-1.png Graphic file (type png)
 <use object-detection-1.png>
-Package pdftex.def Info: object-detection-1.png  used on input line 750.
+Package pdftex.def Info: object-detection-1.png  used on input line 766.
 (pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
-<tracking.png, id=3533, 227.85126pt x 178.6675pt>
+<tracking.png, id=3489, 227.85126pt x 178.6675pt>
 File: tracking.png Graphic file (type png)
 <use tracking.png>
-Package pdftex.def Info: tracking.png  used on input line 750.
+Package pdftex.def Info: tracking.png  used on input line 766.
 (pdftex.def)             Requested size: 91.13889pt x 71.46573pt.
 
 [114
@@ -1834,142 +1859,142 @@ Package pdftex.def Info: tracking.png  used on input line 750.
  <./tracking.png>]
 File: object-detection-1.png Graphic file (type png)
 <use object-detection-1.png>
-Package pdftex.def Info: object-detection-1.png  used on input line 750.
+Package pdftex.def Info: object-detection-1.png  used on input line 766.
 (pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
-<image-segmentation.png, id=3565, 286.06876pt x 182.6825pt>
+<image-segmentation.png, id=3522, 286.06876pt x 182.6825pt>
 File: image-segmentation.png Graphic file (type png)
 <use image-segmentation.png>
-Package pdftex.def Info: image-segmentation.png  used on input line 750.
+Package pdftex.def Info: image-segmentation.png  used on input line 766.
 (pdftex.def)             Requested size: 114.42546pt x 73.07169pt.
 File: tracking.png Graphic file (type png)
 <use tracking.png>
-Package pdftex.def Info: tracking.png  used on input line 750.
+Package pdftex.def Info: tracking.png  used on input line 766.
 (pdftex.def)             Requested size: 91.13889pt x 71.46573pt.
  [115
 
  <./image-segmentation.png>]
 File: object-detection-1.png Graphic file (type png)
 <use object-detection-1.png>
-Package pdftex.def Info: object-detection-1.png  used on input line 750.
+Package pdftex.def Info: object-detection-1.png  used on input line 766.
 (pdftex.def)             Requested size: 113.62247pt x 72.2687pt.
 File: image-segmentation.png Graphic file (type png)
 <use image-segmentation.png>
-Package pdftex.def Info: image-segmentation.png  used on input line 750.
+Package pdftex.def Info: image-segmentation.png  used on input line 766.
 (pdftex.def)             Requested size: 114.42546pt x 73.07169pt.
 File: tracking.png Graphic file (type png)
 <use tracking.png>
-Package pdftex.def Info: tracking.png  used on input line 750.
+Package pdftex.def Info: tracking.png  used on input line 766.
 (pdftex.def)             Requested size: 91.13889pt x 71.46573pt.
  [116
 
 ]
-<images/generating-style.jpg, id=3623, 1660.2025pt x 487.8225pt>
+<images/generating-style.jpg, id=3579, 1660.2025pt x 487.8225pt>
 File: images/generating-style.jpg Graphic file (type jpg)
 <use images/generating-style.jpg>
-Package pdftex.def Info: images/generating-style.jpg  used on input line 761.
+Package pdftex.def Info: images/generating-style.jpg  used on input line 777.
 (pdftex.def)             Requested size: 332.03462pt x 97.56276pt.
  [117
 
  <./images/generating-style.jpg>]
-<images/gans+text+cv.jpg, id=3653, 1508.63625pt x 651.43375pt>
+<images/gans+text+cv.jpg, id=3609, 1508.63625pt x 651.43375pt>
 File: images/gans+text+cv.jpg Graphic file (type jpg)
 <use images/gans+text+cv.jpg>
-Package pdftex.def Info: images/gans+text+cv.jpg  used on input line 772.
+Package pdftex.def Info: images/gans+text+cv.jpg  used on input line 788.
 (pdftex.def)             Requested size: 339.45154pt x 146.5762pt.
  [118
 
  <./images/gans+text+cv.jpg>]
-<images/image-recommendation.jpg, id=3683, 628.3475pt x 897.3525pt>
+<images/image-recommendation.jpg, id=3640, 628.3475pt x 897.3525pt>
 File: images/image-recommendation.jpg Graphic file (type jpg)
 <use images/image-recommendation.jpg>
-Package pdftex.def Info: images/image-recommendation.jpg  used on input line 78
-3.
+Package pdftex.def Info: images/image-recommendation.jpg  used on input line 79
+9.
 (pdftex.def)             Requested size: 141.38167pt x 201.90929pt.
 
-Overfull \vbox (13.64447pt too high) detected at line 783
+Overfull \vbox (13.64447pt too high) detected at line 799
  []
 
 [119
 
  <./images/image-recommendation.jpg>]
-<images/search-engine-1.jpg, id=3715, 1315.91624pt x 237.88875pt>
+<images/search-engine-1.jpg, id=3671, 1315.91624pt x 237.88875pt>
 File: images/search-engine-1.jpg Graphic file (type jpg)
 <use images/search-engine-1.jpg>
-Package pdftex.def Info: images/search-engine-1.jpg  used on input line 797.
+Package pdftex.def Info: images/search-engine-1.jpg  used on input line 813.
 (pdftex.def)             Requested size: 328.97826pt x 59.47203pt.
-<images/search-engine-2.jpg, id=3716, 1537.745pt x 483.8075pt>
+<images/search-engine-2.jpg, id=3672, 1537.745pt x 483.8075pt>
 File: images/search-engine-2.jpg Graphic file (type jpg)
 <use images/search-engine-2.jpg>
-Package pdftex.def Info: images/search-engine-2.jpg  used on input line 797.
+Package pdftex.def Info: images/search-engine-2.jpg  used on input line 813.
 (pdftex.def)             Requested size: 307.54355pt x 96.75978pt.
  [120
 
  <./images/search-engine-1.jpg> <./images/search-engine-2.jpg>]
-<images/search-engine-3.jpg, id=3746, 1591.9475pt x 511.9125pt>
+<images/search-engine-3.jpg, id=3702, 1591.9475pt x 511.9125pt>
 File: images/search-engine-3.jpg Graphic file (type jpg)
 <use images/search-engine-3.jpg>
-Package pdftex.def Info: images/search-engine-3.jpg  used on input line 806.
+Package pdftex.def Info: images/search-engine-3.jpg  used on input line 822.
 (pdftex.def)             Requested size: 358.19702pt x 115.18315pt.
 
-Overfull \hbox (15.90172pt too wide) in paragraph at lines 806--806
+Overfull \hbox (15.90172pt too wide) in paragraph at lines 822--822
  [] 
  []
 
 [121
 
  <./images/search-engine-3.jpg>]
-<images/search-engine-4.jpg, id=3776, 1311.90125pt x 679.53876pt>
+<images/search-engine-4.jpg, id=3733, 1311.90125pt x 679.53876pt>
 File: images/search-engine-4.jpg Graphic file (type jpg)
 <use images/search-engine-4.jpg>
-Package pdftex.def Info: images/search-engine-4.jpg  used on input line 813.
+Package pdftex.def Info: images/search-engine-4.jpg  used on input line 829.
 (pdftex.def)             Requested size: 327.9745pt x 169.88428pt.
  [122
 
  <./images/search-engine-4.jpg>]
-<images/conversational-1.jpg, id=3805, 1130.2225pt x 854.19125pt>
+<images/conversational-1.jpg, id=3762, 1130.2225pt x 854.19125pt>
 File: images/conversational-1.jpg Graphic file (type jpg)
 <use images/conversational-1.jpg>
-Package pdftex.def Info: images/conversational-1.jpg  used on input line 822.
+Package pdftex.def Info: images/conversational-1.jpg  used on input line 838.
 (pdftex.def)             Requested size: 254.30634pt x 192.19777pt.
 
 [123
 
  <./images/conversational-1.jpg>]
-<images/text-generation.jpg, id=3835, 1569.865pt x 759.83875pt>
+<images/text-generation.jpg, id=3791, 1569.865pt x 759.83875pt>
 File: images/text-generation.jpg Graphic file (type jpg)
 <use images/text-generation.jpg>
-Package pdftex.def Info: images/text-generation.jpg  used on input line 833.
+Package pdftex.def Info: images/text-generation.jpg  used on input line 849.
 (pdftex.def)             Requested size: 313.96744pt x 151.96506pt.
  [124
 
  <./images/text-generation.jpg>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 853.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 853.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 853.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 853.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 853.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 853.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 853.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 853.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 869.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 853.
-<four-stars.png, id=3866, 234.8775pt x 63.23625pt>
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 869.
+<four-stars.png, id=3822, 234.8775pt x 63.23625pt>
 File: four-stars.png Graphic file (type png)
 <use four-stars.png>
-Package pdftex.def Info: four-stars.png  used on input line 853.
+Package pdftex.def Info: four-stars.png  used on input line 869.
 (pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
-<one-star.png, id=3867, 54.2025pt x 59.22125pt>
+<one-star.png, id=3823, 54.2025pt x 59.22125pt>
 File: one-star.png Graphic file (type png)
 <use one-star.png>
-Package pdftex.def Info: one-star.png  used on input line 853.
+Package pdftex.def Info: one-star.png  used on input line 869.
 (pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
 
 [125
@@ -1977,95 +2002,95 @@ Package pdftex.def Info: one-star.png  used on input line 853.
  <./four-stars.png> <./one-star.png>]
 File: four-stars.png Graphic file (type png)
 <use four-stars.png>
-Package pdftex.def Info: four-stars.png  used on input line 853.
+Package pdftex.def Info: four-stars.png  used on input line 869.
 (pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
 File: one-star.png Graphic file (type png)
 <use one-star.png>
-Package pdftex.def Info: one-star.png  used on input line 853.
+Package pdftex.def Info: one-star.png  used on input line 869.
 (pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
  [126
 
 ]
 File: four-stars.png Graphic file (type png)
 <use four-stars.png>
-Package pdftex.def Info: four-stars.png  used on input line 853.
+Package pdftex.def Info: four-stars.png  used on input line 869.
 (pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
 File: one-star.png Graphic file (type png)
 <use one-star.png>
-Package pdftex.def Info: one-star.png  used on input line 853.
+Package pdftex.def Info: one-star.png  used on input line 869.
 (pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
  [127
 
 ]
 File: four-stars.png Graphic file (type png)
 <use four-stars.png>
-Package pdftex.def Info: four-stars.png  used on input line 853.
+Package pdftex.def Info: four-stars.png  used on input line 869.
 (pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
 File: one-star.png Graphic file (type png)
 <use one-star.png>
-Package pdftex.def Info: one-star.png  used on input line 853.
+Package pdftex.def Info: one-star.png  used on input line 869.
 (pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
  [128
 
 ]
 File: four-stars.png Graphic file (type png)
 <use four-stars.png>
-Package pdftex.def Info: four-stars.png  used on input line 853.
+Package pdftex.def Info: four-stars.png  used on input line 869.
 (pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
 File: one-star.png Graphic file (type png)
 <use one-star.png>
-Package pdftex.def Info: one-star.png  used on input line 853.
+Package pdftex.def Info: one-star.png  used on input line 869.
 (pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
  [129
 
 ]
 File: four-stars.png Graphic file (type png)
 <use four-stars.png>
-Package pdftex.def Info: four-stars.png  used on input line 853.
+Package pdftex.def Info: four-stars.png  used on input line 869.
 (pdftex.def)             Requested size: 58.71922pt x 15.80902pt.
 File: one-star.png Graphic file (type png)
 <use one-star.png>
-Package pdftex.def Info: one-star.png  used on input line 853.
+Package pdftex.def Info: one-star.png  used on input line 869.
 (pdftex.def)             Requested size: 13.55058pt x 14.80527pt.
  [130
 
 ]
-<images/phrase-translation.jpg, id=4041, 1534.73375pt x 272.01625pt>
+<images/phrase-translation.jpg, id=3997, 1534.73375pt x 272.01625pt>
 File: images/phrase-translation.jpg Graphic file (type jpg)
 <use images/phrase-translation.jpg>
-Package pdftex.def Info: images/phrase-translation.jpg  used on input line 870.
+Package pdftex.def Info: images/phrase-translation.jpg  used on input line 886.
 
 (pdftex.def)             Requested size: 306.94131pt x 54.40228pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 870--870
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 886--886
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--870
+Underfull \hbox (badness 10000) in paragraph at lines 886--886
 
  []
 
 [131
 
  <./images/phrase-translation.jpg>]
-<images/edit-distance.jpg, id=4070, 781.92125pt x 290.08376pt>
+<images/edit-distance.jpg, id=4026, 781.92125pt x 290.08376pt>
 File: images/edit-distance.jpg Graphic file (type jpg)
 <use images/edit-distance.jpg>
-Package pdftex.def Info: images/edit-distance.jpg  used on input line 881.
+Package pdftex.def Info: images/edit-distance.jpg  used on input line 897.
 (pdftex.def)             Requested size: 156.38147pt x 58.01572pt.
  [132
 
  <./images/edit-distance.jpg>]
-<speech-1.png, id=4099, 933.4875pt x 270.00874pt>
+<speech-1.png, id=4056, 933.4875pt x 270.00874pt>
 File: speech-1.png Graphic file (type png)
 <use speech-1.png>
-Package pdftex.def Info: speech-1.png  used on input line 894.
+Package pdftex.def Info: speech-1.png  used on input line 909.
 (pdftex.def)             Requested size: 233.3713pt x 67.50201pt.
-<smart-speakers.png, id=4100, 1432.35126pt x 448.67625pt>
+<smart-speakers.png, id=4057, 1432.35126pt x 448.67625pt>
 File: smart-speakers.png Graphic file (type png)
 <use smart-speakers.png>
-Package pdftex.def Info: smart-speakers.png  used on input line 894.
+Package pdftex.def Info: smart-speakers.png  used on input line 909.
 (pdftex.def)             Requested size: 286.46518pt x 89.73366pt.
 
 [133
@@ -2073,17 +2098,17 @@ Package pdftex.def Info: smart-speakers.png  used on input line 894.
  <./speech-1.png> <./smart-speakers.png>]
 File: speech-1.png Graphic file (type png)
 <use speech-1.png>
-Package pdftex.def Info: speech-1.png  used on input line 894.
+Package pdftex.def Info: speech-1.png  used on input line 909.
 (pdftex.def)             Requested size: 233.3713pt x 67.50201pt.
 File: smart-speakers.png Graphic file (type png)
 <use smart-speakers.png>
-Package pdftex.def Info: smart-speakers.png  used on input line 894.
+Package pdftex.def Info: smart-speakers.png  used on input line 909.
 (pdftex.def)             Requested size: 286.46518pt x 89.73366pt.
  [134
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 90
-7.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 92
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -2092,113 +2117,594 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ] [136
 
 ]
-<images/time-series-forecasting.jpg, id=4218, 1391.1975pt x 713.66624pt>
-File: images/time-series-forecasting.jpg Graphic file (type jpg)
-<use images/time-series-forecasting.jpg>
-Package pdftex.def Info: images/time-series-forecasting.jpg  used on input line
- 914.
-(pdftex.def)             Requested size: 347.79852pt x 178.41612pt.
+<images/peta-topik-huawei-ai.png, id=4174, 1772.6225pt x 1013.7875pt>
+File: images/peta-topik-huawei-ai.png Graphic file (type png)
+<use images/peta-topik-huawei-ai.png>
+Package pdftex.def Info: images/peta-topik-huawei-ai.png  used on input line 99
+6.
+(pdftex.def)             Requested size: 319.05829pt x 182.47388pt.
+ [137
 
-Overfull \hbox (5.50322pt too wide) in paragraph at lines 914--914
+ <./images/peta-topik-huawei-ai.png>] (./2023-slides-AI_for_everyone.toc) [138
+
+]
+<images/rise-generative-reuters.png, id=4239, 916.42375pt x 660.4675pt>
+File: images/rise-generative-reuters.png Graphic file (type png)
+<use images/rise-generative-reuters.png>
+Package pdftex.def Info: images/rise-generative-reuters.png  used on input line
+ 1015.
+(pdftex.def)             Requested size: 171.14764pt x 123.34352pt.
+
+[139
+
+ <./images/rise-generative-reuters.png>]
+File: images/rise-generative-reuters.png Graphic file (type png)
+<use images/rise-generative-reuters.png>
+Package pdftex.def Info: images/rise-generative-reuters.png  used on input line
+ 1015.
+(pdftex.def)             Requested size: 171.14764pt x 123.34352pt.
+ [140
+
+]
+File: images/rise-generative-reuters.png Graphic file (type png)
+<use images/rise-generative-reuters.png>
+Package pdftex.def Info: images/rise-generative-reuters.png  used on input line
+ 1015.
+(pdftex.def)             Requested size: 171.14764pt x 123.34352pt.
+ [141
+
+]
+File: images/rise-generative-reuters.png Graphic file (type png)
+<use images/rise-generative-reuters.png>
+Package pdftex.def Info: images/rise-generative-reuters.png  used on input line
+ 1015.
+(pdftex.def)             Requested size: 171.14764pt x 123.34352pt.
+ [142
+
+] [143
+
+] [144
+
+]
+[145
+
+] [146
+
+] [147
+
+]
+<images/generative-developer-tool.png, id=4522, 1331.97626pt x 618.31pt>
+File: images/generative-developer-tool.png Graphic file (type png)
+<use images/generative-developer-tool.png>
+Package pdftex.def Info: images/generative-developer-tool.png  used on input li
+ne 1037.
+(pdftex.def)             Requested size: 332.99324pt x 154.57712pt.
+ [148
+
+ <./images/generative-developer-tool.png>] [149
+
+]
+<images/contoh-midjourney.png, id=4582, 626.34pt x 618.31pt>
+File: images/contoh-midjourney.png Graphic file (type png)
+<use images/contoh-midjourney.png>
+Package pdftex.def Info: images/contoh-midjourney.png  used on input line 1054.
+
+(pdftex.def)             Requested size: 156.58461pt x 154.57712pt.
+ [150
+
+ <./images/contoh-midjourney.png>]
+File: images/contoh-midjourney.png Graphic file (type png)
+<use images/contoh-midjourney.png>
+Package pdftex.def Info: images/contoh-midjourney.png  used on input line 1054.
+
+(pdftex.def)             Requested size: 156.58461pt x 154.57712pt.
+ [151
+
+]
+File: images/contoh-midjourney.png Graphic file (type png)
+<use images/contoh-midjourney.png>
+Package pdftex.def Info: images/contoh-midjourney.png  used on input line 1054.
+
+(pdftex.def)             Requested size: 156.58461pt x 154.57712pt.
+<images/contoh-dall-e.png, id=4641, 626.34pt x 618.31pt>
+File: images/contoh-dall-e.png Graphic file (type png)
+<use images/contoh-dall-e.png>
+Package pdftex.def Info: images/contoh-dall-e.png  used on input line 1054.
+(pdftex.def)             Requested size: 156.58461pt x 154.57712pt.
+ [152
+
+ <./images/contoh-dall-e.png>]
+[153
+
+]
+<images/prompt-and-llm.png, id=4702, 1195.46625pt x 531.9875pt>
+File: images/prompt-and-llm.png Graphic file (type png)
+<use images/prompt-and-llm.png>
+Package pdftex.def Info: images/prompt-and-llm.png  used on input line 1062.
+(pdftex.def)             Requested size: 298.86583pt x 132.99655pt.
+ [154
+
+ <./images/prompt-and-llm.png>] [155
+
+]
+<images/tabel-next-word.png, id=4761, 1318.9275pt x 503.8825pt>
+File: images/tabel-next-word.png Graphic file (type png)
+<use images/tabel-next-word.png>
+Package pdftex.def Info: images/tabel-next-word.png  used on input line 1072.
+(pdftex.def)             Requested size: 329.73106pt x 125.9703pt.
+ [156
+
+ <./images/tabel-next-word.png>]
+File: images/tabel-next-word.png Graphic file (type png)
+<use images/tabel-next-word.png>
+Package pdftex.def Info: images/tabel-next-word.png  used on input line 1072.
+(pdftex.def)             Requested size: 329.73106pt x 125.9703pt.
+ [157
+
+] [158
+
+]
+<images/cari-informasi-1.png, id=4849, 905.3825pt x 371.3875pt>
+File: images/cari-informasi-1.png Graphic file (type png)
+<use images/cari-informasi-1.png>
+Package pdftex.def Info: images/cari-informasi-1.png  used on input line 1083.
+(pdftex.def)             Requested size: 181.07329pt x 74.27617pt.
+
+Overfull \hbox (9.92564pt too wide) in paragraph at lines 1083--1083
+[][]  
+ []
+
+[159
+
+ <./images/cari-informasi-1.png>]
+File: images/cari-informasi-1.png Graphic file (type png)
+<use images/cari-informasi-1.png>
+Package pdftex.def Info: images/cari-informasi-1.png  used on input line 1083.
+(pdftex.def)             Requested size: 181.07329pt x 74.27617pt.
+
+Overfull \hbox (9.92564pt too wide) in paragraph at lines 1083--1083
+[][]  
+ []
+
+<images/cari-informasi-2.png, id=4878, 905.3825pt x 563.10374pt>
+File: images/cari-informasi-2.png Graphic file (type png)
+<use images/cari-informasi-2.png>
+Package pdftex.def Info: images/cari-informasi-2.png  used on input line 1083.
+(pdftex.def)             Requested size: 181.07329pt x 112.61874pt.
+
+Overfull \hbox (9.92564pt too wide) in paragraph at lines 1083--1083
+[][]  
+ []
+
+[160
+
+ <./images/cari-informasi-2.png>] [161
+
+]
+<images/partner-writing-1.png, id=4939, 860.21375pt x 614.295pt>
+File: images/partner-writing-1.png Graphic file (type png)
+<use images/partner-writing-1.png>
+Package pdftex.def Info: images/partner-writing-1.png  used on input line 1094.
+
+(pdftex.def)             Requested size: 172.03969pt x 122.85681pt.
+
+Overfull \hbox (0.89204pt too wide) in paragraph at lines 1094--1094
+[][]  
+ []
+
+[162
+
+ <./images/partner-writing-1.png>]
+File: images/partner-writing-1.png Graphic file (type png)
+<use images/partner-writing-1.png>
+Package pdftex.def Info: images/partner-writing-1.png  used on input line 1094.
+
+(pdftex.def)             Requested size: 172.03969pt x 122.85681pt.
+
+Overfull \hbox (0.89204pt too wide) in paragraph at lines 1094--1094
+[][]  
+ []
+
+<images/partner-writing-2.png, id=4969, 860.21375pt x 709.65125pt>
+File: images/partner-writing-2.png Graphic file (type png)
+<use images/partner-writing-2.png>
+Package pdftex.def Info: images/partner-writing-2.png  used on input line 1094.
+
+(pdftex.def)             Requested size: 172.03969pt x 141.92773pt.
+
+Overfull \hbox (0.89204pt too wide) in paragraph at lines 1094--1094
+[][]  
+ []
+
+[163
+
+ <./images/partner-writing-2.png>] [164
+
+]
+<images/web-search.png, id=5032, 998.73125pt x 775.89874pt>
+File: images/web-search.png Graphic file (type png)
+<use images/web-search.png>
+Package pdftex.def Info: images/web-search.png  used on input line 1109.
+(pdftex.def)             Requested size: 199.7427pt x 155.177pt.
+
+Overfull \hbox (28.59506pt too wide) in paragraph at lines 1109--1109
  [] 
  []
 
-[137
+[165
 
- <./images/time-series-forecasting.jpg>] [138
+ <./images/web-search.png>]
+File: images/web-search.png Graphic file (type png)
+<use images/web-search.png>
+Package pdftex.def Info: images/web-search.png  used on input line 1109.
+(pdftex.def)             Requested size: 199.7427pt x 155.177pt.
 
-] [139
-
-]
-<fourexamples-time-series.png, id=4310, 505.89pt x 312.41719pt>
-File: fourexamples-time-series.png Graphic file (type png)
-<use fourexamples-time-series.png>
-Package pdftex.def Info: fourexamples-time-series.png  used on input line 922.
-(pdftex.def)             Requested size: 252.94437pt x 156.2082pt.
- [140
-
- <./fourexamples-time-series.png>] [141
-
-]
-<classical-empl-1.png, id=4369, 505.89pt x 454.69875pt>
-File: classical-empl-1.png Graphic file (type png)
-<use classical-empl-1.png>
-Package pdftex.def Info: classical-empl-1.png  used on input line 930.
-(pdftex.def)             Requested size: 202.3524pt x 181.87627pt.
- [142
-
- <./classical-empl-1.png>] [143
-
-]
-<x11-1.png, id=4427, 505.89pt x 429.85594pt>
-File: x11-1.png Graphic file (type png)
-<use x11-1.png>
-Package pdftex.def Info: x11-1.png  used on input line 938.
-(pdftex.def)             Requested size: 202.3524pt x 171.93933pt.
- [144
-
- <./x11-1.png>]
-<images/prophet-symbol.png, id=4456, 483.8075pt x 138.5175pt>
-File: images/prophet-symbol.png Graphic file (type png)
-<use images/prophet-symbol.png>
-Package pdftex.def Info: images/prophet-symbol.png  used on input line 948.
-(pdftex.def)             Requested size: 120.95157pt x 34.62929pt.
-<images/facebook-prophet-model.png, id=4458, 716.6775pt x 445.665pt>
-File: images/facebook-prophet-model.png Graphic file (type png)
-<use images/facebook-prophet-model.png>
-Package pdftex.def Info: images/facebook-prophet-model.png  used on input line 
-948.
-(pdftex.def)             Requested size: 250.84088pt x 155.98508pt.
-
-Overfull \vbox (7.27982pt too high) detected at line 948
+Overfull \hbox (28.59506pt too wide) in paragraph at lines 1109--1109
+ [] 
  []
 
-[145
+<images/llm.png, id=5062, 760.8425pt x 749.80125pt>
+File: images/llm.png Graphic file (type png)
+<use images/llm.png>
+Package pdftex.def Info: images/llm.png  used on input line 1109.
+(pdftex.def)             Requested size: 152.1658pt x 149.9576pt.
+[166
 
- <./images/prophet-symbol.png (PNG copy)> <./images/facebook-prophet-model.png>
-]
-<reinforcement-learning.png, id=4490, 1017.8025pt x 498.86375pt>
-File: reinforcement-learning.png Graphic file (type png)
-<use reinforcement-learning.png>
-Package pdftex.def Info: reinforcement-learning.png  used on input line 956.
-(pdftex.def)             Requested size: 330.78189pt x 162.1288pt.
- [146
-
- <./reinforcement-learning.png>]
-<reinforcement-learning-2.png, id=4521, 616.3025pt x 422.57875pt>
-File: reinforcement-learning-2.png Graphic file (type png)
-<use reinforcement-learning-2.png>
-Package pdftex.def Info: reinforcement-learning-2.png  used on input line 964.
-(pdftex.def)             Requested size: 200.29593pt x 137.33646pt.
- [147
-
- <./reinforcement-learning-2.png>] [148
+ <./images/llm.png>] [167
 
 ]
-<GANs.png, id=4587, 1251.67625pt x 321.2pt>
-File: GANs.png Graphic file (type png)
-<use GANs.png>
-Package pdftex.def Info: GANs.png  used on input line 981.
-(pdftex.def)             Requested size: 312.91829pt x 80.2998pt.
- [149
+<images/recipe.png, id=5123, 936.49875pt x 758.835pt>
+File: images/recipe.png Graphic file (type png)
+<use images/recipe.png>
+Package pdftex.def Info: images/recipe.png  used on input line 1124.
+(pdftex.def)             Requested size: 187.29643pt x 151.76431pt.
 
- <./GANs.png>] [150
+Overfull \hbox (16.14879pt too wide) in paragraph at lines 1124--1124
+ [] 
+ []
 
-] [151
+[168
+
+ <./images/recipe.png>]
+File: images/recipe.png Graphic file (type png)
+<use images/recipe.png>
+Package pdftex.def Info: images/recipe.png  used on input line 1124.
+(pdftex.def)             Requested size: 187.29643pt x 151.76431pt.
+
+Overfull \hbox (16.14879pt too wide) in paragraph at lines 1124--1124
+ [] 
+ []
+
+<images/recipe-2.png, id=5154, 764.8575pt x 678.535pt>
+File: images/recipe-2.png Graphic file (type png)
+<use images/recipe-2.png>
+Package pdftex.def Info: images/recipe-2.png  used on input line 1124.
+(pdftex.def)             Requested size: 152.96878pt x 135.70459pt.
+[169
+
+ <./images/recipe-2.png>] [170
 
 ]
-<images/peta-topik-huawei-ai.png, id=4681, 1772.6225pt x 1013.7875pt>
-File: images/peta-topik-huawei-ai.png Graphic file (type png)
-<use images/peta-topik-huawei-ai.png>
-Package pdftex.def Info: images/peta-topik-huawei-ai.png  used on input line 10
-15.
-(pdftex.def)             Requested size: 319.05829pt x 182.47388pt.
- [152
+<images/coffee-1.png, id=5216, 926.46124pt x 728.7225pt>
+File: images/coffee-1.png Graphic file (type png)
+<use images/coffee-1.png>
+Package pdftex.def Info: images/coffee-1.png  used on input line 1139.
+(pdftex.def)             Requested size: 185.28896pt x 145.74191pt.
 
- <./images/peta-topik-huawei-ai.png>]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1031.
- [153
+Overfull \hbox (14.14131pt too wide) in paragraph at lines 1139--1139
+ [] 
+ []
+
+[171
+
+ <./images/coffee-1.png>]
+File: images/coffee-1.png Graphic file (type png)
+<use images/coffee-1.png>
+Package pdftex.def Info: images/coffee-1.png  used on input line 1139.
+(pdftex.def)             Requested size: 185.28896pt x 145.74191pt.
+
+Overfull \hbox (14.14131pt too wide) in paragraph at lines 1139--1139
+ [] 
+ []
+
+<images/coffee-2.png, id=5247, 762.85pt x 728.7225pt>
+File: images/coffee-2.png Graphic file (type png)
+<use images/coffee-2.png>
+Package pdftex.def Info: images/coffee-2.png  used on input line 1139.
+(pdftex.def)             Requested size: 152.56729pt x 145.74191pt.
+[172
+
+ <./images/coffee-2.png>] [173
+
+]
+<images/writing.png, id=5307, 619.31375pt x 710.655pt>
+File: images/writing.png Graphic file (type png)
+<use images/writing.png>
+Package pdftex.def Info: images/writing.png  used on input line 1159.
+(pdftex.def)             Requested size: 123.86055pt x 142.12848pt.
+
+Overfull \hbox (10.90248pt too wide) in paragraph at lines 1159--1159
+ [] 
+ []
+
+[174
+
+ <./images/writing.png>]
+File: images/writing.png Graphic file (type png)
+<use images/writing.png>
+Package pdftex.def Info: images/writing.png  used on input line 1159.
+(pdftex.def)             Requested size: 123.86055pt x 142.12848pt.
+
+Overfull \hbox (10.90248pt too wide) in paragraph at lines 1159--1159
+ [] 
+ []
+
+<images/reading.png, id=5337, 613.29124pt x 710.655pt>
+File: images/reading.png Graphic file (type png)
+<use images/reading.png>
+Package pdftex.def Info: images/reading.png  used on input line 1159.
+(pdftex.def)             Requested size: 122.65607pt x 142.12848pt.
+
+Overfull \hbox (9.698pt too wide) in paragraph at lines 1159--1159
+ [] 
+ []
+
+[175
+
+ <./images/reading.png>]
+File: images/writing.png Graphic file (type png)
+<use images/writing.png>
+Package pdftex.def Info: images/writing.png  used on input line 1159.
+(pdftex.def)             Requested size: 123.86055pt x 142.12848pt.
+
+Overfull \hbox (10.90248pt too wide) in paragraph at lines 1159--1159
+ [] 
+ []
+
+File: images/reading.png Graphic file (type png)
+<use images/reading.png>
+Package pdftex.def Info: images/reading.png  used on input line 1159.
+(pdftex.def)             Requested size: 122.65607pt x 142.12848pt.
+
+Overfull \hbox (9.698pt too wide) in paragraph at lines 1159--1159
+ [] 
+ []
+
+<images/chatting.png, id=5368, 563.10374pt x 710.655pt>
+File: images/chatting.png Graphic file (type png)
+<use images/chatting.png>
+Package pdftex.def Info: images/chatting.png  used on input line 1159.
+(pdftex.def)             Requested size: 112.61874pt x 142.12848pt.
+[176
+
+ <./images/chatting.png>] [177
+
+]
+<images/writing-2.png, id=5427, 632.3625pt x 727.71875pt>
+File: images/writing-2.png Graphic file (type png)
+<use images/writing-2.png>
+Package pdftex.def Info: images/writing-2.png  used on input line 1179.
+(pdftex.def)             Requested size: 126.47026pt x 145.54117pt.
+
+Overfull \hbox (13.51219pt too wide) in paragraph at lines 1179--1179
+ [] 
+ []
+
+[178
+
+ <./images/writing-2.png>]
+File: images/writing-2.png Graphic file (type png)
+<use images/writing-2.png>
+Package pdftex.def Info: images/writing-2.png  used on input line 1179.
+(pdftex.def)             Requested size: 126.47026pt x 145.54117pt.
+
+Overfull \hbox (13.51219pt too wide) in paragraph at lines 1179--1179
+ [] 
+ []
+
+<images/reading-2.png, id=5457, 624.3325pt x 727.71875pt>
+File: images/reading-2.png Graphic file (type png)
+<use images/reading-2.png>
+Package pdftex.def Info: images/reading-2.png  used on input line 1179.
+(pdftex.def)             Requested size: 124.86429pt x 145.54117pt.
+
+Overfull \hbox (11.90622pt too wide) in paragraph at lines 1179--1179
+ [] 
+ []
+
+[179
+
+ <./images/reading-2.png>]
+File: images/writing-2.png Graphic file (type png)
+<use images/writing-2.png>
+Package pdftex.def Info: images/writing-2.png  used on input line 1179.
+(pdftex.def)             Requested size: 126.47026pt x 145.54117pt.
+
+Overfull \hbox (13.51219pt too wide) in paragraph at lines 1179--1179
+ [] 
+ []
+
+File: images/reading-2.png Graphic file (type png)
+<use images/reading-2.png>
+Package pdftex.def Info: images/reading-2.png  used on input line 1179.
+(pdftex.def)             Requested size: 124.86429pt x 145.54117pt.
+
+Overfull \hbox (11.90622pt too wide) in paragraph at lines 1179--1179
+ [] 
+ []
+
+<images/chatting-2.png, id=5487, 594.22pt x 749.80125pt>
+File: images/chatting-2.png Graphic file (type png)
+<use images/chatting-2.png>
+Package pdftex.def Info: images/chatting-2.png  used on input line 1179.
+(pdftex.def)             Requested size: 118.84189pt x 149.9576pt.
+
+Overfull \hbox (5.88382pt too wide) in paragraph at lines 1179--1179
+ [] 
+ []
+
+[180
+
+ <./images/chatting-2.png>] [181
+
+]
+<images/web-based.png, id=5547, 644.4075pt x 656.4525pt>
+File: images/web-based.png Graphic file (type png)
+<use images/web-based.png>
+Package pdftex.def Info: images/web-based.png  used on input line 1194.
+(pdftex.def)             Requested size: 128.87921pt x 131.28816pt.
+ [182
+
+ <./images/web-based.png>]
+File: images/web-based.png Graphic file (type png)
+<use images/web-based.png>
+Package pdftex.def Info: images/web-based.png  used on input line 1194.
+(pdftex.def)             Requested size: 128.87921pt x 131.28816pt.
+<images/software-based.png, id=5577, 644.4075pt x 656.4525pt>
+File: images/software-based.png Graphic file (type png)
+<use images/software-based.png>
+Package pdftex.def Info: images/software-based.png  used on input line 1194.
+(pdftex.def)             Requested size: 128.87921pt x 131.28816pt.
+ [183
+
+ <./images/software-based.png>] [184
+
+] [185
+
+] [186
+
+] [187
+
+]
+<images/brainstorm.png, id=5721, 1474.50874pt x 496.85625pt>
+File: images/brainstorm.png Graphic file (type png)
+<use images/brainstorm.png>
+Package pdftex.def Info: images/brainstorm.png  used on input line 1209.
+(pdftex.def)             Requested size: 368.62628pt x 124.21375pt.
+
+Overfull \hbox (26.33098pt too wide) in paragraph at lines 1209--1209
+ [] 
+ []
+
+[188
+
+ <./images/brainstorm.png>] [189
+
+]
+<images/develop-strategy.png, id=5779, 1474.50874pt x 436.63126pt>
+File: images/develop-strategy.png Graphic file (type png)
+<use images/develop-strategy.png>
+Package pdftex.def Info: images/develop-strategy.png  used on input line 1215.
+(pdftex.def)             Requested size: 368.62628pt x 109.15755pt.
+
+Overfull \hbox (26.33098pt too wide) in paragraph at lines 1215--1215
+ [] 
+ []
+
+[190
+
+ <./images/develop-strategy.png>] [191
+
+]
+<images/ide-riset.png, id=5838, 684.5575pt x 525.965pt>
+File: images/ide-riset.png Graphic file (type png)
+<use images/ide-riset.png>
+Package pdftex.def Info: images/ide-riset.png  used on input line 1221.
+(pdftex.def)             Requested size: 308.04802pt x 236.68205pt.
+
+Overfull \vbox (14.8809pt too high) detected at line 1221
+ []
+
+[192
+
+ <./images/ide-riset.png>] [193
+
+]
+<images/proofread.png, id=5897, 1469.49pt x 620.3175pt>
+File: images/proofread.png Graphic file (type png)
+<use images/proofread.png>
+Package pdftex.def Info: images/proofread.png  used on input line 1227.
+(pdftex.def)             Requested size: 330.6434pt x 139.57487pt.
+ [194
+
+ <./images/proofread.png>] [195
+
+]
+<images/rangkuman.png, id=5956, 1566.85374pt x 729.72626pt>
+File: images/rangkuman.png Graphic file (type png)
+<use images/rangkuman.png>
+Package pdftex.def Info: images/rangkuman.png  used on input line 1233.
+(pdftex.def)             Requested size: 352.5508pt x 164.19246pt.
+
+Overfull \hbox (10.2555pt too wide) in paragraph at lines 1233--1233
+ [] 
+ []
+
+[196
+
+ <./images/rangkuman.png>] [197
+
+]
+<images/reputation-monitoring.png, id=6015, 1834.855pt x 692.5875pt>
+File: images/reputation-monitoring.png Graphic file (type png)
+<use images/reputation-monitoring.png>
+Package pdftex.def Info: images/reputation-monitoring.png  used on input line 1
+239.
+(pdftex.def)             Requested size: 321.10443pt x 121.20462pt.
+ [198
+
+ <./images/reputation-monitoring.png>] [199
+
+]
+<images/chatbot-khusus.png, id=6074, 1784.6675pt x 744.7825pt>
+File: images/chatbot-khusus.png Graphic file (type png)
+<use images/chatbot-khusus.png>
+Package pdftex.def Info: images/chatbot-khusus.png  used on input line 1245.
+(pdftex.def)             Requested size: 356.92719pt x 148.95386pt.
+
+Overfull \hbox (14.63188pt too wide) in paragraph at lines 1245--1245
+ [] 
+ []
+
+[200
+
+ <./images/chatbot-khusus.png>] [201
+
+]
+<images/it-chatbot.png, id=6133, 559.08875pt x 734.745pt>
+File: images/it-chatbot.png Graphic file (type png)
+<use images/it-chatbot.png>
+Package pdftex.def Info: images/it-chatbot.png  used on input line 1251.
+(pdftex.def)             Requested size: 139.77184pt x 183.68579pt.
+ [202
+
+ <./images/it-chatbot.png>]
+[203
+
+]
+<images/rise-chatbots.png, id=6191, 1838.87pt x 782.925pt>
+File: images/rise-chatbots.png Graphic file (type png)
+<use images/rise-chatbots.png>
+Package pdftex.def Info: images/rise-chatbots.png  used on input line 1257.
+(pdftex.def)             Requested size: 330.98232pt x 140.92041pt.
+ [204
+
+ <./images/rise-chatbots.png>] [205
+
+] [206
+
+] [207
+
+] [208
+
+] [209
+
+] [210
+
+]
+[211
+
+] [212
 
 ] (./2023-slides-AI_for_everyone.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
@@ -2207,19 +2713,19 @@ LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <9> not available
 (Font)              Font shape `T1/phv/b/it' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <9> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 7.
-) [154
+) [213
 
-] [155
+] [214
 
 
 ]
-<Logo-Maranatha-Untuk-Belakang-02.png, id=4802, 315.42844pt x 127.97812pt>
+<Logo-Maranatha-Untuk-Belakang-02.png, id=6514, 315.42844pt x 127.97812pt>
 File: Logo-Maranatha-Untuk-Belakang-02.png Graphic file (type png)
 <use Logo-Maranatha-Untuk-Belakang-02.png>
 Package pdftex.def Info: Logo-Maranatha-Untuk-Belakang-02.png  used on input li
-ne 1085.
+ne 1365.
 (pdftex.def)             Requested size: 157.71382pt x 63.98889pt.
- [156
+ [215
 
  <./Logo-Maranatha-Untuk-Belakang-02.png>]
 \tf@nav=\write6
@@ -2234,14 +2740,14 @@ ne 1085.
  (./2023-slides-AI_for_everyone.aux)
 Package rerunfilecheck Info: File `2023-slides-AI_for_everyone.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: 718756742501F72EA24A1912E68E0BA4;2181.
+(rerunfilecheck)             Checksum: CE7F4B0B361F1AA1C19B51DFC53AB33E;1707.
  ) 
 Here is how much of TeX's memory you used:
- 28591 strings out of 477136
- 550360 string characters out of 5813391
- 1867388 words of memory out of 6000000
- 47878 multiletter control sequences out of 15000+600000
- 594089 words of font info for 142 fonts, out of 8000000 for 9000
+ 28904 strings out of 477136
+ 556430 string characters out of 5813391
+ 1868388 words of memory out of 6000000
+ 48046 multiletter control sequences out of 15000+600000
+ 591233 words of font info for 140 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  128i,15n,122p,402b,935s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
@@ -2253,10 +2759,10 @@ ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist
 /urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.p
 fb>
-Output written on 2023-slides-AI_for_everyone.pdf (156 pages, 11928756 bytes).
+Output written on 2023-slides-AI_for_everyone.pdf (215 pages, 23722457 bytes).
 PDF statistics:
- 4949 PDF objects out of 5155 (max. 8388607)
- 4594 compressed objects within 46 object streams
- 343 named destinations out of 1000 (max. 500000)
- 547 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6687 PDF objects out of 7423 (max. 8388607)
+ 6204 compressed objects within 63 object streams
+ 461 named destinations out of 1000 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
