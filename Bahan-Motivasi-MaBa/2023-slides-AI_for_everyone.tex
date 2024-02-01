@@ -291,7 +291,7 @@
 	
 \end{frame}
 
-\begin{frame}{Supervised Learning (1/2)}
+\begin{frame}{Supervised Learning (1/3)}
 	\begin{itemize}		
 		\item A common type of of Machine Learning is a type of AI that learns from $A$ to $B$	or is often called \emph{Supervised Learning}.
 		
@@ -309,7 +309,38 @@
 	\end{itemize}	
 \end{frame}
 
-\begin{frame}{Supervised Learning (2/2)}
+\begin{frame}{Supervised Learning (2/3)}
+	\begin{table}[!ht]
+		\centering
+		\begin{tabular}{ccc|l}
+			\textbf{Input ($\bm{A}$)} &  & \textbf{Output ($\bm{B}$)} & \textbf{Application} \\
+			\hline
+			\onslide<2-> Email     & $\longrightarrow$  & spam? (0/1)                & \textbf{Spam filtering}   \\
+			&                    &                            &                  \\
+			\hline         
+			\onslide<3-> Audio recording    & $\longrightarrow$  & text transcript            & \textbf{Speech}      \\
+			&                    &                            &      \textbf{recognition}            \\
+			\hline      
+			\onslide<4-> Ad, user info & $\longrightarrow$ & Click? (0/1)            & \textbf{Online advertising} \\
+			&                    &                               &                  \\
+			\hline    
+			\onslide<5-> Image, radar info & $\longrightarrow$ & Position of other cars &  \textbf{Self-driving car} \\
+			&                    &                               &                  \\
+			\hline
+			\onslide<6-> Image of phone & $\longrightarrow$ & Defect? (0/1)             & \textbf{Visual inspection} \\ 
+			&                    &                               &                  \\
+			\hline   
+			\onslide<7-> Restaurant reviews & $\longrightarrow$ & Sentiment (pos/neg)             & \textbf{Reputation} \\ 		    		 			
+			&                    &                               &           \textbf{Monitoring}        \\
+			\hline 		                                                      
+			\onslide<8-> X-ray image & $\longrightarrow$ & Diagnosis             & \textbf{Healthcare} \\ 
+			\hline           			             
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+
+\begin{frame}{Supervised Learning (3/3)}
 	Consider the following examples \\
 	(\textit{input} $A$ in \textbf{bold} and \textit{output} $B$ in italic)~\citep{trask2019grokking}:
 	\begin{itemize}
@@ -321,36 +352,6 @@
 		\item<7-> Using \textbf{news data} to predict tomorrow's stock \textit{price}
 		\item<8-> Using a raw \textbf{audio file} to predict a \textit{transcript} of the audio.
 	\end{itemize}	
-\end{frame}
-
-\begin{frame}{Supervised Learning (2/2)}
-	\begin{table}[!ht]
-		\centering
-		\begin{tabular}{ccc|l}
-			\textbf{Input ($\bm{A}$)} &  & \textbf{Output ($\bm{B}$)} & \textbf{Application} \\
-			\hline
-			\onslide<2-> Email     & $\longrightarrow$  & spam? (0/1)                & \textbf{Spam filtering}   \\
-			          &                    &                            &                  \\
-			 \hline         
-			\onslide<3-> Audio recording    & $\longrightarrow$  & text transcript            & \textbf{Speech}      \\
-			          &                    &                            &      \textbf{recognition}            \\
-			    \hline      
-			\onslide<4-> Ad, user info & $\longrightarrow$ & Click? (0/1)            & \textbf{Online advertising} \\
-			          &                    &                               &                  \\
-			      \hline    
-			\onslide<5-> Image, radar info & $\longrightarrow$ & Position of other cars &  \textbf{Self-driving car} \\
-			          &                    &                               &                  \\
-			       \hline
-			\onslide<6-> Image of phone & $\longrightarrow$ & Defect? (0/1)             & \textbf{Visual inspection} \\ 
-    			      &                    &                               &                  \\
-    			   \hline   
-			\onslide<7-> Restaurant reviews & $\longrightarrow$ & Sentiment (pos/neg)             & \textbf{Reputation} \\ 		    		 			
-		    		                                                      &                    &                               &           \textbf{Monitoring}        \\
-		   \hline 		                                                      
-			\onslide<8-> X-ray image & $\longrightarrow$ & Diagnosis             & \textbf{Healthcare} \\ 
-			\hline           			             
-		\end{tabular}
-	\end{table}
 \end{frame}
 
 \begin{frame}{Why Now?}
